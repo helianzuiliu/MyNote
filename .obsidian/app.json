@@ -1,0 +1,26 @@
+{
+  "attachmentFolderPath": "附件",
+  "alwaysUpdateLinks": true,
+  "strictLineBreaks": true,
+  "trashOption": "local",
+  "promptDelete": false,
+  "pdfExportSettings": {
+    "includeName": true,
+    "pageSize": "A4",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 100
+  },
+  "showLineNumber": false,
+  "newLinkFormat": "shortest",
+  "showUnsupportedFiles": true,
+  "showInlineTitle": false,
+  "readableLineLength": false,
+  "propertiesInDocument": "visible",
+  "rightToLeft": false,
+  "showIndentGuide": true,
+  "foldIndent": true,
+  "userIgnoreFilters": [
+    "附件/"
+  ]
+}

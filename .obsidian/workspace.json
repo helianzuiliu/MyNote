@@ -1,0 +1,216 @@
+{
+  "main": {
+    "id": "c99964a20e680237",
+    "type": "split",
+    "children": [
+      {
+        "id": "c7621919c7f36764",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8e6b942c04ecad46",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "日记/2023-10-01.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "9500e58f1b7069ce",
+    "type": "split",
+    "children": [
+      {
+        "id": "33c0e2c8a9d6c4ab",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "312713e416cd5434",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "3086ef17ed28dfcb",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#数据结构",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "e8a59f50e192ba7c",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "8d6c691ab084dea8",
+    "type": "split",
+    "children": [
+      {
+        "id": "dc130ec6bb0e4c96",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f8b3cef022f29823",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "日记/2023-10-01.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "7b4087d047629533",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "日记/2023-10-01.md"
+              }
+            }
+          },
+          {
+            "id": "9b3456f6cbad6141",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "370b23ba9e3ce978",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "日记/2023-10-01.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "e79b046cba30060e",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "e17a170b94589c05",
+            "type": "leaf",
+            "state": {
+              "type": "mermaid-toolbar-view",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "workspaces:管理工作区布局": false,
+      "mermaid-tools:Open Mermaid Toolbar": false,
+      "random-note:开始漫游笔记": false
+    }
+  },
+  "active": "8e6b942c04ecad46",
+  "lastOpenFiles": [
+    "新建文本文档.txt",
+    "template/算法.md",
+    "计算机/算法/排序/堆排序.md",
+    "计算机/算法/排序/插入排序.md",
+    "计算机/算法/排序/冒泡排序.md",
+    "计算机/算法/排序/归并排序.md",
+    "计算机/算法/排序/计数排序.md",
+    "计算机/算法/排序/选择排序.md",
+    "计算机/算法/数据结构/树/二叉树/平衡二叉树.md",
+    "附件/Pasted image 20231001212452.jpg",
+    "日记/待办.md",
+    "日记/2023-10-01.md",
+    "日记/2023-09/2023-09-28.md",
+    "日记/2023-W39.md",
+    "日记/2023-09/2023-09-26.md",
+    "附件/计算机/算法/插入排序.webp",
+    "计算机/算法/排序/快速排序.md",
+    "计算机/算法/排序/桶排序.md",
+    "计算机/算法/排序/基数排序.md",
+    "计算机/View.md",
+    "附件/计算机/算法/冒泡排序.gif",
+    "template/日记.md",
+    "template/WeekNote.md",
+    "日记/2023-09/2023-09-25.md",
+    "日记/2023-W/2023-W38.md",
+    "日记/2023-09/2023-09-24.md",
+    "计算机/数据库/关系代数.md",
+    "index.md",
+    "日记/2023-09/2023-09-23.md",
+    "日记/2023-W",
+    "计算机/算法/数据结构/未命名.canvas",
+    "计算机/算法/数据结构/线性结构/线性结构.canvas",
+    "日记/2023-09",
+    "日记",
+    "附件/计算机/算法/排序算法.png",
+    "附件/计算机/算法",
+    "附件/计算机/数据库",
+    "附件/计算机/数据库/关系代数_并交差.png",
+    "附件/计算机",
+    "计算机",
+    "未命名.canvas",
+    "计算机/算法/数据结构/树/多叉树",
+    "计算机/算法/数据结构/链表",
+    "计算机/算法/数据结构/链式结构"
+  ]
+}

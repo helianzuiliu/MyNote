@@ -1,0 +1,11 @@
+{
+	"nodes":[
+		{"id":"07a412230db6c5a7","type":"file","file":"计算机/算法/数据结构/线性结构/数组.md","x":-700,"y":200,"width":400,"height":400},
+		{"id":"83177a3e9b9a2d17","type":"file","file":"计算机/算法/数据结构/线性结构/队列.md","x":0,"y":600,"width":400,"height":400},
+		{"id":"a0ec55a9ececd5d1","type":"file","file":"计算机/算法/数据结构/线性结构/栈.md","x":0,"y":-200,"width":400,"height":400}
+	],
+	"edges":[
+		{"id":"612855de0fa7c17f","fromNode":"07a412230db6c5a7","fromSide":"right","toNode":"a0ec55a9ececd5d1","toSide":"left","label":"先进后出"},
+		{"id":"057f6e4789ff8c5e","fromNode":"07a412230db6c5a7","fromSide":"right","toNode":"83177a3e9b9a2d17","toSide":"left","label":"先进先出"}
+	]
+}
