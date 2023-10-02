@@ -150,7 +150,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 389.5
+    "width": 389.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -165,12 +166,12 @@
       "random-note:开始漫游笔记": false
     }
   },
-  "active": "8e6b942c04ecad46",
+  "active": "312713e416cd5434",
   "lastOpenFiles": [
     "README.md",
     "日记/待办.md",
     "日记/2023-10-02.md",
-    "日记/2023-10-01.md",
+    "日记/2023-10/2023-10-01.md",
     "template/WeekNote.md",
     "附件/计算机/算法/堆排序.jpg",
     "计算机/View.md",
