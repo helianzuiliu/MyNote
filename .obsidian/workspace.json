@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "日记/2023-10-04.md",
+                "file": "日记/待办.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "日记/2023-10-04.md",
+                "file": "日记/待办.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "日记/2023-10-04.md"
+                "file": "日记/待办.md"
               }
             }
           },
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "日记/2023-10-04.md",
+                "file": "日记/待办.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,11 +166,11 @@
       "random-note:开始漫游笔记": false
     }
   },
-  "active": "8e6b942c04ecad46",
+  "active": "312713e416cd5434",
   "lastOpenFiles": [
-    "日记/待办.md",
     "日记/2023-10-04.md",
-    "日记/2023-10-03.md",
+    "日记/待办.md",
+    "日记/2023/2023-10/2023-10-03.md",
     "计算机/算法/排序/归并排序.md",
     "日记/2023-W40.md",
     "计算机/设计模式/创建型设计模式/抽象工厂.md",
