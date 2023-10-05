@@ -5,6 +5,7 @@
   "nativeMenus": true,
   "translucency": true,
   "baseFontSize": 18,
-  "cssTheme": "Atom",
-  "showViewHeader": true
+  "cssTheme": "Things",
+  "showViewHeader": true,
+  "textFontFamily": "微软雅黑"
 }
