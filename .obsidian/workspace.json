@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "日记/2023-10-05.md",
+                "file": "计算机/网络/Socket.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "日记/2023-10-05.md",
+                "file": "计算机/网络/Socket.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "日记/2023-10-05.md"
+                "file": "计算机/网络/Socket.md"
               }
             }
           },
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "日记/2023-10-05.md",
+                "file": "计算机/网络/Socket.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -168,14 +168,17 @@
   },
   "active": "8e6b942c04ecad46",
   "lastOpenFiles": [
-    "template/日记.md",
-    "日记/2023-10-05.md",
-    "日记/2023-W40.md",
     "日记/待办.md",
+    "计算机/网络/Socket.md",
+    "template/WeekNote.md",
+    "日记/2023-10-06.md",
+    "日记/2023-10-05.md",
+    "计算机/网络",
+    "template/日记.md",
+    "日记/2023-W40.md",
     "计算机/设计模式/创建型设计模式/抽象工厂.md",
     "日记/2023/2023-09/2023-09-23.md",
     "README.md",
-    "template/WeekNote.md",
     "template/算法.md",
     "日记/2023/2023-10/2023-10-04.md",
     "计算机/算法/排序/冒泡排序.md",
@@ -196,8 +199,6 @@
     "日记/2023/2023-10/2023-10-01.md",
     "附件/计算机/算法/堆排序.jpg",
     "日记/2023/2023-W/2023-W38.md",
-    "日记/2023/2023-W/2023-W39.md",
-    "index.md",
     "计算机/算法/数据结构/未命名.canvas",
     "计算机/算法/数据结构/线性结构/线性结构.canvas",
     "日记/2023/2023-10",
@@ -209,7 +210,6 @@
     "日记",
     "附件/计算机/算法/排序算法.png",
     "附件/计算机/算法",
-    "附件/计算机/数据库",
     "附件/计算机/数据库/关系代数_并交差.png",
     "未命名.canvas"
   ]
