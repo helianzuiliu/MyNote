@@ -6,39 +6,17 @@
   "hideUnresolved": false,
   "showOrphans": true,
   "collapse-color-groups": true,
-  "colorGroups": [
-    {
-      "query": "path:计算机  ",
-      "color": {
-        "a": 1,
-        "rgb": 2537704
-      }
-    },
-    {
-      "query": "path:日记  ",
-      "color": {
-        "a": 1,
-        "rgb": 14725458
-      }
-    },
-    {
-      "query": "path:附件  ",
-      "color": {
-        "a": 1,
-        "rgb": 11657298
-      }
-    }
-  ],
+  "colorGroups": [],
   "collapse-display": true,
   "showArrow": true,
-  "textFadeMultiplier": -1,
-  "nodeSizeMultiplier": 1.02193347193347,
-  "lineSizeMultiplier": 1.97952182952183,
+  "textFadeMultiplier": 0,
+  "nodeSizeMultiplier": 1,
+  "lineSizeMultiplier": 1,
   "collapse-forces": true,
-  "centerStrength": 0.537422037422037,
+  "centerStrength": 0.518713248970312,
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.4296780914342545,
-  "close": true
+  "scale": 0.42967809143425506,
+  "close": false
 }
