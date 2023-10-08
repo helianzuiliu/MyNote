@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机/算法/数学/银行家算法.md",
+                "file": "日记/2023-W40.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "计算机/算法/数学/银行家算法.md",
+                "file": "日记/2023-W40.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/算法/数学/银行家算法.md"
+                "file": "日记/2023-W40.md"
               }
             }
           },
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "计算机/算法/数学/银行家算法.md",
+                "file": "日记/2023-W40.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -168,9 +168,13 @@
   },
   "active": "856f0ee6ab7a600b",
   "lastOpenFiles": [
-    "计算机/操作系统/死锁.md",
+    "日记/2023-10-08.md",
     "计算机/算法/数学/银行家算法.md",
+    "计算机/计算机组成原理/数据的编码.md",
+    "计算机/计算机组成原理/进制.md",
+    "计算机/操作系统/死锁.md",
     "计算机/操作系统/线程.md",
+    "编程语言/现代C++/智能指针.md",
     "计算机/操作系统/临界资源.md",
     "临界资源.md",
     "计算机/算法/排序/归并排序.md",
@@ -191,11 +195,7 @@
     "日记/待办.md",
     "软件使用备忘录/git.md",
     "软件使用备忘录",
-    "日记/2023/2023-10/2023-10-05.md",
-    "日记/2023/2023-10/2023-10-06.md",
-    "计算机/网络/Socket.md",
     "计算机/网络",
-    "计算机/设计模式/创建型设计模式/抽象工厂.md",
     "日记/2023",
     "编程语言/现代C++",
     "编程语言",
