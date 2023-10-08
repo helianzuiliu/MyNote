@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "日记/2023-W40.md",
+                "file": "日记/2023-10-07.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "日记/2023-W40.md",
+                "file": "日记/2023-10-07.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "日记/2023-W40.md"
+                "file": "日记/2023-10-07.md"
               }
             }
           },
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "日记/2023-W40.md",
+                "file": "日记/2023-10-07.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -168,6 +168,7 @@
   },
   "active": "856f0ee6ab7a600b",
   "lastOpenFiles": [
+    "日记/2023-W40.md",
     "日记/2023-10-08.md",
     "计算机/算法/数学/银行家算法.md",
     "计算机/计算机组成原理/数据的编码.md",
@@ -191,7 +192,6 @@
     "template/算法.md",
     "template/日记.md",
     "日记/2023-10-07.md",
-    "日记/2023-W40.md",
     "日记/待办.md",
     "软件使用备忘录/git.md",
     "软件使用备忘录",
