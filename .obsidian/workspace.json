@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "日记/2023-10-08.md",
+                "file": "日记/待办.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "日记/2023-10-08.md",
+                "file": "日记/待办.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "日记/2023-10-08.md"
+                "file": "日记/待办.md"
               }
             }
           },
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "日记/2023-10-08.md",
+                "file": "日记/待办.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,6 +166,8 @@
   },
   "active": "856f0ee6ab7a600b",
   "lastOpenFiles": [
+    "计算机/View.md",
+    "日记/2023-10-08.md",
     "计算机/操作系统/临界资源.md",
     "计算机/操作系统/死锁.md",
     "计算机/操作系统/线程.md",
@@ -174,7 +176,6 @@
     "template/算法.md",
     "template/日记.md",
     "README.md",
-    "日记/2023-10-08.md",
     "日记/2023-W40.md",
     "编程语言/现代C++/智能指针.md",
     "附件/计算机/数据库/关系代数_并交差.png",
@@ -188,7 +189,6 @@
     "计算机/数据库/关系代数.md",
     "计算机/数据库/数据库设计范式.md",
     "计算机/数据库/DataView的使用方法.md",
-    "计算机/View.md",
     "未命名.canvas",
     "临界资源.md",
     "计算机/算法/时间复杂度.md",
