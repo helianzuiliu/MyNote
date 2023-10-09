@@ -4,7 +4,7 @@
   "extendedImageEmbedSyntax": true,
   "thumbnailPlaceholder": true,
   "useYoutubeControls": true,
-  "interalBiliPlayback": true,
+  "interalBiliPlayback": false,
   "hideYtbRecomm": false,
   "embedMaxHeight": "30vh",
   "embedMinWidth": "400px",

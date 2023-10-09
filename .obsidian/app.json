@@ -15,12 +15,13 @@
   "newLinkFormat": "shortest",
   "showUnsupportedFiles": true,
   "showInlineTitle": false,
-  "readableLineLength": false,
+  "readableLineLength": true,
   "propertiesInDocument": "visible",
   "rightToLeft": false,
   "showIndentGuide": true,
   "foldIndent": true,
   "userIgnoreFilters": [
     "附件/"
-  ]
+  ],
+  "vimMode": false
 }

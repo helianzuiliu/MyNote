@@ -4,5 +4,6 @@
   "media-extended",
   "mx-bili-plugin",
   "calendar",
-  "obsidian-git"
+  "obsidian-git",
+  "cm-editor-syntax-highlight-obsidian"
 ]

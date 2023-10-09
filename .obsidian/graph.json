@@ -1,12 +1,27 @@
 {
   "collapse-filter": false,
   "search": "",
-  "showTags": false,
+  "showTags": true,
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": true,
-  "collapse-color-groups": true,
-  "colorGroups": [],
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "path:计算机/算法  ",
+      "color": {
+        "a": 1,
+        "rgb": 1553640
+      }
+    },
+    {
+      "query": "path:日记  ",
+      "color": {
+        "a": 1,
+        "rgb": 16762711
+      }
+    }
+  ],
   "collapse-display": true,
   "showArrow": true,
   "textFadeMultiplier": 0,
@@ -17,6 +32,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.42967809143425506,
-  "close": false
+  "scale": 0.42967809143425584,
+  "close": true
 }
