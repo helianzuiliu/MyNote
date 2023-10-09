@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "日记/待办.md",
+                "file": "计算机/操作系统/PV操作.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "日记/待办.md",
+                "file": "计算机/操作系统/PV操作.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "日记/待办.md"
+                "file": "计算机/操作系统/PV操作.md"
               }
             }
           },
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "日记/待办.md",
+                "file": "计算机/操作系统/PV操作.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,12 +145,11 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 389.5
+    "width": 314.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -167,19 +166,21 @@
   },
   "active": "fcfe04471667ac0a",
   "lastOpenFiles": [
+    "日记/待办.md",
+    "计算机/操作系统/PV操作.md",
+    "日记/2023-W40.md",
     "日记/2023-10-09.md",
+    "日记/2023/2023-10/2023-10-08.md",
+    "计算机/View.md",
+    "计算机/数据库/设计范式.md",
     "计算机/算法/排序/堆排序.md",
     "www.bilibili.com/video",
     "www.bilibili.com",
     "bilibili.com/video",
     "bilibili.com",
     "player.bilibili.com",
-    "日记/待办.md",
-    "日记/2023-W40.md",
     "().md",
     "日记/2023/2023-10/2023-10-05.md",
-    "日记/2023-10-08.md",
-    "计算机/View.md",
     "计算机/操作系统/临界资源.md",
     "计算机/操作系统/死锁.md",
     "计算机/操作系统/线程.md",
@@ -197,13 +198,11 @@
     "计算机/计算机组成原理/进制.md",
     "计算机/计算机组成原理/数据的编码.md",
     "计算机/数据库/关系代数.md",
-    "计算机/数据库/数据库设计范式.md",
     "计算机/数据库/DataView的使用方法.md",
     "未命名.canvas",
     "临界资源.md",
     "计算机/算法/时间复杂度.md",
     "计算机/算法/空间复杂度.md",
-    "计算机/算法/数据结构/线性结构/数组.md",
     "计算机/算法/数据结构/未命名.canvas",
     "计算机/算法/数据结构/线性结构/线性结构.canvas",
     "软件使用备忘录",
