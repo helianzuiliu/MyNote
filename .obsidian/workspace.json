@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "ea42930be6628bc9",
+        "id": "1043bbcd48b272a6",
         "type": "tabs",
         "children": [
           {
-            "id": "856f0ee6ab7a600b",
+            "id": "fcfe04471667ac0a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "日记/待办.md",
+                "file": "日记/2023-10-09.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "日记/待办.md",
+                "file": "日记/2023-10-09.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "日记/待办.md"
+                "file": "日记/2023-10-09.md"
               }
             }
           },
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "日记/待办.md",
+                "file": "日记/2023-10-09.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +145,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -164,19 +165,28 @@
       "random-note:开始漫游笔记": false
     }
   },
-  "active": "856f0ee6ab7a600b",
+  "active": "fcfe04471667ac0a",
   "lastOpenFiles": [
-    "计算机/View.md",
+    "计算机/算法/排序/堆排序.md",
+    "日记/2023-10-09.md",
+    "www.bilibili.com/video",
+    "www.bilibili.com",
+    "bilibili.com/video",
+    "bilibili.com",
+    "player.bilibili.com",
+    "日记/待办.md",
+    "日记/2023-W40.md",
+    "().md",
+    "日记/2023/2023-10/2023-10-05.md",
     "日记/2023-10-08.md",
+    "计算机/View.md",
     "计算机/操作系统/临界资源.md",
     "计算机/操作系统/死锁.md",
     "计算机/操作系统/线程.md",
-    "日记/待办.md",
     "template/WeekNote.md",
     "template/算法.md",
     "template/日记.md",
     "README.md",
-    "日记/2023-W40.md",
     "编程语言/现代C++/智能指针.md",
     "附件/计算机/数据库/关系代数_并交差.png",
     "附件/计算机/算法/插入排序.webp",
@@ -194,21 +204,12 @@
     "计算机/算法/时间复杂度.md",
     "计算机/算法/空间复杂度.md",
     "计算机/算法/数据结构/线性结构/数组.md",
-    "计算机/算法/数据结构/线性结构/树状数组.md",
-    "计算机/算法/数据结构/线性结构/队列.md",
-    "计算机/算法/数据结构/线性结构/线性表.md",
-    "计算机/算法/数据结构/线性结构/栈.md",
     "计算机/算法/数据结构/未命名.canvas",
     "计算机/算法/数据结构/线性结构/线性结构.canvas",
     "软件使用备忘录",
     "计算机/网络",
     "日记/2023",
     "编程语言/现代C++",
-    "编程语言",
-    "日记/2023/2023-10",
-    "新建文本文档.txt",
-    "日记/2023/2023-W",
-    "日记/2023/2023-09",
-    "日记"
+    "编程语言"
   ]
 }
