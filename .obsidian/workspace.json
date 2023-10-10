@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "template/WeekNote.md",
+                "file": "设计模式/创建型设计模式/工厂模式.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "template/WeekNote.md",
+                "file": "设计模式/创建型设计模式/工厂模式.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "template/WeekNote.md"
+                "file": "设计模式/创建型设计模式/工厂模式.md"
               }
             }
           },
@@ -124,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "template/WeekNote.md",
+                "file": "设计模式/创建型设计模式/工厂模式.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -152,7 +152,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "template/WeekNote.md"
+                "file": "设计模式/创建型设计模式/工厂模式.md"
               }
             }
           }
@@ -177,37 +177,37 @@
       "audio-recorder:开始/结束录音": false
     }
   },
-  "active": "312713e416cd5434",
+  "active": "975e347d8cf36f83",
   "lastOpenFiles": [
+    "设计模式/设计原则.md",
+    "设计模式/创建型设计模式/工厂模式.md",
+    "设计模式/创建型设计模式/抽象工厂.md",
+    "设计模式/创建型设计模式/单例.md",
+    "设计模式/创建型设计模式/原型.md",
+    "设计模式/创建型设计模式/生成器.md",
+    "设计模式/创建型设计模式/创建型设计模式.md",
+    "日记/待办.md",
+    "日记/2023-W40.md",
+    "日记/2023/2023-10/2023-10-04.md",
+    "日记/2023/2023-10/2023-10-07.md",
+    "日记/2023/2023-10/2023-10-09.md",
+    "日记/2023/2023-10/2023-10-08.md",
+    "日记/2023/2023-10/2023-10-06.md",
+    "日记/2023/2023-10/2023-10-05.md",
+    "日记/2023/2023-10/2023-10-01.md",
     "日记/2023-10-10.md",
+    "软件设计师题目大纲.md",
+    "template/WeekNote.md",
     "编程语言/C++/STL/智能指针.md",
     "编程语言/C++/STL",
     "算法/数学/博弈论.md",
     "算法/数学/容斥定理.md",
     "算法/数学/秦九邵算法.md",
-    "软件设计师题目大纲.md",
     "算法/数学/银行家算法.md",
     "算法/数据结构/哈希表.md",
     "计算机/计算机组成原理/CISC与RISC.md",
-    "算法/数据结构/图论/图.md",
-    "计算机/网络/TCP.md",
-    "README.md",
     "TCP",
-    "计算机/网络/OSI模型.md",
-    "软件工程/UML.md",
-    "软件工程/开发模型.md",
-    "日记/待办.md",
-    "计算机/操作系统/死锁.md",
-    "计算机/网络/Socket.md",
-    "计算机/数据库/设计范式.md",
-    "计算机/操作系统/临界资源.md",
-    "计算机/数据库/关系代数.md",
     "软件工程",
-    "设计模式/设计原则.md",
-    "算法/数据结构/图论/并查集.md",
-    "算法/数据结构/线性结构/树状数组.md",
-    "算法/数据结构/线性结构/队列.md",
-    "算法/空间复杂度.md",
     "附件/Recording 20231010073228.webm",
     "算法/数学/高精度",
     "bilibili.com/video",
