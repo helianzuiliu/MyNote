@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "日记/2023-10-10.md",
+                "file": "template/WeekNote.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -66,8 +66,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -87,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "日记/2023-10-10.md",
+                "file": "template/WeekNote.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +103,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "日记/2023-10-10.md"
+                "file": "template/WeekNote.md"
               }
             }
           },
@@ -125,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "日记/2023-10-10.md",
+                "file": "template/WeekNote.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -153,7 +152,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "日记/2023-10-10.md"
+                "file": "template/WeekNote.md"
               }
             }
           }
@@ -178,8 +177,9 @@
       "audio-recorder:开始/结束录音": false
     }
   },
-  "active": "975e347d8cf36f83",
+  "active": "312713e416cd5434",
   "lastOpenFiles": [
+    "日记/2023-10-10.md",
     "编程语言/C++/STL/智能指针.md",
     "编程语言/C++/STL",
     "算法/数学/博弈论.md",
@@ -197,7 +197,6 @@
     "软件工程/UML.md",
     "软件工程/开发模型.md",
     "日记/待办.md",
-    "日记/2023-10-10.md",
     "计算机/操作系统/死锁.md",
     "计算机/网络/Socket.md",
     "计算机/数据库/设计范式.md",
