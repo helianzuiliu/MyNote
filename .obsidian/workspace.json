@@ -13,10 +13,10 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "设计模式/创建型设计模式/简单工厂.md",
+                "file": "template/WeekNote.md",
                 "mode": "preview",
                 "backlinks": false,
-                "source": true
+                "source": false
               }
             }
           }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "设计模式/创建型设计模式/简单工厂.md",
+                "file": "template/WeekNote.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "设计模式/创建型设计模式/简单工厂.md"
+                "file": "template/WeekNote.md"
               }
             }
           },
@@ -124,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "设计模式/创建型设计模式/简单工厂.md",
+                "file": "template/WeekNote.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,21 +139,21 @@
             }
           },
           {
-            "id": "afa5b9f8020bc8f7",
-            "type": "leaf",
-            "state": {
-              "type": "mermaid-toolbar-view",
-              "state": {}
-            }
-          },
-          {
             "id": "2ff46b1d8eae6554",
             "type": "leaf",
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "设计模式/创建型设计模式/简单工厂.md"
+                "file": "template/WeekNote.md"
               }
+            }
+          },
+          {
+            "id": "bda463c413594510",
+            "type": "leaf",
+            "state": {
+              "type": "mermaid-toolbar-view",
+              "state": {}
             }
           }
         ],
@@ -179,13 +179,16 @@
   },
   "active": "975e347d8cf36f83",
   "lastOpenFiles": [
+    "template/日记.md",
+    "template/算法.md",
+    "编程语言/C++/STL/智能指针.md",
     "设计模式/创建型设计模式/工厂方法.md",
+    "设计模式/设计原则.md",
     "设计模式/创建型设计模式/简单工厂.md",
     "设计模式/创建型设计模式/抽象工厂.md",
     "设计模式/创建型设计模式/单例.md",
     "设计模式/创建型设计模式/原型.md",
     "设计模式/创建型设计模式/生成器.md",
-    "设计模式/设计原则.md",
     "设计模式/创建型设计模式/创建型设计模式.md",
     "日记/待办.md",
     "日记/2023-W40.md",
@@ -199,13 +202,10 @@
     "日记/2023-10-10.md",
     "软件设计师题目大纲.md",
     "template/WeekNote.md",
-    "编程语言/C++/STL/智能指针.md",
     "编程语言/C++/STL",
     "算法/数学/博弈论.md",
     "算法/数学/容斥定理.md",
     "算法/数学/秦九邵算法.md",
-    "算法/数学/银行家算法.md",
-    "算法/数据结构/哈希表.md",
     "TCP",
     "软件工程",
     "附件/Recording 20231010073228.webm",
