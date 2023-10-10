@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "89ad9bf080afef8c",
+        "id": "d248ecdecf66bf14",
         "type": "tabs",
         "children": [
           {
-            "id": "b378743899fb730e",
+            "id": "fd3caa91abcde212",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机/计算机组成原理/haimin.md",
+                "file": "算法/空间复杂度.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "计算机/计算机组成原理/haimin.md",
+                "file": "算法/空间复杂度.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/计算机组成原理/haimin.md"
+                "file": "算法/空间复杂度.md"
               }
             }
           },
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "计算机/计算机组成原理/haimin.md",
+                "file": "算法/空间复杂度.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -165,23 +165,30 @@
       "audio-recorder:开始/结束录音": false
     }
   },
-  "active": "312713e416cd5434",
+  "active": "fd3caa91abcde212",
   "lastOpenFiles": [
+    "算法/时间复杂度.md",
+    "算法/空间复杂度.md",
+    "算法/排序/堆排序.md",
+    "算法/数据结构/链表/邻接表.md",
+    "算法/数据结构/图论/并查集.md",
+    "计算机/计算机组成原理/海明校验码.md",
+    "日记/待办.md",
     "日记/2023-10-10.md",
-    "计算机/计算机组成原理/haimin.md",
+    "日记/2023/2023-10/2023-10-09.md",
+    "Recording 20231010073228.webm.md",
+    "日记/2023-W40.md",
+    "附件/Recording 20231010073228.webm",
+    "计算机/View.md",
+    "计算机/计算机组成原理/进制.md",
     "计算机/数据库/设计范式.md",
     "计算机/数据库/关系代数.md",
     "计算机/网络/Socket.md",
-    "计算机/View.md",
-    "日记/2023-10-09.md",
-    "日记/待办.md",
-    "日记/2023-W40.md",
     "template/算法.md",
     "template/日记.md",
     "template/WeekNote.md",
     "算法/数学/高精度",
     "日记/2023/2023-10/2023-10-01.md",
-    "算法/排序/堆排序.md",
     "bilibili.com/video/BV1WW4y197Am.md",
     "bilibili.com/video",
     "bilibili.com",
@@ -193,12 +200,6 @@
     "www.bilibili.com",
     "player.bilibili.com",
     "().md",
-    "日记/2023/2023-10/2023-10-05.md",
-    "计算机/操作系统/临界资源.md",
-    "计算机/操作系统/死锁.md",
-    "计算机/操作系统/线程.md",
-    "README.md",
-    "编程语言/现代C++/智能指针.md",
     "附件/计算机/数据库/关系代数_并交差.png",
     "附件/计算机/算法/插入排序.webp",
     "附件/计算机/算法/堆排序.jpg",
@@ -209,7 +210,6 @@
     "计算机/算法/数据结构/线性结构/线性结构.canvas",
     "软件使用备忘录",
     "计算机/网络",
-    "日记/2023",
-    "编程语言/现代C++"
+    "日记/2023"
   ]
 }
