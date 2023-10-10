@@ -13,10 +13,10 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "设计模式/创建型设计模式/工厂模式.md",
+                "file": "设计模式/创建型设计模式/简单工厂.md",
                 "mode": "preview",
                 "backlinks": false,
-                "source": false
+                "source": true
               }
             }
           }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "设计模式/创建型设计模式/工厂模式.md",
+                "file": "设计模式/创建型设计模式/简单工厂.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "设计模式/创建型设计模式/工厂模式.md"
+                "file": "设计模式/创建型设计模式/简单工厂.md"
               }
             }
           },
@@ -124,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "设计模式/创建型设计模式/工厂模式.md",
+                "file": "设计模式/创建型设计模式/简单工厂.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -152,7 +152,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "设计模式/创建型设计模式/工厂模式.md"
+                "file": "设计模式/创建型设计模式/简单工厂.md"
               }
             }
           }
@@ -179,8 +179,9 @@
   },
   "active": "975e347d8cf36f83",
   "lastOpenFiles": [
+    "设计模式/创建型设计模式/工厂方法.md",
+    "设计模式/创建型设计模式/简单工厂.md",
     "设计模式/创建型设计模式/抽象工厂.md",
-    "设计模式/创建型设计模式/工厂模式.md",
     "设计模式/创建型设计模式/单例.md",
     "设计模式/创建型设计模式/原型.md",
     "设计模式/创建型设计模式/生成器.md",
@@ -205,7 +206,6 @@
     "算法/数学/秦九邵算法.md",
     "算法/数学/银行家算法.md",
     "算法/数据结构/哈希表.md",
-    "计算机/计算机组成原理/CISC与RISC.md",
     "TCP",
     "软件工程",
     "附件/Recording 20231010073228.webm",
