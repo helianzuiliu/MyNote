@@ -15,7 +15,7 @@
   "newLinkFormat": "shortest",
   "showUnsupportedFiles": true,
   "showInlineTitle": false,
-  "readableLineLength": true,
+  "readableLineLength": false,
   "propertiesInDocument": "visible",
   "rightToLeft": false,
   "showIndentGuide": true,

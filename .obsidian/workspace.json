@@ -13,13 +13,28 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "算法/空间复杂度.md",
+                "file": "算法/数据结构/哈希表.md",
                 "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "975e347d8cf36f83",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "日记/2023-10-10.md",
+                "mode": "source",
+                "backlinks": false,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -48,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#数据结构",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "算法/空间复杂度.md",
+                "file": "日记/2023-10-10.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "算法/空间复杂度.md"
+                "file": "日记/2023-10-10.md"
               }
             }
           },
@@ -123,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "算法/空间复杂度.md",
+                "file": "日记/2023-10-10.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -144,34 +159,59 @@
               "type": "mermaid-toolbar-view",
               "state": {}
             }
+          },
+          {
+            "id": "2ff46b1d8eae6554",
+            "type": "leaf",
+            "state": {
+              "type": "file-properties",
+              "state": {
+                "file": "日记/2023-10-10.md"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
-    "width": 314.5
+    "width": 314.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:打开快速切换": false,
+      "switcher:打开快速切换": true,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
-      "command-palette:打开命令面板": false,
+      "command-palette:打开命令面板": true,
       "workspaces:管理工作区布局": false,
-      "mermaid-tools:Open Mermaid Toolbar": false,
+      "mermaid-tools:Open Mermaid Toolbar": true,
       "random-note:开始漫游笔记": false,
       "audio-recorder:开始/结束录音": false
     }
   },
-  "active": "fd3caa91abcde212",
+  "active": "975e347d8cf36f83",
   "lastOpenFiles": [
-    "算法/时间复杂度.md",
+    "计算机/操作系统/死锁.md",
+    "计算机/网络/Socket.md",
+    "计算机/数据库/设计范式.md",
+    "计算机/操作系统/临界资源.md",
+    "计算机/数据库/关系代数.md",
+    "软件设计师题目大纲.md",
+    "软件工程/UML.md",
+    "软件工程/开发模型.md",
+    "软件工程",
+    "设计模式/设计原则.md",
+    "算法/数据结构/哈希表.md",
+    "算法/数据结构/图论/并查集.md",
+    "算法/数据结构/线性结构/树状数组.md",
+    "算法/数据结构/线性结构/队列.md",
     "算法/空间复杂度.md",
+    "算法/时间复杂度.md",
     "算法/排序/堆排序.md",
     "算法/数据结构/链表/邻接表.md",
-    "算法/数据结构/图论/并查集.md",
     "计算机/计算机组成原理/海明校验码.md",
     "日记/待办.md",
     "日记/2023-10-10.md",
@@ -181,25 +221,13 @@
     "附件/Recording 20231010073228.webm",
     "计算机/View.md",
     "计算机/计算机组成原理/进制.md",
-    "计算机/数据库/设计范式.md",
-    "计算机/数据库/关系代数.md",
-    "计算机/网络/Socket.md",
     "template/算法.md",
-    "template/日记.md",
-    "template/WeekNote.md",
     "算法/数学/高精度",
-    "日记/2023/2023-10/2023-10-01.md",
-    "bilibili.com/video/BV1WW4y197Am.md",
     "bilibili.com/video",
     "bilibili.com",
-    "算法/排序/插入排序.md",
-    "计算机/数据库/DataView的使用方法.md",
-    "计算机/操作系统/PV操作.md",
-    "日记/2023/2023-10/2023-10-08.md",
     "www.bilibili.com/video",
     "www.bilibili.com",
     "player.bilibili.com",
-    "().md",
     "附件/计算机/数据库/关系代数_并交差.png",
     "附件/计算机/算法/插入排序.webp",
     "附件/计算机/算法/堆排序.jpg",
@@ -209,7 +237,6 @@
     "计算机/算法/数据结构/未命名.canvas",
     "计算机/算法/数据结构/线性结构/线性结构.canvas",
     "软件使用备忘录",
-    "计算机/网络",
-    "日记/2023"
+    "计算机/网络"
   ]
 }
