@@ -16,7 +16,7 @@
   "showUnsupportedFiles": true,
   "showInlineTitle": false,
   "readableLineLength": false,
-  "propertiesInDocument": "visible",
+  "propertiesInDocument": "hidden",
   "rightToLeft": false,
   "showIndentGuide": true,
   "foldIndent": true,

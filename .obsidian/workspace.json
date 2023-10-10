@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "软件设计师题目大纲.md",
+                "file": "日记/2023-10-10.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -66,7 +66,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -86,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "软件设计师题目大纲.md",
+                "file": "日记/2023-10-10.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +104,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "软件设计师题目大纲.md"
+                "file": "日记/2023-10-10.md"
               }
             }
           },
@@ -124,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "软件设计师题目大纲.md",
+                "file": "日记/2023-10-10.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -152,7 +153,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "软件设计师题目大纲.md"
+                "file": "日记/2023-10-10.md"
               }
             }
           }
@@ -161,8 +162,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 314.5,
-    "collapsed": true
+    "width": 314.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -180,8 +180,14 @@
   },
   "active": "975e347d8cf36f83",
   "lastOpenFiles": [
-    "算法/数据结构/哈希表.md",
+    "编程语言/C++/STL/智能指针.md",
+    "编程语言/C++/STL",
+    "算法/数学/博弈论.md",
+    "算法/数学/容斥定理.md",
+    "算法/数学/秦九邵算法.md",
     "软件设计师题目大纲.md",
+    "算法/数学/银行家算法.md",
+    "算法/数据结构/哈希表.md",
     "计算机/计算机组成原理/CISC与RISC.md",
     "算法/数据结构/图论/图.md",
     "计算机/网络/TCP.md",
@@ -203,11 +209,6 @@
     "算法/数据结构/线性结构/树状数组.md",
     "算法/数据结构/线性结构/队列.md",
     "算法/空间复杂度.md",
-    "算法/时间复杂度.md",
-    "算法/排序/堆排序.md",
-    "算法/数据结构/链表/邻接表.md",
-    "计算机/计算机组成原理/海明校验码.md",
-    "日记/2023/2023-10/2023-10-09.md",
     "附件/Recording 20231010073228.webm",
     "算法/数学/高精度",
     "bilibili.com/video",
@@ -222,7 +223,6 @@
     "附件/计算机/算法/排序算法.png",
     "未命名.canvas",
     "计算机/算法/数据结构/未命名.canvas",
-    "计算机/算法/数据结构/线性结构/线性结构.canvas",
-    "软件使用备忘录"
+    "计算机/算法/数据结构/线性结构/线性结构.canvas"
   ]
 }
