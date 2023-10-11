@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "template/WeekNote.md",
-                "mode": "preview",
+                "file": "日记/2023-10-11.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "template/WeekNote.md",
+                "file": "日记/2023-10-11.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "template/WeekNote.md"
+                "file": "日记/2023-10-11.md"
               }
             }
           },
@@ -124,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "template/WeekNote.md",
+                "file": "日记/2023-10-11.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -144,7 +144,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "template/WeekNote.md"
+                "file": "日记/2023-10-11.md"
               }
             }
           },
@@ -179,33 +179,33 @@
   },
   "active": "975e347d8cf36f83",
   "lastOpenFiles": [
+    "设计模式/创建型设计模式/抽象工厂.md",
+    "日记/2023-10-11.md",
+    "设计模式/创建型设计模式/工厂方法.md",
+    "计算机/数据库/设计范式.md",
+    "日记/2023/2023-10/2023-10-09.md",
+    "日记/待办.md",
+    "设计模式/创建型设计模式/简单工厂.md",
+    "设计模式/创建型设计模式/生成器.md",
+    "设计模式/创建型设计模式/原型.md",
+    "README.md",
+    "template/WeekNote.md",
     "template/日记.md",
     "template/算法.md",
     "编程语言/C++/STL/智能指针.md",
-    "设计模式/创建型设计模式/工厂方法.md",
     "设计模式/设计原则.md",
-    "设计模式/创建型设计模式/简单工厂.md",
-    "设计模式/创建型设计模式/抽象工厂.md",
     "设计模式/创建型设计模式/单例.md",
-    "设计模式/创建型设计模式/原型.md",
-    "设计模式/创建型设计模式/生成器.md",
     "设计模式/创建型设计模式/创建型设计模式.md",
-    "日记/待办.md",
     "日记/2023-W40.md",
     "日记/2023/2023-10/2023-10-04.md",
     "日记/2023/2023-10/2023-10-07.md",
-    "日记/2023/2023-10/2023-10-09.md",
     "日记/2023/2023-10/2023-10-08.md",
     "日记/2023/2023-10/2023-10-06.md",
     "日记/2023/2023-10/2023-10-05.md",
     "日记/2023/2023-10/2023-10-01.md",
     "日记/2023-10-10.md",
     "软件设计师题目大纲.md",
-    "template/WeekNote.md",
     "编程语言/C++/STL",
-    "算法/数学/博弈论.md",
-    "算法/数学/容斥定理.md",
-    "算法/数学/秦九邵算法.md",
     "TCP",
     "软件工程",
     "附件/Recording 20231010073228.webm",
