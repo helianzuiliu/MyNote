@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "日记/2023-10-15.md",
+                "file": "设计模式/行为模式/策略模式.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "日记/2023-10-15.md",
+                "file": "设计模式/行为模式/策略模式.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "日记/2023-10-15.md"
+                "file": "设计模式/行为模式/策略模式.md"
               }
             }
           },
@@ -124,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "日记/2023-10-15.md",
+                "file": "设计模式/行为模式/策略模式.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -144,7 +144,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "日记/2023-10-15.md"
+                "file": "设计模式/行为模式/策略模式.md"
               }
             }
           },
@@ -156,13 +156,11 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 314.5,
-    "collapsed": true
+    "width": 314.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -180,32 +178,32 @@
   },
   "active": "975e347d8cf36f83",
   "lastOpenFiles": [
+    "设计模式/创建型设计模式/工厂方法.md",
+    "设计模式/创建型设计模式/生成器.md",
+    "设计模式/创建型设计模式/抽象工厂.md",
+    "软件工程/UML.md",
+    "软件工程/CMM.md",
+    "软件工程/开发模型.md",
+    "日记/待办.md",
+    "日记/2023-W41.md",
+    "日记/2023-10-15.md",
+    "设计模式/行为模式/策略模式.md",
+    "设计模式/行为模式/观察者.md",
+    "设计模式/行为模式/备忘录.md",
     "计算机/计算机组成原理/CISC与RISC.md",
     "计算机/计算机组成原理/寻址方式.md",
     "计算机/计算机组成原理/数据的编码.md",
     "计算机/计算机组成原理/段页式存储.md",
     "计算机/计算机组成原理/进制.md",
     "计算机/计算机组成原理/校验码.md",
-    "日记/待办.md",
-    "软件工程/CMM.md",
-    "日记/2023-10-15.md",
     "日记/2023/2023-10/2023-10-14.md",
     "软件设计师题目大纲.md",
-    "软件工程/开发模型.md",
-    "软件工程/UML.md",
-    "日记/2023-W41.md",
     "日记/2023/2023-10/2023-10-13.md",
     "README.md",
     "计算机/View.md",
     "日记/2023/2023-10/2023-10-12.md",
     "设计模式/组合型设计模式/组合型设计模式.md",
     "设计模式/组合型设计模式/桥接.md",
-    "设计模式/组合型设计模式/适配器.md",
-    "设计模式/组合型设计模式/代理.md",
-    "设计模式/组合型设计模式/享元.md",
-    "设计模式/组合型设计模式/装饰.md",
-    "设计模式/组合型设计模式/组合.md",
-    "设计模式/创建型设计模式/原型.md",
     "编程语言/C++/STL",
     "TCP",
     "软件工程",
