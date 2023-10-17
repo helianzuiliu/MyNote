@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "设计模式/行为模式/策略模式.md",
+                "file": "设计模式/设计原则.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "设计模式/行为模式/策略模式.md",
+                "file": "设计模式/设计原则.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "设计模式/行为模式/策略模式.md"
+                "file": "设计模式/设计原则.md"
               }
             }
           },
@@ -124,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "设计模式/行为模式/策略模式.md",
+                "file": "设计模式/设计原则.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -144,7 +144,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "设计模式/行为模式/策略模式.md"
+                "file": "设计模式/设计原则.md"
               }
             }
           },
@@ -179,6 +179,7 @@
   },
   "active": "975e347d8cf36f83",
   "lastOpenFiles": [
+    "设计模式/行为模式/策略模式.md",
     "设计模式/行为模式/访问者.md",
     "设计模式/行为模式/观察者.md",
     "设计模式/行为模式/命令.md",
@@ -197,7 +198,6 @@
     "日记/2023-10-17.md",
     "日记/2023-W41.md",
     "日记/2023/2023-10/2023-10-15.md",
-    "设计模式/行为模式/策略模式.md",
     "设计模式/创建型设计模式/原型.md",
     "设计模式/行为模式/备忘录.md",
     "设计模式/创建型设计模式/生成器.md",
