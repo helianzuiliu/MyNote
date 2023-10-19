@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "设计模式/组合型设计模式/适配器.md",
+                "file": "日记/待办.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "设计模式/组合型设计模式/适配器.md",
+                "file": "日记/待办.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "设计模式/组合型设计模式/适配器.md"
+                "file": "日记/待办.md"
               }
             }
           },
@@ -124,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "设计模式/组合型设计模式/适配器.md",
+                "file": "日记/待办.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -144,7 +144,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "设计模式/组合型设计模式/适配器.md"
+                "file": "日记/待办.md"
               }
             }
           },
@@ -177,12 +177,13 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "0da9c518f96de2a9",
+  "active": "975e347d8cf36f83",
   "lastOpenFiles": [
+    "日记/2023-10-19.md",
+    "设计模式/组合型设计模式/适配器.md",
     "设计模式/组合型设计模式/外观.md",
     "设计模式/组合型设计模式/装饰.md",
     "设计模式/组合型设计模式/享元.md",
-    "设计模式/组合型设计模式/适配器.md",
     "设计模式/组合型设计模式/桥接.md",
     "设计模式/组合型设计模式/代理.md",
     "设计模式/行为模式/观察者.md",
@@ -199,12 +200,11 @@
     "设计模式/创建型设计模式/抽象工厂.md",
     "设计模式/创建型设计模式/单例.md",
     "日记/待办.md",
-    "日记/2023-10-18.md",
+    "日记/2023/2023-10/2023-10-18.md",
     "日记/2023-W41.md",
     "日记/2023/2023-09/2023-09-23.md",
     "日记/2023/2023-09/2023-09-24.md",
     "日记/2023/2023-09/2023-09-25.md",
-    "日记/2023/2023-09/2023-09-26.md",
     "编程语言/C++/STL",
     "TCP",
     "软件工程",
