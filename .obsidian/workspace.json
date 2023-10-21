@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "软件工程/UML.md",
+                "file": "日记/待办.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "软件工程/UML.md",
+                "file": "日记/待办.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "软件工程/UML.md"
+                "file": "日记/待办.md"
               }
             }
           },
@@ -124,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "软件工程/UML.md",
+                "file": "日记/待办.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -144,7 +144,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "软件工程/UML.md"
+                "file": "日记/待办.md"
               }
             }
           },
@@ -157,7 +157,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -177,11 +177,22 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "aa641bbceeb43558",
+  "active": "975e347d8cf36f83",
   "lastOpenFiles": [
+    "日记/2023-10-21.md",
+    "日记/待办.md",
+    "计算机/View.md",
+    "计算机/数据库/关系代数.md",
+    "计算机/数据库/设计范式.md",
+    "计算机/数据库/DataView的使用方法.md",
+    "计算机/网络/Socket.md",
+    "计算机/网络/OSI模型.md",
+    "软件工程/UML.md",
+    "软件工程/CMM.md",
+    "设计模式/创建型设计模式/工厂方法.md",
+    "设计模式/创建型设计模式/简单工厂.md",
     "日记/2023-W42.md",
     "日记/2023/2023-W/2023-W41.md",
-    "日记/待办.md",
     "日记/2023-10-20.md",
     "日记/2023/2023-10/2023-10-19.md",
     "设计模式/组合型设计模式/适配器.md",
@@ -194,17 +205,6 @@
     "设计模式/行为模式/访问者.md",
     "设计模式/行为模式/备忘录.md",
     "设计模式/行为模式/迭代器.md",
-    "设计模式/行为模式/策略模式.md",
-    "设计模式/行为模式/模板模式.md",
-    "设计模式/行为模式/命令.md",
-    "设计模式/行为模式/责任链.md",
-    "设计模式/行为模式/状态模式.md",
-    "设计模式/创建型设计模式/简单工厂.md",
-    "设计模式/创建型设计模式/工厂方法.md",
-    "设计模式/创建型设计模式/抽象工厂.md",
-    "设计模式/创建型设计模式/单例.md",
-    "日记/2023/2023-10/2023-10-18.md",
-    "日记/2023/2023-09/2023-09-23.md",
     "编程语言/C++/STL",
     "TCP",
     "软件工程",
