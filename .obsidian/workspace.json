@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "日记/2023-10-21.md",
+                "file": "日记/2023-10-22.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "日记/2023-10-21.md",
+                "file": "日记/2023-10-22.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "日记/2023-10-21.md"
+                "file": "日记/2023-10-22.md"
               }
             }
           },
@@ -124,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "日记/2023-10-21.md",
+                "file": "日记/2023-10-22.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -144,7 +144,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "日记/2023-10-21.md"
+                "file": "日记/2023-10-22.md"
               }
             }
           },
@@ -180,20 +180,22 @@
   "active": "975e347d8cf36f83",
   "lastOpenFiles": [
     "日记/待办.md",
+    "日记/2023-10-22.md",
+    "设计模式/组合型设计模式/组合.md",
+    "日记/2023-W42.md",
+    "日记/2023/2023-10/2023-10-20.md",
     "日记/2023-10-21.md",
+    "软件工程/UML.md",
     "计算机/View.md",
     "计算机/数据库/关系代数.md",
     "计算机/数据库/设计范式.md",
     "计算机/数据库/DataView的使用方法.md",
     "计算机/网络/Socket.md",
     "计算机/网络/OSI模型.md",
-    "软件工程/UML.md",
     "软件工程/CMM.md",
     "设计模式/创建型设计模式/工厂方法.md",
     "设计模式/创建型设计模式/简单工厂.md",
-    "日记/2023-W42.md",
     "日记/2023/2023-W/2023-W41.md",
-    "日记/2023-10-20.md",
     "日记/2023/2023-10/2023-10-19.md",
     "设计模式/组合型设计模式/适配器.md",
     "设计模式/组合型设计模式/外观.md",
@@ -203,8 +205,6 @@
     "设计模式/组合型设计模式/代理.md",
     "设计模式/行为模式/观察者.md",
     "设计模式/行为模式/访问者.md",
-    "设计模式/行为模式/备忘录.md",
-    "设计模式/行为模式/迭代器.md",
     "编程语言/C++/STL",
     "TCP",
     "软件工程",
