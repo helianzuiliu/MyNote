@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "日记/待办.md",
+                "file": "软件工程/维护.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "耦合",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "日记/待办.md",
+                "file": "软件工程/维护.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "日记/待办.md"
+                "file": "软件工程/维护.md"
               }
             }
           },
@@ -124,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "日记/待办.md",
+                "file": "软件工程/维护.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -144,7 +144,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "日记/待办.md"
+                "file": "软件工程/维护.md"
               }
             }
           },
@@ -179,10 +179,13 @@
   },
   "active": "975e347d8cf36f83",
   "lastOpenFiles": [
+    "软件工程/耦合.md",
+    "软件工程/维护.md",
+    "附件/Pasted image 20231101205720.png",
+    "日记/待办.md",
     "日记/2023-11-01.md",
     "日记/2023/2023-11",
     "日记/2023-W44.md",
-    "日记/待办.md",
     "日记/2023/2023-10/2023-10-31.md",
     "日记/2023/2023-10/2023-10-30.md",
     "日记/2023/2023-10/2023-10-27.md",
@@ -205,7 +208,6 @@
     "计算机/数据库/设计范式.md",
     "计算机/数据库/DataView的使用方法.md",
     "软件工程/CMM.md",
-    "设计模式/创建型设计模式/工厂方法.md",
     "编程语言/C++/STL",
     "TCP",
     "软件工程",
