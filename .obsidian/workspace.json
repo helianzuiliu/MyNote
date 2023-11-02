@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "日记/待办.md",
-                "mode": "source",
+                "file": "计算机/数据库/关系代数.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "日记/待办.md",
+                "file": "计算机/数据库/关系代数.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "日记/待办.md"
+                "file": "计算机/数据库/关系代数.md"
               }
             }
           },
@@ -124,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "日记/待办.md",
+                "file": "计算机/数据库/关系代数.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -144,7 +144,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "日记/待办.md"
+                "file": "计算机/数据库/关系代数.md"
               }
             }
           },
@@ -157,11 +157,12 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 314.5
+    "width": 314.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -179,6 +180,14 @@
   },
   "active": "975e347d8cf36f83",
   "lastOpenFiles": [
+    "计算机/数据库/设计范式.md",
+    "计算机/数据库/函数依赖.md",
+    "附件/v2-2b44ea1de81d3cf1dc9dcf67c072e363_1440w.webp",
+    "附件/v2-ce347baa86098f7cd7d30d1897685c4b_1440w.webp",
+    "附件/v2-4b6d2892b6ce889864e93efb17cda0a1_1440w.webp",
+    "附件/v2-53e27c9c885c157c64d1fd37aebb81ce_1440w.webp",
+    "附件/Pasted image 20231102195103.png",
+    "日记/待办.md",
     "日记/2023-11-02.md",
     "日记/2023-W44.md",
     "软件工程/耦合.md",
@@ -192,7 +201,6 @@
     "附件/Pasted image 20231101230259.png",
     "附件/Pasted image 20231101230234.png",
     "附件/Pasted image 20231101205720.png",
-    "日记/待办.md",
     "日记/2023/2023-11",
     "日记/2023/2023-10/2023-10-31.md",
     "日记/2023/2023-10/2023-10-30.md",
@@ -209,8 +217,6 @@
     "设计模式/组合型设计模式/组合.md",
     "日记/2023/2023-W/2023-W42.md",
     "日记/2023/2023-10/2023-10-20.md",
-    "日记/2023/2023-10/2023-10-21.md",
-    "计算机/数据库/关系代数.md",
     "编程语言/C++/STL",
     "TCP",
     "软件工程",
@@ -221,10 +227,6 @@
     "www.bilibili.com/video",
     "www.bilibili.com",
     "附件/计算机/数据库/关系代数_并交差.png",
-    "附件/计算机/算法/插入排序.webp",
-    "附件/计算机/算法/堆排序.jpg",
-    "附件/计算机/算法/冒泡排序.gif",
-    "附件/计算机/算法/排序算法.png",
     "计算机/算法/数据结构/未命名.canvas",
     "计算机/算法/数据结构/线性结构/线性结构.canvas"
   ]
