@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "软件工程/维护.md",
+                "file": "日记/2023-11-02.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "耦合",
+                "query": "IP",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "软件工程/维护.md",
+                "file": "日记/2023-11-02.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "软件工程/维护.md"
+                "file": "日记/2023-11-02.md"
               }
             }
           },
@@ -124,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "软件工程/维护.md",
+                "file": "日记/2023-11-02.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -144,7 +144,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "软件工程/维护.md"
+                "file": "日记/2023-11-02.md"
               }
             }
           },
@@ -177,13 +177,21 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "975e347d8cf36f83",
+  "active": "312713e416cd5434",
   "lastOpenFiles": [
     "软件工程/耦合.md",
+    "日记/2023-11-02.md",
     "软件工程/维护.md",
+    "软件工程/CMM.md",
+    "软件工程/UML.md",
+    "软件设计师题目大纲.md",
+    "未命名.canvas",
+    "日记/2023/2023-11/2023-11-01.md",
+    "计算机/网络/TCP_IP协议.md",
+    "附件/Pasted image 20231101230259.png",
+    "附件/Pasted image 20231101230234.png",
     "附件/Pasted image 20231101205720.png",
     "日记/待办.md",
-    "日记/2023-11-01.md",
     "日记/2023/2023-11",
     "日记/2023-W44.md",
     "日记/2023/2023-10/2023-10-31.md",
@@ -192,7 +200,6 @@
     "计算机/View.md",
     "日记/2023/2023-10/2023-10-25.md",
     "计算机/网络/OSI模型.md",
-    "计算机/网络/TCP_IP协议.md",
     "附件/Pasted image 20231025191505.png",
     "计算机/网络/Socket.md",
     "日记/2023/2023-W/2023-W43.md",
@@ -203,11 +210,7 @@
     "日记/2023/2023-W/2023-W42.md",
     "日记/2023/2023-10/2023-10-20.md",
     "日记/2023/2023-10/2023-10-21.md",
-    "软件工程/UML.md",
     "计算机/数据库/关系代数.md",
-    "计算机/数据库/设计范式.md",
-    "计算机/数据库/DataView的使用方法.md",
-    "软件工程/CMM.md",
     "编程语言/C++/STL",
     "TCP",
     "软件工程",
@@ -222,7 +225,6 @@
     "附件/计算机/算法/堆排序.jpg",
     "附件/计算机/算法/冒泡排序.gif",
     "附件/计算机/算法/排序算法.png",
-    "未命名.canvas",
     "计算机/算法/数据结构/未命名.canvas",
     "计算机/算法/数据结构/线性结构/线性结构.canvas"
   ]
