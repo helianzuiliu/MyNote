@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "软件工程/UML.md",
-                "mode": "preview",
+                "file": "日记/2023-11-03.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "软件工程/UML.md",
+                "file": "日记/2023-11-03.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "软件工程/UML.md"
+                "file": "日记/2023-11-03.md"
               }
             }
           },
@@ -124,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "软件工程/UML.md",
+                "file": "日记/2023-11-03.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -144,7 +144,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "软件工程/UML.md"
+                "file": "日记/2023-11-03.md"
               }
             }
           },
@@ -180,8 +180,9 @@
   },
   "active": "975e347d8cf36f83",
   "lastOpenFiles": [
-    "软件工程/CMM.md",
     "软件工程/UML.md",
+    "日记/2023-11-03.md",
+    "软件工程/CMM.md",
     "计算机/数据库/关系代数.md",
     "计算机/数据库/设计范式.md",
     "计算机/数据库/函数依赖.md",
@@ -216,7 +217,6 @@
     "日记/2023/2023-10/2023-10-23.md",
     "日记/2023/2023-10/2023-10-22.md",
     "设计模式/组合型设计模式/组合.md",
-    "日记/2023/2023-W/2023-W42.md",
     "编程语言/C++/STL",
     "TCP",
     "软件工程",
