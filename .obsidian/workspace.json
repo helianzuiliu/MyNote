@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "IP",
+                "query": "策划",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -66,7 +66,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -177,7 +178,7 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "975e347d8cf36f83",
+  "active": "3086ef17ed28dfcb",
   "lastOpenFiles": [
     "日记/2023-W45.md",
     "日记/2023-11-12.md",
