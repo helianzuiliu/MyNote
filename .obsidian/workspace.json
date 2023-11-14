@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "日记/2023-11-12.md",
+                "file": "日记/待办.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "日记/2023-11-12.md",
+                "file": "日记/待办.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "日记/2023-11-12.md"
+                "file": "日记/待办.md"
               }
             }
           },
@@ -124,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "日记/2023-11-12.md",
+                "file": "日记/待办.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -144,7 +144,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "日记/2023-11-12.md"
+                "file": "日记/待办.md"
               }
             }
           },
@@ -179,10 +179,11 @@
   },
   "active": "312713e416cd5434",
   "lastOpenFiles": [
-    "日记/2023-W45.md",
+    "日记/2023/2023-11/2023-11-14.md",
     "日记/待办.md",
+    "日记/2023/2023-11/2023-11-12.md",
+    "日记/2023-W45.md",
     "日记/2023/2023-10/2023-10-07.md",
-    "日记/2023-11-12.md",
     "日记/2023/2023-09/2023-09-23.md",
     "日记/2023/2023-11/2023-11-11.md",
     "日记/2023/2023-11/2023-11-08.md",
@@ -214,7 +215,6 @@
     "日记/2023/2023-10/2023-10-31.md",
     "日记/2023/2023-10/2023-10-30.md",
     "日记/2023/2023-10/2023-10-27.md",
-    "计算机/View.md",
     "附件/Pasted image 20231025191505.png",
     "编程语言/C++/STL",
     "TCP",
