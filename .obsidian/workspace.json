@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "编程语言/C++/STL/智能指针.md",
+                "file": "日记/2023-12-06.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "编程语言/C++/STL/智能指针.md",
+                "file": "日记/2023-12-06.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "编程语言/C++/STL/智能指针.md"
+                "file": "日记/2023-12-06.md"
               }
             }
           },
@@ -124,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "编程语言/C++/STL/智能指针.md",
+                "file": "日记/2023-12-06.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -144,7 +144,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "编程语言/C++/STL/智能指针.md"
+                "file": "日记/2023-12-06.md"
               }
             }
           },
@@ -180,6 +180,9 @@
   },
   "active": "975e347d8cf36f83",
   "lastOpenFiles": [
+    "编程语言/C++/STL/构造函数.md",
+    "日记/2023-12-06.md",
+    "编程语言/C++/STL/智能指针.md",
     "日记/2023-11-18.md",
     "日记/待办.md",
     "日记/2023/2023-W/2023-W45.md",
@@ -209,13 +212,10 @@
     "软件工程/维护.md",
     "软件设计师题目大纲.md",
     "未命名.canvas",
-    "日记/2023/2023-11/2023-11-01.md",
-    "计算机/网络/TCP_IP协议.md",
     "附件/Pasted image 20231101230259.png",
     "附件/Pasted image 20231101230234.png",
     "附件/Pasted image 20231101205720.png",
     "日记/2023/2023-11",
-    "日记/2023/2023-10/2023-10-31.md",
     "附件/Pasted image 20231025191505.png",
     "编程语言/C++/STL",
     "TCP",
