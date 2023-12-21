@@ -70,7 +70,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 320.5
+    "width": 320.5,
+    "collapsed": true
   },
   "right": {
     "id": "8d6c691ab084dea8",
@@ -171,7 +172,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 314.5
+    "width": 314.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -188,7 +190,7 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "2d87215a15e19b44",
+  "active": "312713e416cd5434",
   "lastOpenFiles": [
     "日记/2023-12-21.md",
     "计算机/View.md",
