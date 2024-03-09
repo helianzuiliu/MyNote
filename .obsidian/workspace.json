@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机/网络/TCP和UDP.md",
+                "file": "编程语言/C++/面向对象.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "计算机/网络/TCP和UDP.md",
+                "file": "编程语言/C++/面向对象.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/网络/TCP和UDP.md"
+                "file": "编程语言/C++/面向对象.md"
               }
             }
           },
@@ -124,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "计算机/网络/TCP和UDP.md",
+                "file": "编程语言/C++/面向对象.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -144,7 +144,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/网络/TCP和UDP.md"
+                "file": "编程语言/C++/面向对象.md"
               }
             }
           },
@@ -185,11 +185,15 @@
   },
   "active": "24bc5c615d77bd0c",
   "lastOpenFiles": [
-    "计算机/网络/OSI模型.md",
+    "编程语言/C++/虚函数.md",
+    "计算机/操作系统/线程与进程.md",
+    "计算机/网络/TCP_IP协议.md",
     "计算机/网络/TCP和UDP.md",
     "计算机/网络/Socket.md",
-    "计算机/网络/TCP_IP协议.md",
-    "编程语言/C++/虚函数.md",
+    "计算机/网络/OSI模型.md",
+    "计算机/操作系统/PV操作.md",
+    "计算机/操作系统/临界资源.md",
+    "计算机/操作系统/死锁.md",
     "编程语言/C++/面向对象.md",
     "软件设计师题目大纲.md",
     "函数重写.md",
@@ -211,10 +215,6 @@
     "算法/排序/希尔排序.md",
     "日记/2023-11-18.md",
     "日记/待办.md",
-    "日记/2023/2023-W/2023-W45.md",
-    "日记/2023/2023-11/2023-11-14.md",
-    "日记/2023/2023-11/2023-11-14 1.md",
-    "日记/2023/2023-11/2023-11-11.md",
     "附件/v2-2b44ea1de81d3cf1dc9dcf67c072e363_1440w.webp",
     "附件/v2-ce347baa86098f7cd7d30d1897685c4b_1440w.webp",
     "附件/v2-4b6d2892b6ce889864e93efb17cda0a1_1440w.webp",
