@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "24bc5c615d77bd0c",
+            "id": "e1800c940cad88dc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机/网络/TCP和UDP.md",
+                "file": "数据原型.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "计算机/网络/TCP和UDP.md",
+                "file": "数据原型.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/网络/TCP和UDP.md"
+                "file": "数据原型.md"
               }
             }
           },
@@ -124,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "计算机/网络/TCP和UDP.md",
+                "file": "数据原型.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -144,7 +144,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/网络/TCP和UDP.md"
+                "file": "数据原型.md"
               }
             }
           },
@@ -183,11 +183,24 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "24bc5c615d77bd0c",
+  "active": "e1800c940cad88dc",
   "lastOpenFiles": [
+    "设计模式/设计原则.md",
+    "数据原型.md",
+    "template/日记.md",
+    "template/算法.md",
+    "软件设计师题目大纲.md",
+    "未命名.canvas",
+    "README.md",
+    "template/WeekNote.md",
+    "设计模式/创建型设计模式/简单工厂.md",
+    "设计模式/创建型设计模式/单例.md",
+    "设计模式/行为模式/迭代器.md",
+    "设计模式/行为模式/命令.md",
+    "设计模式/行为模式/备忘录.md",
+    "计算机/网络/TCP和UDP.md",
     "计算机/网络/TCP_IP协议.md",
     "计算机/网络/Socket.md",
-    "计算机/网络/TCP和UDP.md",
     "计算机/网络/OSI模型.md",
     "计算机/操作系统/线程与进程.md",
     "计算机/操作系统/PV操作.md",
@@ -195,26 +208,13 @@
     "编程语言/C++/虚函数.md",
     "计算机/操作系统/临界资源.md",
     "计算机/操作系统/死锁.md",
-    "软件设计师题目大纲.md",
     "函数重写.md",
     "日记/2024-03-07.md",
     "日记/2024-03-05.md",
     "编程语言/C++/STL/Container/queue.md",
-    "编程语言/C++/STL/Container/vector.md",
-    "编程语言/C++/STL/智能指针.md",
-    "日记/2024-01-02.md",
-    "编程语言/C++/STL/构造函数.md",
     "编程语言/C++/STL/Container",
-    "README.md",
-    "未命名.canvas",
-    "计算机/View.md",
     "编程语言/C++/Boost/Asio",
     "编程语言/C++/Boost",
-    "日记/2023-12-21.md",
-    "日记/2023-12-06.md",
-    "算法/排序/希尔排序.md",
-    "日记/2023-11-18.md",
-    "日记/待办.md",
     "附件/v2-2b44ea1de81d3cf1dc9dcf67c072e363_1440w.webp",
     "附件/v2-ce347baa86098f7cd7d30d1897685c4b_1440w.webp",
     "附件/v2-4b6d2892b6ce889864e93efb17cda0a1_1440w.webp",
