@@ -1,11 +1,13 @@
 {
   "accentColor": "",
-  "theme": "moonstone",
+  "theme": "obsidian",
   "monospaceFontFamily": "JetBrains Mono",
   "nativeMenus": true,
   "translucency": true,
   "baseFontSize": 16,
   "cssTheme": "Obsidian Nord",
   "showViewHeader": true,
-  "textFontFamily": "微软雅黑"
+  "textFontFamily": "微软雅黑",
+  "interfaceFontFamily": "微软雅黑",
+  "baseFontSizeAction": true
 }

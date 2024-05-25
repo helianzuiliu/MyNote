@@ -3,7 +3,7 @@
   "alwaysUpdateLinks": true,
   "strictLineBreaks": true,
   "trashOption": "local",
-  "promptDelete": false,
+  "promptDelete": true,
   "pdfExportSettings": {
     "includeName": true,
     "pageSize": "A4",
@@ -14,7 +14,7 @@
   "showLineNumber": false,
   "newLinkFormat": "shortest",
   "showUnsupportedFiles": true,
-  "showInlineTitle": false,
+  "showInlineTitle": true,
   "readableLineLength": true,
   "propertiesInDocument": "hidden",
   "rightToLeft": false,
@@ -23,5 +23,6 @@
   "userIgnoreFilters": [
     "附件/"
   ],
-  "vimMode": false
+  "vimMode": false,
+  "newFileLocation": "current"
 }

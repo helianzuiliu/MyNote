@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "eb68427592d249d0",
+        "id": "b132ea2aec00808a",
         "type": "tabs",
         "children": [
           {
-            "id": "a225b474d95e328e",
+            "id": "f25aa366c0580368",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机/网络/OSI模型.md",
+                "file": "programe/C++/虚函数.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -70,7 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 320.5
+    "width": 277.5
   },
   "right": {
     "id": "8d6c691ab084dea8",
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "计算机/网络/OSI模型.md",
+                "file": "programe/C++/虚函数.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/网络/OSI模型.md"
+                "file": "programe/C++/虚函数.md"
               }
             }
           },
@@ -124,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "计算机/网络/OSI模型.md",
+                "file": "programe/C++/虚函数.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -144,7 +144,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/网络/OSI模型.md"
+                "file": "programe/C++/虚函数.md"
               }
             }
           },
@@ -159,18 +159,34 @@
                 "searchQuery": ""
               }
             }
+          },
+          {
+            "id": "960a7954e5c670cb",
+            "type": "leaf",
+            "state": {
+              "type": "copilot-chat-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "c2626098e21b2b93",
+            "type": "leaf",
+            "state": {
+              "type": "git-history-view",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 6
+        "currentTab": 8
       }
     ],
     "direction": "horizontal",
-    "width": 314.5,
+    "width": 381.5,
     "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:打开快速切换": true,
+      "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
       "daily-notes:打开/创建今天的日记": false,
@@ -179,42 +195,45 @@
       "workspaces:管理工作区布局": false,
       "random-note:开始漫游笔记": false,
       "audio-recorder:开始/结束录音": false,
-      "markdown-importer:打开 Markdown 格式转换器": false,
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "a225b474d95e328e",
+  "active": "f25aa366c0580368",
   "lastOpenFiles": [
-    "计算机/网络/Socket.md",
-    "计算机/网络/TCP_IP协议.md",
-    "计算机/网络/TCP和UDP.md",
+    "programe/C++/面向对象.md",
+    "programe/C++/虚函数.md",
+    "programe/Rust/README.md",
+    "programe/Rust",
+    "programe/C++/STL/smart_ptr.md",
+    "programe/C++/STL/Container/queue.md",
+    "programe/C++/STL/Container/vector.md",
+    "附件/计算机/数据库/关系代数_并交差.png",
     "计算机/View.md",
-    "计算机/网络/OSI模型.md",
-    "编程语言/C++/STL/智能指针.md",
-    "编程语言/C++/STL/Container/vector.md",
-    "编程语言/C++/STL/Container/queue.md",
-    "算法/数据结构/树/树.md",
-    "算法/数据结构/树/线段树.md",
-    "数据原型.md",
-    "设计模式/设计原则.md",
-    "template/日记.md",
-    "template/算法.md",
-    "软件设计师题目大纲.md",
-    "未命名.canvas",
-    "README.md",
-    "template/WeekNote.md",
+    "设计模式/创建型设计模式/抽象工厂.md",
+    "设计模式/创建型设计模式/原型.md",
+    "设计模式/创建型设计模式/生成器.md",
+    "设计模式/创建型设计模式/工厂方法.md",
     "设计模式/创建型设计模式/简单工厂.md",
     "设计模式/创建型设计模式/单例.md",
-    "设计模式/行为模式/迭代器.md",
-    "设计模式/行为模式/命令.md",
-    "设计模式/行为模式/备忘录.md",
+    "template/算法.md",
+    "template/日记.md",
+    "template/WeekNote.md",
+    "README.md",
+    "计算机/数据库/DataView的使用方法.md",
+    "计算机/操作系统/临界资源.md",
+    "计算机/操作系统/死锁.md",
     "计算机/操作系统/线程与进程.md",
     "计算机/操作系统/PV操作.md",
-    "编程语言/C++/面向对象.md",
-    "编程语言/C++/虚函数.md",
-    "编程语言/C++/STL/Container",
-    "编程语言/C++/Boost/Asio",
-    "编程语言/C++/Boost",
+    "软件工程/UML.md",
+    "软件工程/CMM.md",
+    "软件工程/维护.md",
+    "软件工程/耦合.md",
+    "未命名.canvas",
+    "未命名 1.canvas",
+    "使用须知",
+    "programe/C++/STL/Container",
+    "programe/C++/Boost/Asio",
+    "programe/C++/Boost",
     "附件/v2-2b44ea1de81d3cf1dc9dcf67c072e363_1440w.webp",
     "附件/v2-ce347baa86098f7cd7d30d1897685c4b_1440w.webp",
     "附件/v2-4b6d2892b6ce889864e93efb17cda0a1_1440w.webp",
@@ -225,13 +244,10 @@
     "附件/Pasted image 20231101205720.png",
     "日记/2023/2023-11",
     "附件/Pasted image 20231025191505.png",
-    "编程语言/C++/STL",
+    "programe/C++/STL",
     "TCP",
     "软件工程",
     "附件/Recording 20231010073228.webm",
-    "算法/数学/高精度",
-    "bilibili.com/video",
-    "附件/计算机/数据库/关系代数_并交差.png",
     "计算机/算法/数据结构/未命名.canvas",
     "计算机/算法/数据结构/线性结构/线性结构.canvas"
   ]

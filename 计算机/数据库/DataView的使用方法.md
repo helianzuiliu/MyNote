@@ -29,26 +29,26 @@ FROM <来源>
 dataview可以将文件本身的一些属性用于查询，也可以在文件头部使用定义自定义属性
 ## 自带属性
 
-|文件属性|字段类型|属性说明|
-|---|---|---|
-|file.name|Text|文件名|
-|file.folder|Text|所在文件夹|
-|file.path|Text|完整路径 + 完整文件名|
-|file.ext|Text|扩展名|
-|file.link|Link|链接至本文件|
-|file.size|Number|文件大小 (bytes)|
-|file.ctime|Date Time|创建时间|
-|file.cday|Date|创建日期|
-|file.mtime|Date Time|最后修改时间|
-|file.mday|Date|最后修改日期|
-|file.tags|List|文中的 标签 和 YAML 中的 tags|
-|file.etags|List|文中的 标签 和 YAML 中的 tags|
-|file.inlinks|List|反向链接|
-|file.outlinks|List|正向链接|
-|file.tasks|List|文中的任务列表|
-|file.lists|List|文中的列表 (包含任务列表)|
-|file.frontmatter|List|文件中的 YAML 块内容|
-|file.starred|Boolean|加星|
+| 文件属性             | 字段类型      | 属性说明                  |
+| ---------------- | --------- | --------------------- |
+| file.name        | Text      | 文件名                   |
+| file.folder      | Text      | 所在文件夹                 |
+| file.path        | Text      | 完整路径 + 完整文件名          |
+| file.ext         | Text      | 扩展名                   |
+| file.link        | Link      | 链接至本文件                |
+| file.size        | Number    | 文件大小 (bytes)          |
+| file.ctime       | Date Time | 创建时间                  |
+| file.cday        | Date      | 创建日期                  |
+| file.mtime       | Date Time | 最后修改时间                |
+| file.mday        | Date      | 最后修改日期                |
+| file.tags        | List      | 文中的 标签 和 YAML 中的 tags |
+| file.etags       | List      | 文中的 标签 和 YAML 中的 tags |
+| file.inlinks     | List      | 反向链接                  |
+| file.outlinks    | List      | 正向链接                  |
+| file.tasks       | List      | 文中的任务列表               |
+| file.lists       | List      | 文中的列表 (包含任务列表)        |
+| file.frontmatter | List      | 文件中的 YAML 块内容         |
+| file.starred     | Boolean   | 加星                    |
 # 解析语句
 ## `<QUERY-TYPE>` 展示方式
 展示方式有TABLE、LIST、TASK、CALENDAR
