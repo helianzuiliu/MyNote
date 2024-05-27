@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机/数据库/DataView的使用方法.md",
-                "mode": "preview",
+                "file": "2024-05-27.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "计算机/数据库/DataView的使用方法.md",
+                "file": "2024-05-27.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "计算机/数据库/DataView的使用方法.md",
+                "file": "2024-05-27.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/数据库/DataView的使用方法.md"
+                "file": "2024-05-27.md"
               }
             }
           }
@@ -173,6 +173,8 @@
   },
   "active": "e6afde4172708c08",
   "lastOpenFiles": [
+    "计算机/数据库/DataView的使用方法.md",
+    "2024-05-27.md",
     "计算机/数据库/设计范式.md",
     "计算机/数据库/函数依赖.md",
     "计算机/数据库/关系代数.md",
@@ -197,10 +199,8 @@
     "programe/C++/面向对象.md",
     "programe/C++/虚函数.md",
     "programe/C++/STL/smart_ptr.md",
-    "设计模式/创建型设计模式/工厂方法.md",
     "programe/Java/SpringBoot",
     "programe/Java",
-    "设计模式/创建型设计模式/单例.md",
     "未命名.canvas",
     "programe/Rust",
     "附件/计算机/数据库/关系代数_并交差.png",
