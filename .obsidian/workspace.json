@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机/数据库/函数依赖.md",
+                "file": "计算机/数据库/DataView的使用方法.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -114,6 +114,8 @@
   },
   "active": "e6afde4172708c08",
   "lastOpenFiles": [
+    "计算机/数据库/设计范式.md",
+    "计算机/数据库/函数依赖.md",
     "计算机/数据库/关系代数.md",
     "计算机/计算机组成原理/CISC与RISC.md",
     "计算机/计算机组成原理/寻址方式.md",
@@ -140,8 +142,6 @@
     "programe/Java/SpringBoot",
     "programe/Java",
     "设计模式/创建型设计模式/单例.md",
-    "设计模式/创建型设计模式/抽象工厂.md",
-    "2024-05-26.md",
     "未命名.canvas",
     "programe/Rust",
     "附件/计算机/数据库/关系代数_并交差.png",
