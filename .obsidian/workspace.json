@@ -11,8 +11,13 @@
             "id": "e6afde4172708c08",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "计算机/数据库/函数依赖.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
             }
           }
         ]
@@ -90,7 +95,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 381.5
+    "width": 381.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -106,8 +112,24 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "9b3456f6cbad6141",
+  "active": "e6afde4172708c08",
   "lastOpenFiles": [
+    "计算机/数据库/关系代数.md",
+    "计算机/计算机组成原理/CISC与RISC.md",
+    "计算机/计算机组成原理/寻址方式.md",
+    "计算机/计算机组成原理/段页式存储.md",
+    "algorithm/数学/秦九邵算法.md",
+    "计算机/计算机组成原理/进制.md",
+    "计算机/计算机组成原理/数据的编码.md",
+    "软件工程/开发模型.md",
+    "软件工程/耦合.md",
+    "软件工程/维护.md",
+    "软件工程/CMM.md",
+    "软件工程/UML.md",
+    "设计模式/创建型设计模式/简单工厂.md",
+    "设计模式/创建型设计模式/生成器.md",
+    "algorithm/数学/博弈论.md",
+    "algorithm/数学/容斥定理.md",
     "programe/Java/README.md",
     "programe/Java/SpringBoot/AutoConfiguration.md",
     "programe/Rust/README.md",
@@ -117,28 +139,12 @@
     "设计模式/创建型设计模式/工厂方法.md",
     "programe/Java/SpringBoot",
     "programe/Java",
-    "设计模式/创建型设计模式/简单工厂.md",
     "设计模式/创建型设计模式/单例.md",
     "设计模式/创建型设计模式/抽象工厂.md",
     "2024-05-26.md",
     "未命名.canvas",
-    "algorithm/排序/堆排序.md",
-    "programe/C++/STL/Container/queue.md",
-    "计算机/计算机组成原理/进制.md",
-    "README.md",
-    "计算机/View.md",
-    "计算机/网络/OSI模型.md",
     "programe/Rust",
-    "programe/C++/STL/Container/vector.md",
     "附件/计算机/数据库/关系代数_并交差.png",
-    "设计模式/创建型设计模式/原型.md",
-    "设计模式/创建型设计模式/生成器.md",
-    "template/算法.md",
-    "template/日记.md",
-    "template/WeekNote.md",
-    "计算机/数据库/DataView的使用方法.md",
-    "计算机/操作系统/临界资源.md",
-    "计算机/操作系统/死锁.md",
     "未命名 1.canvas",
     "使用须知",
     "programe/C++/STL/Container",
