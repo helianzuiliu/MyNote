@@ -26,3 +26,89 @@ Redis本身建议在Linux系统给上使用,Windows版的Redis由于性能和社
 3. 集群
 4. 事务
 
+## Redis的基础操作
+
+> `get key`
+> `set key value`
+
+设置获取值
+
+> `mset key value [ key ,value ...]`
+> `mget key [ key ... ]`
+
+同时设置获取多个值
+
+> `incr key`
+> `decr key`
+ 
+使key进行一次自增自减
+
+> `incrby key increment `
+> `decrby key decrement `
+
+设置key自增自减的步长
+
+> `STRLEN`
+
+返回字符串长度
+
+>` getrange key start end`
+
+截取字符串,end为-1时获取start后的全部字符串
+
+> `setrange key offset value`
+
+替换指定位置开始的字符串
+
+> `setex key second value `
+
+ 设置过期时间
+
+> `setnx key value`
+
+不存在再设置值,成功返回1,失败返回0    在分布式锁中常用
+
+> `ttl key `
+
+查看key的还有多久过期 
+
+> `msetnx key value [ key value ...] `
+
+msetnx是一个原子操作 一次设置多个,要么一起成功,要么一起失败
+
+> `obj`  TODO
+
+redis存储对象是用json字符串存储的,在取值的时候,redis可以用字段直接取对象中的数值
+
+
+## Redis的List操作
+
+list可以做成队列,栈,循环队列
+
+所有和List有关的命令都是L开头的
+
+> `lpush key value [value ...] `
+> `rpush key value [value ...]`
+
+`l`和`r`是加入队列的方向
+
+> `lrange key start stop`
+
+获取队列的元素
+
+> `lpop key`
+> `rpop key`
+
+弹出队列的元素
+
+> `lindex key index`
+
+获取key的第index个元素,index从0开始计算
+
+> `Llen key`
+
+获取key的长度
+
+> `lrem key count value` 
+>  
+
