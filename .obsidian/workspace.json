@@ -100,7 +100,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "计算机/数据库/NoSql/Redis.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +116,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "计算机/数据库/NoSql/Redis.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,9 +138,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "计算机/数据库/NoSql/Redis.md"
-              }
+              "state": {}
             }
           },
           {
@@ -150,9 +146,7 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {
-                "file": "计算机/数据库/NoSql/Redis.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -228,10 +222,10 @@
       }
     ]
   },
-  "active": "5c2ca10348dad5c1",
+  "active": "b65b53aab85d38ac",
   "lastOpenFiles": [
-    "计算机/数据库/非关系型数据库.md",
     "计算机/数据库/NoSql/Redis.md",
+    "计算机/数据库/非关系型数据库.md",
     "计算机/数据库/关系代数.md",
     "计算机/数据库/关系型数据库.md",
     "计算机/数据库/函数依赖.md",
