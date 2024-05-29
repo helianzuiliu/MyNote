@@ -4,20 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "8f1c9116a520891b",
+        "id": "9ba109b755418407",
         "type": "tabs",
         "children": [
           {
-            "id": "1a07ffefa65506f6",
+            "id": "b65b53aab85d38ac",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2024-05-27.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -105,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2024-05-27.md",
+                "file": "计算机/数据库/NoSql/Redis.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2024-05-27.md",
+                "file": "计算机/数据库/NoSql/Redis.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,16 +141,26 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2024-05-27.md"
+                "file": "计算机/数据库/NoSql/Redis.md"
+              }
+            }
+          },
+          {
+            "id": "0e58ac16614ccaeb",
+            "type": "leaf",
+            "state": {
+              "type": "file-properties",
+              "state": {
+                "file": "计算机/数据库/NoSql/Redis.md"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
-    "width": 381.5,
-    "collapsed": true
+    "width": 381.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -171,14 +176,72 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "1a07ffefa65506f6",
+  "floating": {
+    "id": "054008b59c2ab5bd",
+    "type": "floating",
+    "children": [
+      {
+        "id": "51302ef77a7fe054",
+        "type": "window",
+        "children": [
+          {
+            "id": "f3a58196dcc23f17",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "1a07ffefa65506f6",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "计算机/数据库/非关系型数据库.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "5c2ca10348dad5c1",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "计算机/数据库/NoSql/Redis.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
+              }
+            ],
+            "currentTab": 1
+          }
+        ],
+        "direction": "vertical",
+        "x": 801,
+        "y": -630,
+        "width": 699,
+        "height": 549,
+        "maximize": false,
+        "zoom": 0
+      }
+    ]
+  },
+  "active": "5c2ca10348dad5c1",
   "lastOpenFiles": [
+    "计算机/数据库/非关系型数据库.md",
+    "计算机/数据库/NoSql/Redis.md",
+    "计算机/数据库/关系代数.md",
+    "计算机/数据库/关系型数据库.md",
+    "计算机/数据库/函数依赖.md",
+    "计算机/数据库/设计范式.md",
+    "计算机/数据库/未命名.md",
+    "计算机/数据库/NoSql/MongoDB.md",
+    "计算机/数据库/NoSql",
+    "2024-05-27.md",
     "README.md",
     "计算机/数据库/DataView的使用方法.md",
-    "2024-05-27.md",
-    "计算机/数据库/设计范式.md",
-    "计算机/数据库/函数依赖.md",
-    "计算机/数据库/关系代数.md",
     "计算机/计算机组成原理/CISC与RISC.md",
     "计算机/计算机组成原理/寻址方式.md",
     "计算机/计算机组成原理/段页式存储.md",
@@ -194,11 +257,6 @@
     "设计模式/创建型设计模式/生成器.md",
     "algorithm/数学/博弈论.md",
     "algorithm/数学/容斥定理.md",
-    "programe/Java/README.md",
-    "programe/Java/SpringBoot/AutoConfiguration.md",
-    "programe/Rust/README.md",
-    "programe/C++/面向对象.md",
-    "programe/C++/虚函数.md",
     "programe/Java/SpringBoot",
     "programe/Java",
     "未命名.canvas",
@@ -220,7 +278,6 @@
     "日记/2023/2023-11",
     "附件/Pasted image 20231025191505.png",
     "programe/C++/STL",
-    "TCP",
     "计算机/算法/数据结构/未命名.canvas",
     "计算机/算法/数据结构/线性结构/线性结构.canvas"
   ]
