@@ -1,7 +1,6 @@
 
-
 ```dataview
-CALENDAR file.cday from "日记" and #日记 
+TASK FROM "" GROUP BY dateformat(file.cday,"yyyy-MM-dd")
 ```
 
 
