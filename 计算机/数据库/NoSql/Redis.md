@@ -110,5 +110,134 @@ list可以做成队列,栈,循环队列
 获取key的长度
 
 > `lrem key count value` 
->  
+
+移除key中指定个数的value
+
+> `trim  key start stop`
+
+截取key的元素,在范围之外的元素会被舍弃
+
+> `rpoplpush source destination`
+
+移除列表的最后一个元素,并将该元素加入另一个列表
+
+> `lset key index value`
+
+设置key的index为value,需要这个key和index位置的元素存在,不然会报错
+
+> `exists key`
+
+查看key是否存在
+
+> `linsert key brfore|after pivot value`
+
+在key的pivot位置的左或右边插入value
+
+Redis内的数据结构本质上是一个链表
+
+
+## Redis的Set(集合)操作
+
+所有和Set有关的命令都是S开头的
+
+> `sadd key member [member ...]`
+
+在key中加入member元素,加入成功返回1
+
+> `sismember key member`
+
+member元素否存在于key中,存在返回1,不存在返回0
+
+> `smembes key`
+
+获得key中的所有元素
+
+> `scard key`
+
+获得key的元素个数
+
+> `srem key value`
+
+移除key中的value元素
+
+> `spop key`
+
+随机移除一个key中的元素
+
+> `srandmenber key`
+
+在key中随机抽取一个元素返回
+
+> `smove source destination member`
+
+将source中的member元素转移到destination中
+
+> `sdiff key [key ...]`
+
+返回传入参数集合的差集
+
+> `sinter key [key ...] `
+
+返回传入参数集合的交集
+
+> `sunion key [key ...]`
+
+返回传入参数集合的并集
+
+
+
+
+## Redis的Hash操作
+
+key-map 这里的map指的是一个map集合
+
+hash更适合对象的存储
+
+所有和Hash有关的命令都是H开头的
+
+> `hset key field value`
+
+key指redis里的key,field指map里的key,value指map里的value
+
+> `hget key field`
+
+获取map里对应field的值
+
+> `hmset key field value [ field value ...]`
+> `hmget key field [field ...]`
+
+同时获取或设置多个值
+
+> `hgetall key`
+
+获得key中的所有键值对,返回key value
+
+> `hdel key field`
+
+删除key中指定的field键值对
+
+> `hlen key`
+
+返回key中键值对的个数
+
+> `hexists key field`
+
+判断key中的field是否存在
+
+> `hkeys key`
+> `hvals key`
+
+获取key中的所有field或value
+
+> `hincrby key field increment`
+
+使key的field字段自增自减
+
+> `hsetnx key field value`
+
+如果不存在则设置,否则不设置
+
+
+
+## Redis的Zset(有序集合)操作
 
