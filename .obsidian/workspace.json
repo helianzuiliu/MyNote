@@ -189,19 +189,6 @@
             "type": "tabs",
             "children": [
               {
-                "id": "1a07ffefa65506f6",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "计算机/数据库/非关系型数据库.md",
-                    "mode": "source",
-                    "backlinks": false,
-                    "source": false
-                  }
-                }
-              },
-              {
                 "id": "5c2ca10348dad5c1",
                 "type": "leaf",
                 "state": {
@@ -214,14 +201,13 @@
                   }
                 }
               }
-            ],
-            "currentTab": 1
+            ]
           }
         ],
         "direction": "vertical",
-        "x": 895,
+        "x": 846,
         "y": -415,
-        "width": 560,
+        "width": 609,
         "height": 314,
         "maximize": false,
         "zoom": 0

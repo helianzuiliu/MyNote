@@ -241,3 +241,8 @@ key指redis里的key,field指map里的key,value指map里的value
 
 ## Redis的Zset(有序集合)操作
 
+所有和Zset有关的命令都是Z开头的
+
+> `zadd key [NX|XX] [CH] [INCR] score member [sorce member ...]`
+
+key是
