@@ -89,7 +89,7 @@ list可以做成队列,栈,循环队列
 
 所有和List有关的命令都是L开头的
 
-> `lpush key value [value ...] `
+> `lpush key value [value ...]`
 > `rpush key value [value ...]`
 
 `l`和`r`是加入队列的方向
@@ -276,7 +276,6 @@ zset中的key是数字
 3) "sdovkmdps"
 4) "aldsc"
 ```
-
 
 
 
@@ -498,7 +497,7 @@ Hyperloglog的使用案例
 网页的浏览量
 - 在一段时间内同一个人浏览只有一次
 
-传统的可以用set保存,但是当浏览人数变多就会很占内存,此时Hyperloglog就可以在可接受的出错率下完美替换set
+传统的可以用set保存,但是当浏览人数变多就会很占内存,但是这种情形我们不需要去存储浏览人的id等数据,此时Hyperloglog就可以在可接受的出错率下完美替换set
 
 > `pfadd key element [element ...]`
 

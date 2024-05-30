@@ -19,8 +19,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "5c2ca10348dad5c1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "programe/Java/Jedis.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -105,7 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "计算机/数据库/NoSql/Redis.md",
+                "file": "programe/Java/Jedis.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +136,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "计算机/数据库/NoSql/Redis.md",
+                "file": "programe/Java/Jedis.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +160,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/数据库/NoSql/Redis.md"
+                "file": "programe/Java/Jedis.md"
               }
             }
           },
@@ -156,7 +170,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/数据库/NoSql/Redis.md"
+                "file": "programe/Java/Jedis.md"
               }
             }
           }
@@ -181,48 +195,11 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "floating": {
-    "id": "054008b59c2ab5bd",
-    "type": "floating",
-    "children": [
-      {
-        "id": "51302ef77a7fe054",
-        "type": "window",
-        "children": [
-          {
-            "id": "f3a58196dcc23f17",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "5c2ca10348dad5c1",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "计算机/数据库/NoSql/Redis.md",
-                    "mode": "source",
-                    "backlinks": false,
-                    "source": false
-                  }
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 704,
-        "y": -515,
-        "width": 788,
-        "height": 356,
-        "maximize": false,
-        "zoom": 0
-      }
-    ]
-  },
   "active": "5c2ca10348dad5c1",
   "lastOpenFiles": [
-    "programe/Java/SpringBoot/AutoConfiguration.md",
     "计算机/数据库/NoSql/Redis.md",
+    "programe/Java/Jedis.md",
+    "programe/Java/SpringBoot/AutoConfiguration.md",
     "programe/Java/README.md",
     "algorithm/时间复杂度.md",
     "algorithm/数学/博弈论.md",
@@ -247,7 +224,6 @@
     "软件工程/耦合.md",
     "软件工程/维护.md",
     "软件工程/CMM.md",
-    "软件工程/UML.md",
     "programe/Java/SpringBoot",
     "programe/Java",
     "未命名.canvas",
