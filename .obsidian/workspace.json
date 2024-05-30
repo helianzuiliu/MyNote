@@ -11,8 +11,13 @@
             "id": "b65b53aab85d38ac",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "programe/Java/SpringBoot/AutoConfiguration.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
             }
           }
         ]
@@ -205,10 +210,10 @@
           }
         ],
         "direction": "vertical",
-        "x": 846,
-        "y": -415,
-        "width": 609,
-        "height": 314,
+        "x": 789,
+        "y": -600,
+        "width": 570,
+        "height": 252,
         "maximize": false,
         "zoom": 0
       }
@@ -216,8 +221,12 @@
   },
   "active": "5c2ca10348dad5c1",
   "lastOpenFiles": [
-    "计算机/数据库/非关系型数据库.md",
+    "programe/Java/SpringBoot/AutoConfiguration.md",
+    "programe/Java/README.md",
+    "algorithm/时间复杂度.md",
+    "algorithm/数学/博弈论.md",
     "计算机/数据库/NoSql/Redis.md",
+    "计算机/数据库/非关系型数据库.md",
     "计算机/数据库/关系代数.md",
     "计算机/数据库/关系型数据库.md",
     "计算机/数据库/函数依赖.md",
@@ -239,10 +248,6 @@
     "软件工程/维护.md",
     "软件工程/CMM.md",
     "软件工程/UML.md",
-    "设计模式/创建型设计模式/简单工厂.md",
-    "设计模式/创建型设计模式/生成器.md",
-    "algorithm/数学/博弈论.md",
-    "algorithm/数学/容斥定理.md",
     "programe/Java/SpringBoot",
     "programe/Java",
     "未命名.canvas",

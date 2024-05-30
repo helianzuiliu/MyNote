@@ -6,9 +6,11 @@ Redis(Remote Dictionary Server) 是一个由ANSI C语言编写的,支持网络,�
 
 对应的Github开源地址[Redis](https://github.com/redis/redis)
 
+Redis的官方文档[Redis Document](https://redis.io/docs/latest/)
+
 中文网站[Redis中文网](https://www.redis.net.cn/)
 
-Redis本身建议在Linux系统给上使用,Windows版的Redis由于性能和社区开发活力不足已经有一段时间没有更新了
+Redis本身建议在Linux系统上使用,Windows版的Redis使用的比较少
 
 ## Redis能干嘛
 
@@ -245,4 +247,131 @@ key指redis里的key,field指map里的key,value指map里的value
 
 > `zadd key [NX|XX] [CH] [INCR] score member [sorce member ...]`
 
-key是
+`[NX|XX]`是如果存在或不存在则加入,与前面的api逻辑相同
+
+score是sort的权重,在集合中会根据这个数值自动排序
+
+member是集合的value
+
+zset中的key是数字
+
+```bash
+127.0.0.1:6379> zadd zset 1 lkcadsa
+(integer) 1
+127.0.0.1:6379> zadd zset 3 sdovkmdps
+(integer) 1
+127.0.0.1:6379> zadd zset 2 sdovkmdps 9 aldsc
+(integer) 1
+```
+
+
+> `zrange key start stop`
+
+获取zset中序号在start到stop中的元素,这个序号与score无关,只与在ihe中的位置有关
+
+```bash
+127.0.0.1:6379> zrange zset 0 -1
+1) "sadasd"
+2) "lkcadsa"
+3) "sdovkmdps"
+4) "aldsc"
+```
+
+
+
+
+> `zrangebyscore key min max [withscores] [limit offset count]`
+> `zrevrangebyscore key min max [withscores] [limit offset count]`
+
+min和max可以填-inf和+inf代表正负无穷
+
+withscores 会一并返回对应的scores
+
+```bash
+127.0.0.1:6379> zrangebyscore zset -inf +inf
+1) "sadasd"
+2) "lkcadsa"
+3) "sdovkmdps"
+4) "aldsc"
+5) "10"
+6) "2124"
+7) "029112"
+
+127.0.0.1:6379> zrevrangebyscore zset +inf -inf
+1) "029112"
+2) "2124"
+3) "10"
+4) "aldsc"
+5) "sdovkmdps"
+6) "lkcadsa"
+7) "sadasd"
+
+127.0.0.1:6379> zrangebyscore zset -inf +inf withscores
+ 1) "sadasd"
+ 2) "0"
+ 3) "lkcadsa"
+ 4) "1"
+ 5) "sdovkmdps"
+ 6) "2"
+ 7) "aldsc"
+ 8) "9"
+ 9) "10"
+10) "10"
+11) "2124"
+12) "122"
+13) "029112"
+14) "12897"
+```
+
+
+> `zrem key member [member ...]`
+
+在zset集合中删除member元素
+
+```bash
+127.0.0.1:6379> zrem zset sadasd
+(integer) 1
+127.0.0.1:6379> zrange zset 0 -1
+1) "lkcadsa"
+2) "sdovkmdps"
+3) "aldsc"
+4) "10"
+5) "2124"
+6) "029112"
+```
+
+> `zcard key`
+
+获得zset中元素的个数
+
+```bash
+127.0.0.1:6379> zcard zset
+(integer) 6
+```
+
+> `zcount key min max`
+
+计算min和max区间中的元素的个数
+
+```bash
+127.0.0.1:6379> zcount zset 0 10
+(integer) 4
+127.0.0.1:6379> zcount zset 0 +inf
+(integer) 6
+```
+
+
+## Redis的geospatial(地理空间) 
+
+所有和geospatial有关的命令都是geo开头的
+
+geospatial的内容符合地球的经纬度,不能tian
+
+> `geoadd key longitude latitude member [longitude latitude member ...]`
+
+`longitude`是经度, `latitude`是纬度 `member`是别名
+
+```bash
+127.0.0.1:6379> geoadd china:city 116.40 39.90 beijin
+(integer) 1
+```
