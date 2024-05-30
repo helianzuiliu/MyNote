@@ -367,6 +367,8 @@ withscores 会一并返回对应的scores
 
 geospatial的内容符合地球的经纬度,不能填超出地球经纬度的数据,也**不能写入两级的位置数据**
 
+geospatial本质是zset, 可以用zset的方法对geospatial进行一些操作
+
 具体的说有效的维度是-180°到180° 
 
 有效的维度是-85.05112878°到85.05112878°
@@ -457,6 +459,84 @@ unit是这个距离的单位支持
 
 参数和上一个相同
 
+```bash
+127.0.0.1:6379> georadiusbymember china:city beijin 10000 km withcoord
+1) 1) "shanghai"
+   2) 1) "121.47000163793563843"
+      2) "31.22999903975783553"
+2) 1) "beijin"
+   2) 1) "116.39999896287918091"
+      2) "39.90000009167092543"
+```
+
 > `geohash key member [member ...]`
 
-获得成员的位置表示
+获得成员的位置表示的hash字符串,如果两个字符串越像,则代表位置越近
+
+这种哈希字符串的长度只有11个字符,存在很小的精度损失,存在一种生成51个字符的精确hash算法,但是消耗geohash相对大很多
+
+```
+127.0.0.1:6379> geohash china:city beijin
+1) "wx4fbxxfke0"
+```
+
+
+
+## Redis的Hyperloglog(基数)
+
+所有和Hyperloglog有关的命令都是PF开头的
+
+>[!NOTE] 什么是Hyperloglog
+>Redis在2.8.9版本加入了Hyperloglog数据结构
+>
+>Hyperloglog用于基数统计的数据结构
+
+优点: 占用的内存是固定的,2^64大小的数据量只需要12kb内存就可以存储,出错率在0.81%
+
+Hyperloglog的使用案例
+
+网页的浏览量
+- 在一段时间内同一个人浏览只有一次
+
+传统的可以用set保存,但是当浏览人数变多就会很占内存,此时Hyperloglog就可以在可接受的出错率下完美替换set
+
+> `pfadd key element [element ...]`
+
+在key中加入元素
+
+```bash
+127.0.0.1:6379> pfadd loglog a s d f a s
+(integer) 1
+```
+
+> `pdcount key`
+
+查询key中元素的个数
+
+```bash
+127.0.0.1:6379> pfcount loglog
+(integer) 4
+```
+
+> `pfmerge destkey sourcekey [sourcekey]`
+
+将多个`key`合成为一个`destkey`,源`key`还是存在不会消失
+
+```bash
+127.0.0.1:6379> pfadd log 1 2 3 4 5 6 7
+(integer) 1
+127.0.0.1:6379> pfmerge newlog log loglog
+OK
+127.0.0.1:6379> pfcount log
+(integer) 7
+127.0.0.1:6379> pfcount loglog
+(integer) 4
+127.0.0.1:6379> pfcount newlog
+(integer) 11
+```
+
+
+
+
+## Redis的Bitmap(位图)
+
