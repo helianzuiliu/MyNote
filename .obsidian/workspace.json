@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "programe/Java/Jedis.md",
+                "file": "algorithm/数据结构/树/二叉树/二叉树.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -119,7 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "programe/Java/Jedis.md",
+                "file": "algorithm/数据结构/树/二叉树/二叉树.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +136,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "programe/Java/Jedis.md",
+                "file": "algorithm/数据结构/树/二叉树/二叉树.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -160,7 +160,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "programe/Java/Jedis.md"
+                "file": "algorithm/数据结构/树/二叉树/二叉树.md"
               }
             }
           },
@@ -170,7 +170,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "programe/Java/Jedis.md"
+                "file": "algorithm/数据结构/树/二叉树/二叉树.md"
               }
             }
           }
@@ -197,8 +197,12 @@
   },
   "active": "5c2ca10348dad5c1",
   "lastOpenFiles": [
-    "计算机/数据库/NoSql/Redis.md",
+    "algorithm/数据结构/树/二叉树/二叉搜索树.md",
+    "algorithm/数据结构/树/二叉树/平衡二叉树.md",
+    "algorithm/数据结构/树/线段树.md",
+    "algorithm/数据结构/树/树.md",
     "programe/Java/Jedis.md",
+    "计算机/数据库/NoSql/Redis.md",
     "programe/Java/SpringBoot/AutoConfiguration.md",
     "programe/Java/README.md",
     "algorithm/时间复杂度.md",
@@ -220,10 +224,6 @@
     "algorithm/数学/秦九邵算法.md",
     "计算机/计算机组成原理/进制.md",
     "计算机/计算机组成原理/数据的编码.md",
-    "软件工程/开发模型.md",
-    "软件工程/耦合.md",
-    "软件工程/维护.md",
-    "软件工程/CMM.md",
     "programe/Java/SpringBoot",
     "programe/Java",
     "未命名.canvas",
