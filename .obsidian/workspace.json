@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机/数据库/NoSql/Redis.md",
+                "file": "algorithm/字符串/字符串哈希.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "[\"TODO\"]",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -66,7 +66,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -105,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "计算机/数据库/NoSql/Redis.md",
+                "file": "algorithm/字符串/字符串哈希.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "计算机/数据库/NoSql/Redis.md",
+                "file": "algorithm/字符串/字符串哈希.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +147,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/数据库/NoSql/Redis.md"
+                "file": "algorithm/字符串/字符串哈希.md"
               }
             }
           },
@@ -156,12 +157,12 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/数据库/NoSql/Redis.md"
+                "file": "algorithm/字符串/字符串哈希.md"
               }
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
@@ -183,22 +184,23 @@
   },
   "active": "94a51a7fa08abe74",
   "lastOpenFiles": [
+    "algorithm/数学/质数筛/打表.md",
+    "计算机/数据库/NoSql/Redis.md",
+    "programe/Java/Jedis.md",
+    "programe/Java/SpringBoot/AutoConfiguration.md",
+    "programe/Java/README.md",
     "计算机/数据库/非关系型数据库.md",
     "计算机/数据库/关系代数.md",
     "计算机/数据库/关系型数据库.md",
     "计算机/数据库/函数依赖.md",
     "计算机/数据库/设计范式.md",
     "计算机/数据库/DataView的使用方法.md",
-    "计算机/数据库/NoSql/Redis.md",
     "README.md",
-    "programe/Java/SpringBoot/AutoConfiguration.md",
     "algorithm/数据结构/树/二叉树/二叉树.md",
     "algorithm/数据结构/树/二叉树/二叉搜索树.md",
     "algorithm/数据结构/树/二叉树/平衡二叉树.md",
     "algorithm/数据结构/树/线段树.md",
     "algorithm/数据结构/树/树.md",
-    "programe/Java/Jedis.md",
-    "programe/Java/README.md",
     "algorithm/时间复杂度.md",
     "algorithm/数学/博弈论.md",
     "计算机/数据库/未命名.md",
@@ -209,7 +211,6 @@
     "计算机/计算机组成原理/寻址方式.md",
     "计算机/计算机组成原理/段页式存储.md",
     "algorithm/数学/秦九邵算法.md",
-    "计算机/计算机组成原理/进制.md",
     "programe/Java/SpringBoot",
     "programe/Java",
     "未命名.canvas",
