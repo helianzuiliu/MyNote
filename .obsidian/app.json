@@ -24,5 +24,6 @@
     "附件/"
   ],
   "vimMode": false,
-  "newFileLocation": "current"
+  "newFileLocation": "current",
+  "focusNewTab": false
 }

@@ -4,37 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "9ba109b755418407",
+        "id": "8000c6736b8ecc9b",
         "type": "tabs",
         "children": [
           {
-            "id": "b65b53aab85d38ac",
+            "id": "94a51a7fa08abe74",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "programe/Java/SpringBoot/AutoConfiguration.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5c2ca10348dad5c1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "algorithm/数据结构/树/二叉树/二叉树.md",
+                "file": "计算机/数据库/NoSql/Redis.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -119,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "algorithm/数据结构/树/二叉树/二叉树.md",
+                "file": "计算机/数据库/NoSql/Redis.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "algorithm/数据结构/树/二叉树/二叉树.md",
+                "file": "计算机/数据库/NoSql/Redis.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -160,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "algorithm/数据结构/树/二叉树/二叉树.md"
+                "file": "计算机/数据库/NoSql/Redis.md"
               }
             }
           },
@@ -170,12 +156,12 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "algorithm/数据结构/树/二叉树/二叉树.md"
+                "file": "计算机/数据库/NoSql/Redis.md"
               }
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -195,35 +181,35 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "5c2ca10348dad5c1",
+  "active": "94a51a7fa08abe74",
   "lastOpenFiles": [
-    "algorithm/数据结构/树/二叉树/二叉搜索树.md",
-    "algorithm/数据结构/树/二叉树/平衡二叉树.md",
-    "algorithm/数据结构/树/线段树.md",
-    "algorithm/数据结构/树/树.md",
-    "programe/Java/Jedis.md",
-    "计算机/数据库/NoSql/Redis.md",
-    "programe/Java/SpringBoot/AutoConfiguration.md",
-    "programe/Java/README.md",
-    "algorithm/时间复杂度.md",
-    "algorithm/数学/博弈论.md",
     "计算机/数据库/非关系型数据库.md",
     "计算机/数据库/关系代数.md",
     "计算机/数据库/关系型数据库.md",
     "计算机/数据库/函数依赖.md",
     "计算机/数据库/设计范式.md",
+    "计算机/数据库/DataView的使用方法.md",
+    "计算机/数据库/NoSql/Redis.md",
+    "README.md",
+    "programe/Java/SpringBoot/AutoConfiguration.md",
+    "algorithm/数据结构/树/二叉树/二叉树.md",
+    "algorithm/数据结构/树/二叉树/二叉搜索树.md",
+    "algorithm/数据结构/树/二叉树/平衡二叉树.md",
+    "algorithm/数据结构/树/线段树.md",
+    "algorithm/数据结构/树/树.md",
+    "programe/Java/Jedis.md",
+    "programe/Java/README.md",
+    "algorithm/时间复杂度.md",
+    "algorithm/数学/博弈论.md",
     "计算机/数据库/未命名.md",
     "计算机/数据库/NoSql/MongoDB.md",
     "计算机/数据库/NoSql",
     "2024-05-27.md",
-    "README.md",
-    "计算机/数据库/DataView的使用方法.md",
     "计算机/计算机组成原理/CISC与RISC.md",
     "计算机/计算机组成原理/寻址方式.md",
     "计算机/计算机组成原理/段页式存储.md",
     "algorithm/数学/秦九邵算法.md",
     "计算机/计算机组成原理/进制.md",
-    "计算机/计算机组成原理/数据的编码.md",
     "programe/Java/SpringBoot",
     "programe/Java",
     "未命名.canvas",
