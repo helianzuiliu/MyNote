@@ -109,7 +109,7 @@ list可以做成队列,栈,循环队列
 
 获取key的第index个元素,index从0开始计算
 
-> `Llen key`
+> `llen key`
 
 获取key的长度
 
@@ -483,7 +483,7 @@ unit是这个距离的单位支持
 
 
 
-## Redis的Hyperloglog(基数)
+### Redis的Hyperloglog(基数)
 
 所有和Hyperloglog有关的命令都是PF开头的
 
@@ -539,7 +539,7 @@ OK
 
 
 
-## Redis的Bitmap(位图)
+### Redis的Bitmap(位图)
 
 
 
@@ -630,7 +630,7 @@ Redis会单独创建一个子进程进行持久化,先将数据写入到一个�
 默认不开启
 
 ```txt
-appendonly on # aof的开关
+appendonly no # aof的开关
 
 auto-aof-rewrite-percentage 100
 auto-aof-rewrite-min-size 64mb # aof文件大于64mb会追加一个文件写文件

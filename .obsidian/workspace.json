@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "计算机/数据库/NoSql/Redis.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -70,7 +70,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 277.5
+    "width": 277.5,
+    "collapsed": true
   },
   "right": {
     "id": "8d6c691ab084dea8",
@@ -161,11 +162,11 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 381.5
+    "width": 301.5
   },
   "left-ribbon": {
     "hiddenItems": {
