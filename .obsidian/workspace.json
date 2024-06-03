@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "programe/C++/ThreadPool.md",
+                "file": "计算机/数据库/NoSql/Redis.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "programe/C++/ThreadPool.md",
+                "file": "计算机/数据库/NoSql/Redis.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "programe/C++/ThreadPool.md",
+                "file": "计算机/数据库/NoSql/Redis.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "programe/C++/ThreadPool.md"
+                "file": "计算机/数据库/NoSql/Redis.md"
               }
             }
           },
@@ -156,7 +156,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "programe/C++/ThreadPool.md"
+                "file": "计算机/数据库/NoSql/Redis.md"
               }
             }
           }
@@ -165,7 +165,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 381.5
+    "width": 381.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -183,8 +184,9 @@
   },
   "active": "94a51a7fa08abe74",
   "lastOpenFiles": [
-    "algorithm/字符串/字符串哈希.md",
     "programe/C++/ThreadPool.md",
+    "附件/Pasted image 20240602123837.png",
+    "algorithm/字符串/字符串哈希.md",
     "algorithm/数学/质数筛/打表.md",
     "计算机/数据库/NoSql/Redis.md",
     "programe/Java/Jedis.md",
@@ -209,7 +211,6 @@
     "计算机/数据库/NoSql",
     "2024-05-27.md",
     "计算机/计算机组成原理/CISC与RISC.md",
-    "计算机/计算机组成原理/寻址方式.md",
     "programe/Java/SpringBoot",
     "programe/Java",
     "未命名.canvas",
@@ -229,7 +230,6 @@
     "附件/Pasted image 20231101230234.png",
     "附件/Pasted image 20231101205720.png",
     "日记/2023/2023-11",
-    "附件/Pasted image 20231025191505.png",
     "programe/C++/STL",
     "计算机/算法/数据结构/未命名.canvas",
     "计算机/算法/数据结构/线性结构/线性结构.canvas"
