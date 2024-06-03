@@ -100,7 +100,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "计算机/数据库/NoSql/Redis.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +116,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "计算机/数据库/NoSql/Redis.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,9 +138,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "计算机/数据库/NoSql/Redis.md"
-              }
+              "state": {}
             }
           },
           {
@@ -150,9 +146,7 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {
-                "file": "计算机/数据库/NoSql/Redis.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -215,11 +209,11 @@
       }
     ]
   },
-  "active": "94a51a7fa08abe74",
+  "active": "aa21b8741f161f20",
   "lastOpenFiles": [
+    "计算机/数据库/NoSql/Redis.md",
     "附件/Pasted image 20240603113705.png",
     "附件/Pasted image 20240603110536.png",
-    "计算机/数据库/NoSql/Redis.md",
     "programe/C++/ThreadPool.md",
     "附件/Pasted image 20240602123837.png",
     "algorithm/字符串/字符串哈希.md",
@@ -262,7 +256,6 @@
     "附件/v2-53e27c9c885c157c64d1fd37aebb81ce_1440w.webp",
     "附件/Pasted image 20231102195103.png",
     "附件/Pasted image 20231101230259.png",
-    "附件/Pasted image 20231101230234.png",
     "日记/2023/2023-11",
     "programe/C++/STL",
     "计算机/算法/数据结构/未命名.canvas",
