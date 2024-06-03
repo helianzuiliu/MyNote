@@ -646,6 +646,7 @@ auto-aof-rewrite-min-size 64mb # aof文件大于64mb会追加一个文件写文�
 - aof的运行会平凡涉及IO操作,速度比rdb慢
 
 
+
 ## Redis订阅
 
 Redis发布订阅(pub/sub)是一种**消息通信模式**,发送者(pub)发送消息,订阅者(sub)接收消息. wx,wb,关注系统
