@@ -4,20 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "8000c6736b8ecc9b",
+        "id": "2d3694c61228c4e5",
         "type": "tabs",
         "children": [
           {
-            "id": "94a51a7fa08abe74",
+            "id": "aa21b8741f161f20",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "计算机/数据库/NoSql/Redis.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -182,13 +177,53 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
+  "floating": {
+    "id": "8f81aadd23cc0451",
+    "type": "floating",
+    "children": [
+      {
+        "id": "2f6a6d67eb379003",
+        "type": "window",
+        "children": [
+          {
+            "id": "e8994f0e2bf6c38f",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "94a51a7fa08abe74",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "计算机/数据库/NoSql/Redis.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 997,
+        "y": -568,
+        "width": 480,
+        "height": 480,
+        "maximize": false,
+        "zoom": 0
+      }
+    ]
+  },
   "active": "94a51a7fa08abe74",
   "lastOpenFiles": [
+    "附件/Pasted image 20240603113705.png",
+    "附件/Pasted image 20240603110536.png",
+    "计算机/数据库/NoSql/Redis.md",
     "programe/C++/ThreadPool.md",
     "附件/Pasted image 20240602123837.png",
     "algorithm/字符串/字符串哈希.md",
     "algorithm/数学/质数筛/打表.md",
-    "计算机/数据库/NoSql/Redis.md",
     "programe/Java/Jedis.md",
     "programe/Java/SpringBoot/AutoConfiguration.md",
     "programe/Java/README.md",
@@ -228,7 +263,6 @@
     "附件/Pasted image 20231102195103.png",
     "附件/Pasted image 20231101230259.png",
     "附件/Pasted image 20231101230234.png",
-    "附件/Pasted image 20231101205720.png",
     "日记/2023/2023-11",
     "programe/C++/STL",
     "计算机/算法/数据结构/未命名.canvas",
