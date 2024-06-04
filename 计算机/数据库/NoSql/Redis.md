@@ -28,9 +28,9 @@ Redis本身建议在Linux系统上使用,Windows版的Redis使用的比较少
 4. 事务
 
 
-## Redis基础
+## Redis基础数据结构
 
-### Redis的基础操作
+### Redis的String操作
 
 > `get key`
 > `set key value`
@@ -362,6 +362,8 @@ withscores 会一并返回对应的scores
 ```
 
 
+## Redis的特殊数据结构
+
 ### Redis的geospatial(地理空间) 
 
 所有和geospatial有关的命令都是geo开头的
@@ -690,4 +692,55 @@ Redis客户端可以订阅任意数量的频道
 
 
 
-## Redis zhu'cong
+## Redis 主从复制
+
+一般情况下，Redis的主从复制指的就是哨兵模式
+
+默认情况下，每台Redis服务器都是主节点，一个主节点可以有多个从节点，一个从节点只能由一个主节点
+
+主从复制的主要作用包括
+1. 数据冗余：实现了数据的热备份，是持久化之外的一种数据冗余方式
+2. 故障修复：当主节点出现问题时，可以有从系欸但提供服务，实现快速的故障修复，实际上是一种服务冗余
+3. 负载均衡：再主从复制的基础上配合读写分离，主节点提供主服务，从节点提供读服务，分担服务器压力，在写少读多的场景下，多个节点分担读负载可以大幅提高Redis服务的并发量
+4. 高可用（集群）基石
+
+一般来说，Redis运用于工程中不能只用一台Redis（一般使用3个，1主2从）
+1. 从结构上，单个Redis服务器会发生单点故障，并且一个服务器处理所有请求会有很大压力
+2. 从容量上看，单个Redis服务器内润容量有限。一般来说单台Redis最大使用内存不应该超过20G
+
+### 主从复制的配置
+
+查看配置
+
+```bash
+127.0.0.1:6379> info replication
+# Replication
+role:master # 角色
+connected_slaves:0 # 从节点个数
+master_failover_state:no-failover
+master_replid:680c1b3f61382d3216e493e36946204fa723b105
+master_replid2:0000000000000000000000000000000000000000
+master_repl_offset:0
+second_repl_offset:-1
+repl_backlog_active:0
+repl_backlog_size:1048576
+repl_backlog_first_byte_offset:0
+repl_backlog_histlen:0
+```
+
+如果是本地搭建集群可以修改config文件中的以下四条来做到一台机器开启多个`redis-server`
+
+```txt
+port 6379 # 端口
+pidfile /var/run/redis/redis-server.pid # 进程文件
+logfile /var/log/redis/redis-server.log # 日志文件
+dbfilename redis_backup.rdb # 备份文件
+```
+
+### 设置主从复制
+
+一般情况下只用配置从节点,主节点不用配置
+
+> `slaveof host port`
+
+

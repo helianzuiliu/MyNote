@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "2d3694c61228c4e5",
+        "id": "276dfdbe6e3a5f50",
         "type": "tabs",
         "children": [
           {
-            "id": "aa21b8741f161f20",
+            "id": "09f0a9dce7c36744",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -166,7 +166,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 301.5
+    "width": 301.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -182,7 +183,7 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "aa21b8741f161f20",
+  "active": "09f0a9dce7c36744",
   "lastOpenFiles": [
     "计算机/数据库/NoSql/Redis.md",
     "附件/Pasted image 20240603113705.png",
