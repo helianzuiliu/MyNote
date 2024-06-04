@@ -546,6 +546,14 @@ OK
 
 
 
+### Redis的Stream
+
+
+
+
+
+
+
 ## Redis的事务
 
 Redis的事务不同于MySQL的事务，Redis会像一系列的指令放入一个队列中，当事务执行才会将队列中的命令一次性执行完
@@ -679,3 +687,7 @@ Redis客户端可以订阅任意数量的频道
 > `unsubscribe [channel [channel ...]]`
 
 退订给定的频道
+
+
+
+##
