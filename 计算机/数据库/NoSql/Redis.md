@@ -743,39 +743,56 @@ dbfilename redis_backup.rdb # 备份文件
 
 > `slaveof host port`
 
-```
-docker run -d -p 6380:6379 --name redis_docker -v /home/hlzl/docker/redis/data:/data -v /home/hlzl/docker/redis/config/redis.conf:/usr/local/etc/redis/redis.conf redis redis-server /usr/local/etc/redis/redis.conf 
+host指主节点的ip地址
 
-```
+port指主节点所在的端口号
 
 在6380上配置一台从节点,从节点可以知道主节点的信息
 
+>[!INFO] Docker配置Redis集群的注意事项
+>Docker配置集群的网络除了映射好的端口以外不能用127.0.0.1直接连接,需要在容器里用`hostname -I`命令查看容器的网络ip地址,用ip地址才能连接
+>如果主从节点都配置在docker里也可以使用ip,但是更推荐使用network来配置不同容器间的网络关系
+
+查看主节点的ip
+
 ```bash
-127.0.0.1:6380> slaveof 127.0.0.1 6379
+➜  ~ hostname -I 
+172.30.90.34 172.17.0.1 # 主节点的ip
+```
+
+进入docker容器查看从节点的ip
+
+```bash
+➜  ~ docker exec -it redis_docker /bin/bash # 用docker进入容器内部操作
+root@8e4119efacf5:/data# hostname -I  
+172.17.0.2  # 从节点的ip
+```
+
+```bash
+172.17.0.2:6379> slaveof 172.17.0.1 6379 # 由于使用了docker配置从节点,ip地址需要换成主节点的hostname -I里的ip
 OK
-127.0.0.1:6380> info replication
+172.17.0.2:6379> info replication
 # Replication
 role:slave
-master_host:127.0.0.1
+master_host:172.17.0.1
 master_port:6379
-master_link_status:down
-master_last_io_seconds_ago:-1
+master_link_status:up
+master_last_io_seconds_ago:7
 master_sync_in_progress:0
 slave_read_repl_offset:0
 slave_repl_offset:0
-master_link_down_since_seconds:-1
 slave_priority:100
 slave_read_only:1
 replica_announced:1
 connected_slaves:0
 master_failover_state:no-failover
-master_replid:06d3290e544d2f522cad918e01824d7bd14a6e63
+master_replid:3ee9de26872b199c52dd1d4e49317be88aabaf12
 master_replid2:0000000000000000000000000000000000000000
 master_repl_offset:0
 second_repl_offset:-1
-repl_backlog_active:0
+repl_backlog_active:1
 repl_backlog_size:1048576
-repl_backlog_first_byte_offset:0
+repl_backlog_first_byte_offset:1
 repl_backlog_histlen:0
 ```
 
@@ -785,14 +802,15 @@ repl_backlog_histlen:0
 127.0.0.1:6379> info replication
 # Replication
 role:master
-connected_slaves:0
+connected_slaves:1
+slave0:ip=172.17.0.2,port=6379,state=online,offset=56,lag=1
 master_failover_state:no-failover
-master_replid:680c1b3f61382d3216e493e36946204fa723b105
+master_replid:3ee9de26872b199c52dd1d4e49317be88aabaf12
 master_replid2:0000000000000000000000000000000000000000
-master_repl_offset:0
+master_repl_offset:56
 second_repl_offset:-1
-repl_backlog_active:0
+repl_backlog_active:1
 repl_backlog_size:1048576
-repl_backlog_first_byte_offset:0
-repl_backlog_histlen:0
+repl_backlog_first_byte_offset:1
+repl_backlog_histlen:56
 ```
