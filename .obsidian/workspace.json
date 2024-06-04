@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "计算机/数据库/NoSql/Redis.md",
-                "mode": "preview",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -183,7 +183,7 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "09f0a9dce7c36744",
+  "active": "312713e416cd5434",
   "lastOpenFiles": [
     "计算机/数据库/NoSql/Redis.md",
     "附件/Pasted image 20240603113705.png",
