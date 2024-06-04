@@ -743,4 +743,56 @@ dbfilename redis_backup.rdb # 备份文件
 
 > `slaveof host port`
 
+```
+docker run -d -p 6380:6379 --name redis_docker -v /home/hlzl/docker/redis/data:/data -v /home/hlzl/docker/redis/config/redis.conf:/usr/local/etc/redis/redis.conf redis redis-server /usr/local/etc/redis/redis.conf 
 
+```
+
+在6380上配置一台从节点,从节点可以知道主节点的信息
+
+```bash
+127.0.0.1:6380> slaveof 127.0.0.1 6379
+OK
+127.0.0.1:6380> info replication
+# Replication
+role:slave
+master_host:127.0.0.1
+master_port:6379
+master_link_status:down
+master_last_io_seconds_ago:-1
+master_sync_in_progress:0
+slave_read_repl_offset:0
+slave_repl_offset:0
+master_link_down_since_seconds:-1
+slave_priority:100
+slave_read_only:1
+replica_announced:1
+connected_slaves:0
+master_failover_state:no-failover
+master_replid:06d3290e544d2f522cad918e01824d7bd14a6e63
+master_replid2:0000000000000000000000000000000000000000
+master_repl_offset:0
+second_repl_offset:-1
+repl_backlog_active:0
+repl_backlog_size:1048576
+repl_backlog_first_byte_offset:0
+repl_backlog_histlen:0
+```
+
+此时6379端口的服务器也可以知道有了一台从节点连接
+
+```bash
+127.0.0.1:6379> info replication
+# Replication
+role:master
+connected_slaves:0
+master_failover_state:no-failover
+master_replid:680c1b3f61382d3216e493e36946204fa723b105
+master_replid2:0000000000000000000000000000000000000000
+master_repl_offset:0
+second_repl_offset:-1
+repl_backlog_active:0
+repl_backlog_size:1048576
+repl_backlog_first_byte_offset:0
+repl_backlog_histlen:0
+```
