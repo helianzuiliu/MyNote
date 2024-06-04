@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "276dfdbe6e3a5f50",
+        "id": "6a98ad61c2cd8ac0",
         "type": "tabs",
         "children": [
           {
-            "id": "09f0a9dce7c36744",
+            "id": "577fbaa17530de92",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机/数据库/NoSql/Redis.md",
+                "file": "计算机/数据库/NoSql/Redis/Redis缓存穿透和雪崩.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "计算机/数据库/NoSql/Redis.md",
+                "file": "计算机/数据库/NoSql/Redis/Redis缓存穿透和雪崩.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "计算机/数据库/NoSql/Redis.md",
+                "file": "计算机/数据库/NoSql/Redis/Redis缓存穿透和雪崩.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -147,7 +147,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/数据库/NoSql/Redis.md"
+                "file": "计算机/数据库/NoSql/Redis/Redis缓存穿透和雪崩.md"
               }
             }
           },
@@ -157,7 +157,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/数据库/NoSql/Redis.md"
+                "file": "计算机/数据库/NoSql/Redis/Redis缓存穿透和雪崩.md"
               }
             }
           }
@@ -183,9 +183,20 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "312713e416cd5434",
+  "active": "577fbaa17530de92",
   "lastOpenFiles": [
-    "计算机/数据库/NoSql/Redis.md",
+    "计算机/数据库/NoSql/Redis/Redis结构.canvas",
+    "计算机/数据库/NoSql/Redis/Redis持久化.md",
+    "计算机/数据库/NoSql/Redis/Redis.md",
+    "计算机/数据库/NoSql/Redis/Redis缓存穿透和雪崩.md",
+    "计算机/数据库/NoSql/Redis/Redis主从复制.md",
+    "计算机/数据库/NoSql/Redis/Redis订阅.md",
+    "计算机/数据库/NoSql/Redis/Redis基础数据结构.md",
+    "计算机/数据库/NoSql/Redis/Redis事务.md",
+    "计算机/数据库/NoSql/Redis/Redis特殊数据结构.md",
+    "计算机/数据库/NoSql/Redis",
+    "附件/Pasted image 20240604142815.png",
+    "附件/Pasted image 20240604142525.png",
     "附件/Pasted image 20240603113705.png",
     "附件/Pasted image 20240603110536.png",
     "programe/C++/ThreadPool.md",
@@ -206,14 +217,7 @@
     "algorithm/数据结构/树/二叉树/二叉搜索树.md",
     "algorithm/数据结构/树/二叉树/平衡二叉树.md",
     "algorithm/数据结构/树/线段树.md",
-    "algorithm/数据结构/树/树.md",
-    "algorithm/时间复杂度.md",
-    "algorithm/数学/博弈论.md",
-    "计算机/数据库/未命名.md",
-    "计算机/数据库/NoSql/MongoDB.md",
     "计算机/数据库/NoSql",
-    "2024-05-27.md",
-    "计算机/计算机组成原理/CISC与RISC.md",
     "programe/Java/SpringBoot",
     "programe/Java",
     "未命名.canvas",
@@ -228,10 +232,7 @@
     "附件/v2-ce347baa86098f7cd7d30d1897685c4b_1440w.webp",
     "附件/v2-4b6d2892b6ce889864e93efb17cda0a1_1440w.webp",
     "附件/v2-53e27c9c885c157c64d1fd37aebb81ce_1440w.webp",
-    "附件/Pasted image 20231102195103.png",
-    "附件/Pasted image 20231101230259.png",
     "日记/2023/2023-11",
-    "programe/C++/STL",
     "计算机/算法/数据结构/未命名.canvas",
     "计算机/算法/数据结构/线性结构/线性结构.canvas"
   ]
