@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机/数据库/NoSql/Redis/Redis基础数据结构.md",
+                "file": "设计模式/创建型设计模式/单例.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "计算机/数据库/NoSql/Redis/Redis基础数据结构.md",
+                "file": "设计模式/创建型设计模式/单例.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "计算机/数据库/NoSql/Redis/Redis基础数据结构.md",
+                "file": "设计模式/创建型设计模式/单例.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/数据库/NoSql/Redis/Redis基础数据结构.md"
+                "file": "设计模式/创建型设计模式/单例.md"
               }
             }
           },
@@ -156,7 +156,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/数据库/NoSql/Redis/Redis基础数据结构.md"
+                "file": "设计模式/创建型设计模式/单例.md"
               }
             }
           }
@@ -184,13 +184,14 @@
   },
   "active": "577fbaa17530de92",
   "lastOpenFiles": [
+    "附件/Pasted image 20240605093705.png",
+    "计算机/数据库/NoSql/Redis/Redis基础数据结构.md",
     "计算机/数据库/NoSql/Redis/Redis缓存穿透和雪崩.md",
     "计算机/数据库/NoSql/Redis/Redis结构.canvas",
     "计算机/数据库/NoSql/Redis/Redis持久化.md",
     "计算机/数据库/NoSql/Redis/Redis.md",
     "计算机/数据库/NoSql/Redis/Redis主从复制.md",
     "计算机/数据库/NoSql/Redis/Redis订阅.md",
-    "计算机/数据库/NoSql/Redis/Redis基础数据结构.md",
     "计算机/数据库/NoSql/Redis/Redis事务.md",
     "计算机/数据库/NoSql/Redis/Redis特殊数据结构.md",
     "计算机/数据库/NoSql/Redis",
