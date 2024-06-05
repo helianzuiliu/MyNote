@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "设计模式/创建型设计模式/原型.md",
+                "file": "设计模式/组合型设计模式/桥接.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "设计模式/创建型设计模式/原型.md",
+                "file": "设计模式/组合型设计模式/桥接.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "设计模式/创建型设计模式/原型.md",
+                "file": "设计模式/组合型设计模式/桥接.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "设计模式/创建型设计模式/原型.md"
+                "file": "设计模式/组合型设计模式/桥接.md"
               }
             }
           },
@@ -156,7 +156,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "设计模式/创建型设计模式/原型.md"
+                "file": "设计模式/组合型设计模式/桥接.md"
               }
             }
           }
@@ -183,6 +183,17 @@
   },
   "active": "577fbaa17530de92",
   "lastOpenFiles": [
+    "设计模式/组合型设计模式/适配器.md",
+    "设计模式/组合型设计模式/桥接.md",
+    "设计模式/组合型设计模式/代理.md",
+    "设计模式/创建型设计模式/抽象工厂.md",
+    "附件/Pasted image 20240605150601.png",
+    "附件/Pasted image 20240605150503.png",
+    "设计模式/组合型设计模式/组合.md",
+    "设计模式/创建型设计模式/原型.md",
+    "附件/Pasted image 20240605143255.png",
+    "设计模式/创建型设计模式/单例.md",
+    "附件/Pasted image 20240605143211.png",
     "设计模式/DesignPattern.canvas",
     "设计模式/行为模式/状态模式.md",
     "设计模式/行为模式/策略模式.md",
@@ -190,10 +201,7 @@
     "设计模式/行为模式/命令.md",
     "设计模式/行为模式/迭代器.md",
     "设计模式/行为模式/访问者.md",
-    "设计模式/创建型设计模式/原型.md",
     "设计模式/创建型设计模式/生成器.md",
-    "设计模式/创建型设计模式/单例.md",
-    "设计模式/创建型设计模式/抽象工厂.md",
     "附件/Pasted image 20240605110111.png",
     "附件/Pasted image 20240605105556.png",
     "附件/Pasted image 20240605105507.png",
@@ -203,7 +211,6 @@
     "附件/Pasted image 20240605104015.png",
     "附件/Pasted image 20240605103200.png",
     "设计模式/设计原则.md",
-    "附件/Pasted image 20240605093705.png",
     "计算机/数据库/NoSql/Redis/Redis基础数据结构.md",
     "计算机/数据库/NoSql/Redis/Redis缓存穿透和雪崩.md",
     "计算机/数据库/NoSql/Redis/Redis结构.canvas",
@@ -214,13 +221,7 @@
     "计算机/数据库/NoSql/Redis/Redis事务.md",
     "计算机/数据库/NoSql/Redis/Redis特殊数据结构.md",
     "计算机/数据库/NoSql/Redis",
-    "附件/Pasted image 20240604142815.png",
-    "附件/Pasted image 20240604142525.png",
-    "附件/Pasted image 20240603113705.png",
     "programe/C++/ThreadPool.md",
-    "algorithm/字符串/字符串哈希.md",
-    "algorithm/数学/质数筛/打表.md",
-    "programe/Java/Jedis.md",
     "计算机/数据库/NoSql",
     "programe/Java/SpringBoot",
     "programe/Java",
