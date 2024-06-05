@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "设计模式/创建型设计模式/抽象工厂.md",
-                "mode": "source",
+                "file": "设计模式/创建型设计模式/生成器.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "设计模式/创建型设计模式/抽象工厂.md",
+                "file": "设计模式/创建型设计模式/生成器.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "设计模式/创建型设计模式/抽象工厂.md",
+                "file": "设计模式/创建型设计模式/生成器.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "设计模式/创建型设计模式/抽象工厂.md"
+                "file": "设计模式/创建型设计模式/生成器.md"
               }
             }
           },
@@ -156,12 +156,12 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "设计模式/创建型设计模式/抽象工厂.md"
+                "file": "设计模式/创建型设计模式/生成器.md"
               }
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -183,11 +183,18 @@
   },
   "active": "577fbaa17530de92",
   "lastOpenFiles": [
-    "设计模式/创建型设计模式/工厂方法.md",
-    "附件/Pasted image 20240605103200.png",
     "设计模式/创建型设计模式/单例.md",
     "设计模式/创建型设计模式/抽象工厂.md",
+    "设计模式/创建型设计模式/生成器.md",
+    "附件/Pasted image 20240605110111.png",
+    "附件/Pasted image 20240605105556.png",
+    "附件/Pasted image 20240605105507.png",
+    "设计模式/创建型设计模式/工厂方法.md",
+    "设计模式/创建型设计模式/简单工厂.md",
     "设计模式/DesignPattern.canvas",
+    "附件/Pasted image 20240605104114.png",
+    "附件/Pasted image 20240605104015.png",
+    "附件/Pasted image 20240605103200.png",
     "设计模式/设计原则.md",
     "附件/Pasted image 20240605093705.png",
     "计算机/数据库/NoSql/Redis/Redis基础数据结构.md",
@@ -203,9 +210,7 @@
     "附件/Pasted image 20240604142815.png",
     "附件/Pasted image 20240604142525.png",
     "附件/Pasted image 20240603113705.png",
-    "附件/Pasted image 20240603110536.png",
     "programe/C++/ThreadPool.md",
-    "附件/Pasted image 20240602123837.png",
     "algorithm/字符串/字符串哈希.md",
     "algorithm/数学/质数筛/打表.md",
     "programe/Java/Jedis.md",
@@ -217,20 +222,16 @@
     "计算机/数据库/函数依赖.md",
     "计算机/数据库/设计范式.md",
     "计算机/数据库/DataView的使用方法.md",
-    "README.md",
     "计算机/数据库/NoSql",
     "programe/Java/SpringBoot",
     "programe/Java",
     "未命名.canvas",
     "programe/Rust",
-    "附件/计算机/数据库/关系代数_并交差.png",
     "未命名 1.canvas",
     "使用须知",
     "programe/C++/STL/Container",
     "programe/C++/Boost/Asio",
     "programe/C++/Boost",
-    "附件/v2-2b44ea1de81d3cf1dc9dcf67c072e363_1440w.webp",
-    "附件/v2-ce347baa86098f7cd7d30d1897685c4b_1440w.webp",
     "日记/2023/2023-11",
     "计算机/算法/数据结构/未命名.canvas",
     "计算机/算法/数据结构/线性结构/线性结构.canvas"

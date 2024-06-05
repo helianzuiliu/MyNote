@@ -1,11 +1,10 @@
 {
 	"nodes":[
-		{"id":"aa00c945a517d069","x":-680,"y":280,"width":400,"height":400,"type":"file","file":"设计模式/创建型设计模式/抽象工厂.md"},
-		{"id":"f643c81e70940d1a","x":-80,"y":-360,"width":400,"height":400,"type":"file","file":"设计模式/创建型设计模式/单例.md"},
-		{"id":"b74519b87bdb7b25","x":600,"y":280,"width":400,"height":400,"type":"file","file":"设计模式/创建型设计模式/工厂方法.md"},
-		{"id":"14a93d12bafca826","x":-80,"y":800,"width":400,"height":400,"type":"file","file":"设计模式/创建型设计模式/简单工厂.md"}
+		{"id":"aa00c945a517d069","type":"file","file":"设计模式/创建型设计模式/抽象工厂.md","x":-680,"y":280,"width":400,"height":400},
+		{"id":"f643c81e70940d1a","type":"file","file":"设计模式/创建型设计模式/单例.md","x":-80,"y":-360,"width":400,"height":400},
+		{"id":"b74519b87bdb7b25","type":"file","file":"设计模式/创建型设计模式/工厂方法.md","x":600,"y":280,"width":400,"height":400}
 	],
 	"edges":[
-		{"id":"7ef635e202034cc0","fromNode":"aa00c945a517d069","fromSide":"right","toNode":"b74519b87bdb7b25","toSide":"left","label":"继承"}
+		{"id":"7ef635e202034cc0","fromNode":"aa00c945a517d069","fromSide":"right","toNode":"b74519b87bdb7b25","toSide":"left","label":"整合管理"}
 	]
 }
