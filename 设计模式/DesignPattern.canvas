@@ -1,10 +1,14 @@
 {
 	"nodes":[
-		{"id":"aa00c945a517d069","type":"file","file":"设计模式/创建型设计模式/抽象工厂.md","x":-680,"y":280,"width":400,"height":400},
-		{"id":"f643c81e70940d1a","type":"file","file":"设计模式/创建型设计模式/单例.md","x":-80,"y":-360,"width":400,"height":400},
-		{"id":"b74519b87bdb7b25","type":"file","file":"设计模式/创建型设计模式/工厂方法.md","x":600,"y":280,"width":400,"height":400}
+		{"id":"21665d9993f3995f","x":-1040,"y":-400,"width":1400,"height":1520,"type":"group","label":"创建型"},
+		{"id":"aa00c945a517d069","type":"file","file":"设计模式/创建型设计模式/抽象工厂.md","x":-1020,"y":180,"width":400,"height":400},
+		{"id":"487f1194a9f68718","x":-1020,"y":700,"width":400,"height":400,"type":"file","file":"设计模式/创建型设计模式/生成器.md"},
+		{"id":"f643c81e70940d1a","type":"file","file":"设计模式/创建型设计模式/单例.md","x":-1020,"y":-380,"width":400,"height":400},
+		{"id":"17b066fd1d567b6b","x":-60,"y":700,"width":400,"height":400,"type":"file","file":"设计模式/创建型设计模式/原型.md"},
+		{"id":"b74519b87bdb7b25","type":"file","file":"设计模式/创建型设计模式/工厂方法.md","x":-60,"y":180,"width":400,"height":400}
 	],
 	"edges":[
-		{"id":"7ef635e202034cc0","fromNode":"aa00c945a517d069","fromSide":"right","toNode":"b74519b87bdb7b25","toSide":"left","label":"整合管理"}
+		{"id":"7ef635e202034cc0","fromNode":"aa00c945a517d069","fromSide":"right","toNode":"b74519b87bdb7b25","toSide":"left","label":"整合管理"},
+		{"id":"6ee5ee4caf1c12ac","fromNode":"487f1194a9f68718","fromSide":"right","toNode":"17b066fd1d567b6b","toSide":"left"}
 	]
 }
