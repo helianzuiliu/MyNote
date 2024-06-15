@@ -1,6 +1,4 @@
 ---
-tags:
-  - C++
 aliases:
   - unique_ptr
   - shared_ptr
