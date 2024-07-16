@@ -161,12 +161,11 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 301.5,
-    "collapsed": true
+    "width": 301.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -184,10 +183,16 @@
   },
   "active": "d923c0cc250e0c25",
   "lastOpenFiles": [
-    "programe/C++/面向对象.md",
+    "programe/C++/STL/Container/vector.md",
+    "programe/C++/STL/Container/queue.md",
     "programe/C++/异步多线程.md",
     "programe/C++/虚函数.md",
     "programe/C++/ThreadPool.md",
+    "programe/C++/面向对象.md",
+    "programe/C++/STL/smart_ptr.md",
+    "programe/Java/SpringBoot/AutoConfiguration.md",
+    "programe/Java/Jedis.md",
+    "programe/Java/README.md",
     "计算机/数据库/NoSql/Redis/Redis基础数据结构.md",
     "计算机/网络/WebSocket.md",
     "计算机/网络/Socket.md",
@@ -205,7 +210,6 @@
     "计算机/网络/TCP和UDP.md",
     "2024-05-27.md",
     "README.md",
-    "programe/C++/STL/smart_ptr.md",
     "计算机/数据库/NoSql/Redis/Redis.md",
     "计算机/数据库/NoSql/Redis/Redis事务.md",
     "计算机/数据库/NoSql/Redis/Redis结构.canvas",
@@ -218,11 +222,6 @@
     "设计模式/行为型模式/迭代器.md",
     "设计模式/行为型模式/访问者.md",
     "设计模式/行为型模式/备忘录.md",
-    "设计模式/行为型模式/策略模式.md",
-    "设计模式/组合型设计模式/代理.md",
-    "设计模式/组合型设计模式/桥接.md",
-    "设计模式/组合型设计模式/享元.md",
-    "设计模式/组合型设计模式/外观.md",
     "计算机/数据库/NoSql/Redis",
     "计算机/数据库/NoSql",
     "programe/Java/SpringBoot",
