@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机/网络/Socket.md",
+                "file": "计算机/网络/OSI模型.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "计算机/网络/Socket.md",
+                "file": "计算机/网络/OSI模型.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "计算机/网络/Socket.md",
+                "file": "计算机/网络/OSI模型.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/网络/Socket.md"
+                "file": "计算机/网络/OSI模型.md"
               }
             }
           },
@@ -156,7 +156,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/网络/Socket.md"
+                "file": "计算机/网络/OSI模型.md"
               }
             }
           }
@@ -183,8 +183,10 @@
   },
   "active": "d923c0cc250e0c25",
   "lastOpenFiles": [
-    "计算机/网络/TCP_IP协议.md",
     "计算机/网络/Socket.md",
+    "计算机/网络/TCP_IP协议.md",
+    "计算机/网络/TCP和UDP.md",
+    "计算机/网络/WebSocket.md",
     "programe/C++/面向对象.md",
     "programe/C++/函数绑定.md",
     "programe/C++/异步多线程.md",
@@ -197,7 +199,6 @@
     "programe/Java/Jedis.md",
     "programe/Java/README.md",
     "计算机/数据库/NoSql/Redis/Redis基础数据结构.md",
-    "计算机/网络/WebSocket.md",
     "附件/Pasted image 20240605105507.png",
     "附件/Pasted image 20240605093705.png",
     "附件/Pasted image 20240602123837.png",
@@ -208,7 +209,6 @@
     "附件/Pasted image 20231025191505.png",
     "附件/Pasted image 20240615221601.png",
     "附件/Pasted image 20240615222034.png",
-    "计算机/网络/TCP和UDP.md",
     "2024-05-27.md",
     "README.md",
     "计算机/数据库/NoSql/Redis/Redis.md",
