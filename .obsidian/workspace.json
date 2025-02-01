@@ -11,14 +11,12 @@
             "id": "d923c0cc250e0c25",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "设计模式/DesignPattern.canvas",
-                "viewState": {
-                  "x": 1698.5,
-                  "y": -1558,
-                  "zoom": -2.3918536955313034
-                }
+                "file": "programe/C++/异步多线程.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
               }
             }
           }
@@ -107,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "设计模式/DesignPattern.canvas",
+                "file": "programe/C++/异步多线程.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "设计模式/DesignPattern.canvas",
+                "file": "programe/C++/异步多线程.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "设计模式/DesignPattern.canvas"
+                "file": "programe/C++/异步多线程.md"
               }
             }
           },
@@ -158,7 +156,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "设计模式/DesignPattern.canvas"
+                "file": "programe/C++/异步多线程.md"
               }
             }
           },
@@ -194,6 +192,22 @@
   },
   "active": "d923c0cc250e0c25",
   "lastOpenFiles": [
+    "README.md",
+    "programe/Rust/README.md",
+    "programe/C++/ThreadPool.md",
+    "programe/C++/函数绑定.md",
+    "programe/C++/STL/Container/vector.md",
+    "programe/C++/STL/Container/queue.md",
+    "programe/C++/STL/smart_ptr.md",
+    "2024-05-27.md",
+    "设计模式/行为型模式/备忘录.md",
+    "设计模式/行为型模式/观察者.md",
+    "设计模式/行为型模式/命令.md",
+    "设计模式/行为型模式/模板模式.md",
+    "设计模式/行为型模式/访问者.md",
+    "设计模式/行为型模式/策略模式.md",
+    "设计模式/设计原则.md",
+    "设计模式/DesignPattern.canvas",
     "algorithm/数据结构/线性结构/队列.md",
     "algorithm/数据结构/树/二叉树/平衡二叉树.md",
     "algorithm/数据结构/树/二叉树/二叉树.md",
@@ -204,23 +218,7 @@
     "algorithm/排序/快速排序.md",
     "algorithm/排序/基数排序.md",
     "algorithm/排序/插入排序.md",
-    "2024-05-27.md",
     "计算机/操作系统/死锁.md",
-    "计算机/操作系统/PV操作.md",
-    "计算机/操作系统/线程与进程.md",
-    "计算机/操作系统/临界资源.md",
-    "计算机/数据库/MySQL 事务.md",
-    "计算机/网络/OSI模型.md",
-    "计算机/网络/Socket.md",
-    "计算机/网络/TCP_IP协议.md",
-    "计算机/View.md",
-    "计算机/网络/WebSocket.md",
-    "计算机/网络/TCP和UDP.md",
-    "软件工程/UML.md",
-    "软件工程/CMM.md",
-    "软件工程/维护.md",
-    "软件工程/耦合.md",
-    "设计模式/DesignPattern.canvas",
     "附件/Pasted image 20240730153717.png",
     "附件/Pasted image 20240730152342.png",
     "附件/Pasted image 20240729172558.png",
