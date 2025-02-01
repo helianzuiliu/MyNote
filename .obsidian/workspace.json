@@ -15,12 +15,27 @@
               "state": {
                 "file": "programe/C++/异步多线程.md",
                 "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "异步多线程"
+            }
+          },
+          {
+            "id": "a2730102b33181fe",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.8.4"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.8.4"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -39,8 +54,11 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
-              }
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
             }
           },
           {
@@ -55,7 +73,9 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
             }
           },
           {
@@ -63,7 +83,9 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
             }
           }
         ]
@@ -87,8 +109,12 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
-              }
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
             }
           },
           {
@@ -96,7 +122,9 @@
             "type": "leaf",
             "state": {
               "type": "calendar",
-              "state": {}
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
             }
           },
           {
@@ -113,7 +141,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "异步多线程 的反向链接列表"
             }
           },
           {
@@ -125,7 +155,9 @@
                 "file": "programe/C++/异步多线程.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "异步多线程 的出链列表"
             }
           },
           {
@@ -137,7 +169,9 @@
                 "sortOrder": "frequency",
                 "showSearch": false,
                 "searchQuery": ""
-              }
+              },
+              "icon": "lucide-archive",
+              "title": "添加笔记属性"
             }
           },
           {
@@ -146,8 +180,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "programe/C++/异步多线程.md"
-              }
+                "file": "programe/C++/异步多线程.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "异步多线程 的大纲"
             }
           },
           {
@@ -157,7 +196,9 @@
               "type": "file-properties",
               "state": {
                 "file": "programe/C++/异步多线程.md"
-              }
+              },
+              "icon": "lucide-info",
+              "title": "异步多线程的笔记属性"
             }
           },
           {
@@ -165,7 +206,9 @@
             "type": "leaf",
             "state": {
               "type": "mermaid-toolbar-view",
-              "state": {}
+              "state": {},
+              "icon": "trident-custom",
+              "title": "Mermaid Toolbar"
             }
           }
         ],
@@ -190,7 +233,7 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "d923c0cc250e0c25",
+  "active": "a2730102b33181fe",
   "lastOpenFiles": [
     "README.md",
     "programe/Rust/README.md",
