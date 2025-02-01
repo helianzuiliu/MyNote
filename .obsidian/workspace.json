@@ -11,12 +11,14 @@
             "id": "d923c0cc250e0c25",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "algorithm/排序/快速排序.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
+                "file": "设计模式/DesignPattern.canvas",
+                "viewState": {
+                  "x": 1698.5,
+                  "y": -1558,
+                  "zoom": -2.3918536955313034
+                }
               }
             }
           }
@@ -105,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "algorithm/排序/快速排序.md",
+                "file": "设计模式/DesignPattern.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "algorithm/排序/快速排序.md",
+                "file": "设计模式/DesignPattern.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "algorithm/排序/快速排序.md"
+                "file": "设计模式/DesignPattern.canvas"
               }
             }
           },
@@ -156,7 +158,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "algorithm/排序/快速排序.md"
+                "file": "设计模式/DesignPattern.canvas"
               }
             }
           },
@@ -192,10 +194,15 @@
   },
   "active": "d923c0cc250e0c25",
   "lastOpenFiles": [
-    "algorithm/排序/基数排序.md",
+    "algorithm/数据结构/线性结构/队列.md",
+    "algorithm/数据结构/树/二叉树/平衡二叉树.md",
+    "algorithm/数据结构/树/二叉树/二叉树.md",
+    "algorithm/数据结构/树/二叉树/二叉搜索树.md",
+    "algorithm/数据结构/链表/邻接表.md",
     "algorithm/排序/冒泡排序.md",
     "algorithm/排序/桶排序.md",
-    "algorithm/数据结构/链表/邻接表.md",
+    "algorithm/排序/快速排序.md",
+    "algorithm/排序/基数排序.md",
     "algorithm/排序/插入排序.md",
     "2024-05-27.md",
     "计算机/操作系统/死锁.md",
@@ -213,10 +220,7 @@
     "软件工程/CMM.md",
     "软件工程/维护.md",
     "软件工程/耦合.md",
-    "软件工程/开发模型.md",
     "设计模式/DesignPattern.canvas",
-    "README.md",
-    "计算机/数据库/DataView的使用方法.md",
     "附件/Pasted image 20240730153717.png",
     "附件/Pasted image 20240730152342.png",
     "附件/Pasted image 20240729172558.png",
@@ -224,8 +228,6 @@
     "附件/Pasted image 20240729172104.png",
     "附件/Pasted image 20240729164157.png",
     "附件/Pasted image 20240729162446.png",
-    "programe/C++/面向对象.md",
-    "programe/C++/函数绑定.md",
     "附件/Pasted image 20240605105507.png",
     "附件/Pasted image 20240605093705.png",
     "附件/Pasted image 20240602123837.png",
