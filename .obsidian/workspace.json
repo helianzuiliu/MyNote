@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机/数据库/MySQL 事务.md",
+                "file": "algorithm/排序/快速排序.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "计算机/数据库/MySQL 事务.md",
+                "file": "algorithm/排序/快速排序.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "计算机/数据库/MySQL 事务.md",
+                "file": "algorithm/排序/快速排序.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/数据库/MySQL 事务.md"
+                "file": "algorithm/排序/快速排序.md"
               }
             }
           },
@@ -156,16 +156,25 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/数据库/MySQL 事务.md"
+                "file": "algorithm/排序/快速排序.md"
               }
+            }
+          },
+          {
+            "id": "446184229d912d8e",
+            "type": "leaf",
+            "state": {
+              "type": "mermaid-toolbar-view",
+              "state": {}
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 7
       }
     ],
     "direction": "horizontal",
-    "width": 301.5
+    "width": 301.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -183,9 +192,31 @@
   },
   "active": "d923c0cc250e0c25",
   "lastOpenFiles": [
-    "计算机/View.md",
+    "algorithm/排序/基数排序.md",
+    "algorithm/排序/冒泡排序.md",
+    "algorithm/排序/桶排序.md",
+    "algorithm/数据结构/链表/邻接表.md",
+    "algorithm/排序/插入排序.md",
+    "2024-05-27.md",
+    "计算机/操作系统/死锁.md",
+    "计算机/操作系统/PV操作.md",
+    "计算机/操作系统/线程与进程.md",
+    "计算机/操作系统/临界资源.md",
     "计算机/数据库/MySQL 事务.md",
+    "计算机/网络/OSI模型.md",
+    "计算机/网络/Socket.md",
+    "计算机/网络/TCP_IP协议.md",
+    "计算机/View.md",
+    "计算机/网络/WebSocket.md",
     "计算机/网络/TCP和UDP.md",
+    "软件工程/UML.md",
+    "软件工程/CMM.md",
+    "软件工程/维护.md",
+    "软件工程/耦合.md",
+    "软件工程/开发模型.md",
+    "设计模式/DesignPattern.canvas",
+    "README.md",
+    "计算机/数据库/DataView的使用方法.md",
     "附件/Pasted image 20240730153717.png",
     "附件/Pasted image 20240730152342.png",
     "附件/Pasted image 20240729172558.png",
@@ -193,35 +224,13 @@
     "附件/Pasted image 20240729172104.png",
     "附件/Pasted image 20240729164157.png",
     "附件/Pasted image 20240729162446.png",
-    "计算机/网络/TCP_IP协议.md",
-    "计算机/网络/Socket.md",
-    "计算机/网络/OSI模型.md",
-    "计算机/网络/WebSocket.md",
     "programe/C++/面向对象.md",
     "programe/C++/函数绑定.md",
-    "programe/C++/异步多线程.md",
-    "programe/C++/虚函数.md",
-    "programe/C++/STL/Container/vector.md",
-    "programe/C++/STL/Container/queue.md",
-    "programe/C++/ThreadPool.md",
-    "programe/C++/STL/smart_ptr.md",
-    "programe/Java/SpringBoot/AutoConfiguration.md",
-    "programe/Java/Jedis.md",
-    "programe/Java/README.md",
-    "计算机/数据库/NoSql/Redis/Redis基础数据结构.md",
     "附件/Pasted image 20240605105507.png",
     "附件/Pasted image 20240605093705.png",
     "附件/Pasted image 20240602123837.png",
-    "2024-05-27.md",
-    "README.md",
-    "计算机/数据库/NoSql/Redis/Redis.md",
-    "计算机/数据库/NoSql/Redis/Redis事务.md",
     "计算机/数据库/NoSql/Redis/Redis结构.canvas",
-    "计算机/数据库/NoSql/Redis/Redis缓存穿透和雪崩.md",
-    "设计模式/DesignPattern.canvas",
     "设计模式/行为型模式/未命名.canvas",
-    "设计模式/设计原则.md",
-    "设计模式/行为型模式/中介者.md",
     "计算机/数据库/NoSql/Redis",
     "计算机/数据库/NoSql",
     "programe/Java/SpringBoot",

@@ -116,5 +116,3 @@ WebSocket 使得客户端和服务器之间的数据交换变得更加简单，�
 - _2）_error：当一个 WebSocket 连接因错误而关闭时触发，也可以通过 onerror 属性来设置；
 - _3）_message：当通过 WebSocket 收到数据时触发，也可以通过 onmessage 属性来设置；
 - _4）_open：当一个 WebSocket 连接成功时触发，也可以通过 onopen 属性来设置。
-
-介绍完 WebSocket API，我们来举一个使用 WebSocket 发送普通文本的示例。
