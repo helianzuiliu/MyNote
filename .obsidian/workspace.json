@@ -13,29 +13,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "programe/C++/异步多线程.md",
+                "file": "programe/C++/虚函数.md",
                 "mode": "preview",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "异步多线程"
-            }
-          },
-          {
-            "id": "a2730102b33181fe",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.8.4"
-              },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.8.4"
+              "title": "虚函数"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -133,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "programe/C++/异步多线程.md",
+                "file": "programe/C++/虚函数.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,7 +130,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "异步多线程 的反向链接列表"
+              "title": "虚函数 的反向链接列表"
             }
           },
           {
@@ -152,12 +139,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "programe/C++/异步多线程.md",
+                "file": "programe/C++/虚函数.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "异步多线程 的出链列表"
+              "title": "虚函数 的出链列表"
             }
           },
           {
@@ -180,13 +167,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "programe/C++/异步多线程.md",
+                "file": "programe/C++/虚函数.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "异步多线程 的大纲"
+              "title": "虚函数 的大纲"
             }
           },
           {
@@ -195,10 +182,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "programe/C++/异步多线程.md"
+                "file": "programe/C++/虚函数.md"
               },
               "icon": "lucide-info",
-              "title": "异步多线程的笔记属性"
+              "title": "虚函数的笔记属性"
             }
           },
           {
@@ -233,12 +220,15 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "a2730102b33181fe",
+  "active": "d923c0cc250e0c25",
   "lastOpenFiles": [
+    "programe/C++/函数绑定.md",
+    "programe/C++/面向对象.md",
+    "programe/C++/虚函数.md",
+    "programe/C++/异步多线程.md",
     "README.md",
     "programe/Rust/README.md",
     "programe/C++/ThreadPool.md",
-    "programe/C++/函数绑定.md",
     "programe/C++/STL/Container/vector.md",
     "programe/C++/STL/Container/queue.md",
     "programe/C++/STL/smart_ptr.md",
@@ -259,9 +249,6 @@
     "algorithm/排序/冒泡排序.md",
     "algorithm/排序/桶排序.md",
     "algorithm/排序/快速排序.md",
-    "algorithm/排序/基数排序.md",
-    "algorithm/排序/插入排序.md",
-    "计算机/操作系统/死锁.md",
     "附件/Pasted image 20240730153717.png",
     "附件/Pasted image 20240730152342.png",
     "附件/Pasted image 20240729172558.png",
