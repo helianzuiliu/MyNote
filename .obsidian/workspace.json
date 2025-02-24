@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "algorithm/排序/堆排序.md",
+                "file": "algorithm/排序/归并排序.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "堆排序"
+              "title": "归并排序"
             }
           }
         ]
@@ -222,8 +222,8 @@
   },
   "active": "dd6d6f151a448cb7",
   "lastOpenFiles": [
-    "algorithm/排序/插入排序.md",
     "algorithm/排序/堆排序.md",
+    "algorithm/排序/插入排序.md",
     "algorithm/排序/基数排序.md",
     "algorithm/排序/快速排序.md",
     "algorithm/排序/冒泡排序.md",
