@@ -4,22 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "e810e7a555e6f8d3",
+        "id": "6fa86fb2e05c0fa4",
         "type": "tabs",
         "children": [
           {
-            "id": "d923c0cc250e0c25",
+            "id": "dd6d6f151a448cb7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "programe/C++/虚函数.md",
-                "mode": "preview",
+                "file": "设计模式/设计原则.md",
+                "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "虚函数"
+              "title": "设计原则"
             }
           }
         ]
@@ -120,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "programe/C++/虚函数.md",
+                "file": "设计模式/设计原则.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +130,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "虚函数 的反向链接列表"
+              "title": "设计原则 的反向链接列表"
             }
           },
           {
@@ -139,12 +139,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "programe/C++/虚函数.md",
+                "file": "设计模式/设计原则.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "虚函数 的出链列表"
+              "title": "设计原则 的出链列表"
             }
           },
           {
@@ -167,13 +167,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "programe/C++/虚函数.md",
+                "file": "设计模式/设计原则.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "虚函数 的大纲"
+              "title": "设计原则 的大纲"
             }
           },
           {
@@ -182,10 +182,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "programe/C++/虚函数.md"
+                "file": "设计模式/设计原则.md"
               },
               "icon": "lucide-info",
-              "title": "虚函数的笔记属性"
+              "title": "设计原则的笔记属性"
             }
           },
           {
@@ -220,11 +220,14 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "d923c0cc250e0c25",
+  "active": "dd6d6f151a448cb7",
   "lastOpenFiles": [
+    "设计模式/DesignPattern.canvas",
+    "设计模式/设计原则.md",
+    "设计模式/www.4399.com.md",
+    "programe/C++/虚函数.md",
     "programe/C++/函数绑定.md",
     "programe/C++/面向对象.md",
-    "programe/C++/虚函数.md",
     "programe/C++/异步多线程.md",
     "README.md",
     "programe/Rust/README.md",
@@ -239,16 +242,12 @@
     "设计模式/行为型模式/模板模式.md",
     "设计模式/行为型模式/访问者.md",
     "设计模式/行为型模式/策略模式.md",
-    "设计模式/设计原则.md",
-    "设计模式/DesignPattern.canvas",
     "algorithm/数据结构/线性结构/队列.md",
     "algorithm/数据结构/树/二叉树/平衡二叉树.md",
     "algorithm/数据结构/树/二叉树/二叉树.md",
     "algorithm/数据结构/树/二叉树/二叉搜索树.md",
     "algorithm/数据结构/链表/邻接表.md",
     "algorithm/排序/冒泡排序.md",
-    "algorithm/排序/桶排序.md",
-    "algorithm/排序/快速排序.md",
     "附件/Pasted image 20240730153717.png",
     "附件/Pasted image 20240730152342.png",
     "附件/Pasted image 20240729172558.png",
