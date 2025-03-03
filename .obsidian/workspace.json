@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机/数据库/MySQL.md",
+                "file": "计算机/数据库/NoSql/Redis/Redis缓存穿透和雪崩.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "MySQL"
+              "title": "Redis缓存穿透和雪崩"
             }
           }
         ]
@@ -222,8 +222,8 @@
   },
   "active": "dd6d6f151a448cb7",
   "lastOpenFiles": [
-    "计算机/数据库/非关系型数据库.md",
     "计算机/数据库/MySQL.md",
+    "计算机/数据库/非关系型数据库.md",
     "计算机/数据库/关系代数.md",
     "计算机/数据库/关系型数据库.md",
     "计算机/数据库/函数依赖.md",
