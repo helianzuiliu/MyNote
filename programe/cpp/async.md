@@ -1,3 +1,16 @@
+---
+class:
+  - "std::thread"
+  - "std::future"
+  - "std::promise"
+  - "std::packaged_task"
+  - "std::async"
+  - "std::shared_future"
+create_date: 2025-03-07
+tags:
+  - cpp
+  - STL
+---
 
 # 1.`std::thread`
 
@@ -215,7 +228,7 @@ result is 8
 
 若执行用法示例2的代码，终端会一直输出defferred。
 
-## 6.2 `shared_future`
+## 6.2 `std::shared_future`
 
 如果需要对多个线程的返回值存储在同一个返回值中,`std::future`很明显不符合这个要求,所以还存在可以多次使用`get`的`future`变体
 
