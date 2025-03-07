@@ -43,5 +43,5 @@ auto-aof-rewrite-min-size 64mb # aof文件大于64mb会追加一个文件写文�
 
 缺点
 - 相对来说aof的数据文件比rdb大很多,修复速度也比rdb慢很多
-- aof的运行会平凡涉及IO操作,速度比rdb慢
+- aof的运行会频繁涉及IO操作,速度比rdb慢
 
