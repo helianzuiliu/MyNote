@@ -1,6 +1,0 @@
----
-class: [[]]
-date: "{{date}}"
-Topics: "#cpp"
----
-

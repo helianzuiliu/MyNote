@@ -21,15 +21,12 @@
             "id": "16fc3bfacac7b7a0",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "programe/C++/map.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
+                "file": "Excalidraw/Drawing 2025-03-07 16.28.52.excalidraw.md"
               },
-              "icon": "lucide-file",
-              "title": "map"
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2025-03-07 16.28.52.excalidraw"
             }
           }
         ],
@@ -65,7 +62,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#软件设计师",
+                "query": "[\"class\"]",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -178,13 +175,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "设计模式/设计原则.md",
+                "file": "Excalidraw/Drawing 2025-03-07 16.28.52.excalidraw.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "设计原则 的大纲"
+              "title": "Drawing 2025-03-07 16.28.52.excalidraw 的大纲"
             }
           },
           {
@@ -193,10 +190,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "programe/C++/map.md"
+                "file": "Excalidraw/Drawing 2025-03-07 16.28.52.excalidraw.md"
               },
               "icon": "lucide-info",
-              "title": "map的笔记属性"
+              "title": "Drawing 2025-03-07 16.28.52.excalidraw的笔记属性"
             }
           },
           {
@@ -210,11 +207,12 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 301.5
+    "width": 301.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -230,21 +228,28 @@
       "audio-recorder:开始/结束录音": false,
       "mermaid-tools:Open Mermaid Toolbar": false,
       "templater-obsidian:Templater": false,
-      "pkmer:Open Pkmer Market": false
+      "pkmer:Open Pkmer Market": false,
+      "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
   "active": "16fc3bfacac7b7a0",
   "lastOpenFiles": [
+    "programe/cpp/map.md",
+    "Excalidraw/Drawing 2025-03-07 16.28.52.excalidraw.md",
+    "Excalidraw",
     "template/程序.md",
-    "programe/C++/map.md",
-    "programe/C++/未命名.md",
+    "programe/cpp/虚函数.md",
+    "programe/cpp/异步多线程.md",
+    "programe/cpp/Untitled 1.md",
+    "2024-05-27.md",
+    "programe/cpp/未命名.md",
+    "programe/cpp/函数绑定.md",
+    "programe/Rust/README.md",
+    "programe/C++/未命名",
     "template/Untitled.md",
     "template/a.md",
-    "programe/C++/函数绑定.md",
-    "programe/C++/面向对象.md",
-    "programe/C++/虚函数.md",
-    "programe/C++/异步多线程.md",
-    "programe/C++/ThreadPool.md",
+    "programe/cpp/面向对象.md",
+    "programe/cpp/ThreadPool.md",
     "programe/C++/STL/Container/vector.md",
     "programe/C++/STL/Container/queue.md",
     "programe/C++/STL/smart_ptr.md",
@@ -257,9 +262,6 @@
     "计算机/数据库/关系代数.md",
     "计算机/数据库/非关系型数据库.md",
     "计算机/数据库/NoSql/Redis/Redis订阅.md",
-    "计算机/数据库/NoSql/Redis/Redis持久化.md",
-    "计算机/数据库/NoSql/Redis/Redis事务.md",
-    "计算机/数据库/NoSql/Redis/Redis主从复制.md",
     "设计模式/DesignPattern.canvas",
     "附件/Pasted image 20240730153717.png",
     "附件/Pasted image 20240730152342.png",
@@ -283,8 +285,6 @@
     "使用须知",
     "programe/C++/STL/Container",
     "programe/C++/Boost/Asio",
-    "programe/C++/Boost",
-    "日记/2023/2023-11",
     "计算机/算法/数据结构/未命名.canvas",
     "计算机/算法/数据结构/线性结构/线性结构.canvas"
   ]
