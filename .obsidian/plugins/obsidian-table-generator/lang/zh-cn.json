@@ -1,0 +1,32 @@
+{
+    "manifest": {
+        "translationVersion": 1741327317268,
+        "pluginVersion": "1.4.1"
+    },
+    "description": {
+        "original": "A plugin for generate markdown table quickly like Typora /card table in canvas .",
+        "translation": "A plugin for generate markdown table quickly like Typora /card table in canvas ."
+    },
+    "dict": {
+        "Notice(\"Please enter a valid number\")": "Notice(\"Please enter a valid number\")",
+        ".log(selectedGrid)": ".log(selectedGrid)",
+        ".log(canvasFileData)": ".log(canvasFileData)",
+        ".log(data)": ".log(data)",
+        ".log(\"Obsidian-Canvas-MindMap: canvas node patched\")": ".log(\"Obsidian-Canvas-MindMap: canvas node patched\")",
+        "name: \"Create Table Generator\"": "name: \"Create Table Generator\"",
+        "text: \"\"\n          });\n        }\n      }\n      console.log(canvasFileData);\n      setTimeout(\n        () => {\n          canvas.setData(canvasFileData);\n          canvas.requestSave();\n        },\n        100\n      );\n    });\n  }\n  const writable_props = [\"": "text: \"\"\n          });\n        }\n      }\n      console.log(canvasFileData);\n      setTimeout(\n        () => {\n          canvas.setData(canvasFileData);\n          canvas.requestSave();\n        },\n        100\n      );\n    });\n  }\n  const writable_props = [\"",
+        "text: \"Table Generator\"": "text: \"Table Generator\"",
+        "text: \"Say Thank You\"": "text: \"Say Thank You\"",
+        ".setName(\"Row Count\")": ".setName(\"Row Count\")",
+        ".setName(\"Columns Count\")": ".setName(\"Columns Count\")",
+        ".setName(\"Donate\")": ".setName(\"Donate\")",
+        ".setDesc(\"The number of rows in the table\")": ".setDesc(\"The number of rows in the table\")",
+        ".setDesc(\"The number of columns in the table\")": ".setDesc(\"The number of columns in the table\")",
+        ".setDesc(\"If you like this plugin, consider donating to support continued development:\")": ".setDesc(\"If you like this plugin, consider donating to support continued development:\")",
+        ".setTitle(\"Add Markdown Table\")": ".setTitle(\"Add Markdown Table\")",
+        ".setTitle(\"Add Card Table\")": ".setTitle(\"Add Card Table\")",
+        ".innerText = ` ${value.toString()}`": ".innerText = ` ${value.toString()}`",
+        ".innerText = ` ${this.plugin.settings.rowCount.toString()}`": ".innerText = ` ${this.plugin.settings.rowCount.toString()}`",
+        ".innerText = ` ${this.plugin.settings.columnCount.toString()}`": ".innerText = ` ${this.plugin.settings.columnCount.toString()}`"
+    }
+}
