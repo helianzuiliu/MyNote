@@ -28,13 +28,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "template/每日.md",
+                "file": "daily/2025-03-07.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "每日"
+              "title": "2025-03-07"
             }
           }
         ],
@@ -183,13 +183,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "template/每日.md",
+                "file": "daily/2025-03-07.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "每日 的大纲"
+              "title": "2025-03-07 的大纲"
             }
           },
           {
@@ -198,10 +198,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "template/每日.md"
+                "file": "daily/2025-03-07.md"
               },
               "icon": "lucide-info",
-              "title": "每日的笔记属性"
+              "title": "2025-03-07的笔记属性"
             }
           },
           {
@@ -239,12 +239,14 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "312713e416cd5434",
+  "active": "60b30ce1d592dea8",
   "lastOpenFiles": [
-    "template/Untitled.md",
+    "daily/2024-05-27.md",
+    "daily/2025-03-07.md",
     "template/每日.md",
-    "2024-05-27.md",
-    "2025-03-07.md",
+    "daily",
+    "template/Untitled.md",
+    "template/未命名.md",
     "Untitled.md",
     "programe/cpp/bind.md",
     "programe/cpp/ThreadPool.md",
@@ -267,8 +269,6 @@
     "programe/C++/STL/Container/vector.md",
     "programe/C++/STL/Container/queue.md",
     "programe/C++/STL/smart_ptr.md",
-    "计算机/数据库/MySQL 事务.md",
-    "计算机/数据库/MySQL.md",
     "设计模式/DesignPattern.canvas",
     "附件/Pasted image 20240730153717.png",
     "附件/Pasted image 20240730152342.png",
@@ -291,7 +291,6 @@
     "未命名 1.canvas",
     "使用须知",
     "programe/C++/STL/Container",
-    "programe/C++/Boost/Asio",
     "计算机/算法/数据结构/未命名.canvas",
     "计算机/算法/数据结构/线性结构/线性结构.canvas"
   ]
