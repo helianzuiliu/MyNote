@@ -2,7 +2,7 @@
   "globalQuery": "",
   "globalFilter": "",
   "removeGlobalFilter": false,
-  "taskFormat": "dataview",
+  "taskFormat": "tasksPluginEmoji",
   "setCreatedDate": true,
   "setDoneDate": true,
   "setCancelledDate": true,
@@ -13,15 +13,15 @@
   "useFilenameAsScheduledDate": false,
   "filenameAsScheduledDateFormat": "",
   "filenameAsDateFolders": [],
-  "recurrenceOnNextLine": false,
+  "recurrenceOnNextLine": true,
   "statusSettings": {
     "coreStatuses": [
       {
         "symbol": " ",
         "name": "Todo",
-        "nextStatusSymbol": "x",
+        "nextStatusSymbol": "/",
         "availableAsCommand": true,
-        "type": "TODO"
+        "type": "IN_PROGRESS"
       },
       {
         "symbol": "x",
@@ -45,6 +45,139 @@
         "nextStatusSymbol": " ",
         "availableAsCommand": true,
         "type": "CANCELLED"
+      },
+      {
+        "symbol": "/",
+        "name": "incomplete",
+        "nextStatusSymbol": "x",
+        "availableAsCommand": false,
+        "type": "IN_PROGRESS"
+      },
+      {
+        "symbol": ">",
+        "name": "forwarded",
+        "nextStatusSymbol": "x",
+        "availableAsCommand": false,
+        "type": "TODO"
+      },
+      {
+        "symbol": "<",
+        "name": "scheduling",
+        "nextStatusSymbol": "x",
+        "availableAsCommand": false,
+        "type": "TODO"
+      },
+      {
+        "symbol": "?",
+        "name": "question",
+        "nextStatusSymbol": "x",
+        "availableAsCommand": false,
+        "type": "TODO"
+      },
+      {
+        "symbol": "!",
+        "name": "important",
+        "nextStatusSymbol": "x",
+        "availableAsCommand": false,
+        "type": "TODO"
+      },
+      {
+        "symbol": "*",
+        "name": "star",
+        "nextStatusSymbol": "x",
+        "availableAsCommand": false,
+        "type": "TODO"
+      },
+      {
+        "symbol": "\"",
+        "name": "quote",
+        "nextStatusSymbol": "x",
+        "availableAsCommand": false,
+        "type": "TODO"
+      },
+      {
+        "symbol": "l",
+        "name": "location",
+        "nextStatusSymbol": "x",
+        "availableAsCommand": false,
+        "type": "TODO"
+      },
+      {
+        "symbol": "b",
+        "name": "bookmark",
+        "nextStatusSymbol": "x",
+        "availableAsCommand": false,
+        "type": "TODO"
+      },
+      {
+        "symbol": "i",
+        "name": "information",
+        "nextStatusSymbol": "x",
+        "availableAsCommand": false,
+        "type": "TODO"
+      },
+      {
+        "symbol": "S",
+        "name": "savings",
+        "nextStatusSymbol": "x",
+        "availableAsCommand": false,
+        "type": "TODO"
+      },
+      {
+        "symbol": "I",
+        "name": "idea",
+        "nextStatusSymbol": "x",
+        "availableAsCommand": false,
+        "type": "TODO"
+      },
+      {
+        "symbol": "p",
+        "name": "pros",
+        "nextStatusSymbol": "x",
+        "availableAsCommand": false,
+        "type": "TODO"
+      },
+      {
+        "symbol": "c",
+        "name": "cons",
+        "nextStatusSymbol": "x",
+        "availableAsCommand": false,
+        "type": "TODO"
+      },
+      {
+        "symbol": "f",
+        "name": "fire",
+        "nextStatusSymbol": "x",
+        "availableAsCommand": false,
+        "type": "TODO"
+      },
+      {
+        "symbol": "k",
+        "name": "key",
+        "nextStatusSymbol": "x",
+        "availableAsCommand": false,
+        "type": "TODO"
+      },
+      {
+        "symbol": "w",
+        "name": "win",
+        "nextStatusSymbol": "x",
+        "availableAsCommand": false,
+        "type": "TODO"
+      },
+      {
+        "symbol": "u",
+        "name": "up",
+        "nextStatusSymbol": "x",
+        "availableAsCommand": false,
+        "type": "TODO"
+      },
+      {
+        "symbol": "d",
+        "name": "down",
+        "nextStatusSymbol": "x",
+        "availableAsCommand": false,
+        "type": "TODO"
       }
     ]
   },
