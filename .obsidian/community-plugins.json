@@ -7,11 +7,11 @@
   "obsidian-git",
   "cm-editor-syntax-highlight-obsidian",
   "obsidian-linter",
-  "obsidian-table-generator",
   "templater-obsidian",
   "graph-banner",
   "pkmer",
   "i18n",
   "obsidian-excalidraw-plugin",
-  "quickadd"
+  "quickadd",
+  "obsidian-tasks-plugin"
 ]
