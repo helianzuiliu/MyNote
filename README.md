@@ -1,9 +1,10 @@
 
-```dataview
-TASK 
-FROM "daily" 
-where  !completed 
-sort due asc
-GROUP BY dateformat(file.cday,"yyyy-MM-dd")
+```tasks
+path does not include template
+due after yesterday or not done
+sort by priority
+sort by due
+sort by start
+group by function task.due.formatAsDate()
 ```
 
