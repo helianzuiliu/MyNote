@@ -6,33 +6,31 @@
       {
         "id": "81a2ea9780bb9a47",
         "type": "tabs",
-        "dimension": 57.57825370675454,
+        "dimension": 53.70675453047776,
         "children": [
           {
             "id": "2349a260fcbf4754",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "计算机/网络/RPC.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
+                "file": "Excalidraw/RPC调用过程.excalidraw.md"
               },
-              "icon": "lucide-file",
-              "title": "RPC"
+              "icon": "excalidraw-icon",
+              "title": "RPC调用过程.excalidraw"
             }
           }
         ]
       },
       {
-        "id": "11b39ba91d8de2e7",
+        "id": "0a9163e430231a2b",
         "type": "tabs",
-        "dimension": 42.42174629324547,
+        "dimension": 46.29324546952224,
         "children": [
           {
             "id": "24bb5aa970a5b02d",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "webviewer",
               "state": {
@@ -40,6 +38,7 @@
                 "title": "RPC框架：从原理到选型，一文带你搞懂RPC-CSDN博客",
                 "mode": "reader"
               },
+              "pinned": true,
               "icon": "globe-2",
               "title": "RPC框架：从原理到选型，一文带你搞懂RPC-CSDN博客"
             }
@@ -76,7 +75,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#TCP",
+                "query": "http",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -101,8 +100,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 277.5,
-    "collapsed": true
+    "width": 277.5
   },
   "right": {
     "id": "8d6c691ab084dea8",
@@ -190,12 +188,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Excalidraw/RPC调用过程.excalidraw.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "大纲"
+              "title": "RPC调用过程.excalidraw 的大纲"
             }
           },
           {
@@ -203,9 +202,11 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {},
+              "state": {
+                "file": "Excalidraw/RPC调用过程.excalidraw.md"
+              },
               "icon": "lucide-info",
-              "title": "笔记属性"
+              "title": "RPC调用过程.excalidraw的笔记属性"
             }
           },
           {
@@ -245,12 +246,15 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "24bb5aa970a5b02d",
+  "active": "2349a260fcbf4754",
   "lastOpenFiles": [
     "计算机/网络/RPC.md",
+    "Excalidraw/RPC调用过程.excalidraw.md",
+    "README.md",
+    "计算机/数据库/非关系型数据库.md",
+    "计算机/网络/Http.md",
     "计算机/网络/gRPC.md",
     "template/程序.md",
-    "README.md",
     "计算机/网络/WebSocket.md",
     "计算机/网络/TCP.md",
     "计算机/网络/TCP_IP协议.md",
@@ -271,9 +275,6 @@
     "设计模式/DesignPattern.canvas",
     "programe/cpp/面向对象.md",
     "programe/cpp/async.md",
-    "programe/cpp/bind.md",
-    "programe/cpp/thread pool.md",
-    "programe/cpp/map.md",
     "附件/Pasted image 20240605143255.png",
     "附件/Pasted image 20240605105556.png",
     "附件/Pasted image 20240604142815.png",
