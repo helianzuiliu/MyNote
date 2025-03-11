@@ -6,18 +6,21 @@
       {
         "id": "81a2ea9780bb9a47",
         "type": "tabs",
-        "dimension": 53.70675453047776,
+        "dimension": 62.52059308072487,
         "children": [
           {
             "id": "2349a260fcbf4754",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/RPC调用过程.excalidraw.md"
+                "file": "计算机/网络/gRPC.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "excalidraw-icon",
-              "title": "RPC调用过程.excalidraw"
+              "icon": "lucide-file",
+              "title": "gRPC"
             }
           }
         ]
@@ -25,7 +28,7 @@
       {
         "id": "0a9163e430231a2b",
         "type": "tabs",
-        "dimension": 46.29324546952224,
+        "dimension": 37.47940691927512,
         "children": [
           {
             "id": "24bb5aa970a5b02d",
@@ -188,13 +191,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Excalidraw/RPC调用过程.excalidraw.md",
+                "file": "计算机/网络/gRPC.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "RPC调用过程.excalidraw 的大纲"
+              "title": "gRPC 的大纲"
             }
           },
           {
@@ -203,10 +206,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Excalidraw/RPC调用过程.excalidraw.md"
+                "file": "计算机/网络/gRPC.md"
               },
               "icon": "lucide-info",
-              "title": "RPC调用过程.excalidraw的笔记属性"
+              "title": "gRPC的笔记属性"
             }
           },
           {
@@ -248,18 +251,18 @@
   },
   "active": "2349a260fcbf4754",
   "lastOpenFiles": [
-    "计算机/网络/RPC.md",
-    "Excalidraw/RPC调用过程.excalidraw.md",
     "README.md",
-    "计算机/数据库/非关系型数据库.md",
-    "计算机/网络/Http.md",
     "计算机/网络/gRPC.md",
-    "template/程序.md",
-    "计算机/网络/WebSocket.md",
+    "计算机/网络/RPC.md",
+    "计算机/网络/Http.md",
+    "计算机/网络/UDP.md",
     "计算机/网络/TCP.md",
     "计算机/网络/TCP_IP协议.md",
-    "计算机/网络/UDP.md",
     "计算机/网络/Socket.md",
+    "Excalidraw/RPC调用过程.excalidraw.md",
+    "计算机/数据库/非关系型数据库.md",
+    "template/程序.md",
+    "计算机/网络/WebSocket.md",
     "计算机/网络/protobuf.md",
     "daily/2025-03-11.md",
     "daily/2025-03-10.md",
