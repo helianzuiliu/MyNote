@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "template/每日.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "每日"
+              "title": "README"
             }
           }
         ]
@@ -198,7 +198,8 @@
               "title": "Mermaid Toolbar"
             }
           }
-        ]
+        ],
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
@@ -226,12 +227,13 @@
   "active": "2349a260fcbf4754",
   "lastOpenFiles": [
     "daily/2025-03-11.md",
+    "计算机/网络/grpc.md",
     "README.md",
     "daily/2025-03-10.md",
+    "template/每日.md",
     "daily/2024-05-27.md",
     "daily/2025-03-07.md",
     "daily/2025-03-08.md",
-    "template/每日.md",
     "软件工程/开发模型.md",
     "软件工程/耦合.md",
     "软件工程/维护.md",
@@ -251,7 +253,6 @@
     "计算机/操作系统/死锁.md",
     "计算机/操作系统/临界资源.md",
     "计算机/计算机组成原理/段页式存储.md",
-    "计算机/计算机组成原理/进制.md",
     "附件/Pasted image 20240605143255.png",
     "附件/Pasted image 20240605105556.png",
     "附件/Pasted image 20240604142815.png",
