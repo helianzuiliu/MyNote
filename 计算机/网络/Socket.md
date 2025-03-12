@@ -4,3 +4,4 @@ tags:
 aliases:
   - 套接字
 ---
+是TCP和UDP
