@@ -1,7 +1,6 @@
-
 ```tasks
 path does not include template
- (not done) 
+(due after a week ago) or (not done)
 sort by priority
 sort by due
 sort by start

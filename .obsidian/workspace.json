@@ -14,13 +14,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机/网络/gRPC.md",
+                "file": "计算机/网络/RPC.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "gRPC"
+              "title": "RPC"
             }
           }
         ]
@@ -191,13 +191,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/网络/gRPC.md",
+                "file": "计算机/网络/WebSocket.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "gRPC 的大纲"
+              "title": "WebSocket 的大纲"
             }
           },
           {
@@ -206,10 +206,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/网络/gRPC.md"
+                "file": "计算机/网络/WebSocket.md"
               },
               "icon": "lucide-info",
-              "title": "gRPC的笔记属性"
+              "title": "WebSocket的笔记属性"
             }
           },
           {
@@ -251,7 +251,9 @@
   },
   "active": "2349a260fcbf4754",
   "lastOpenFiles": [
+    "计算机/网络/WebSocket.md",
     "README.md",
+    "daily/2025-03-11.md",
     "计算机/网络/gRPC.md",
     "计算机/网络/RPC.md",
     "计算机/网络/Http.md",
@@ -262,9 +264,7 @@
     "Excalidraw/RPC调用过程.excalidraw.md",
     "计算机/数据库/非关系型数据库.md",
     "template/程序.md",
-    "计算机/网络/WebSocket.md",
     "计算机/网络/protobuf.md",
-    "daily/2025-03-11.md",
     "daily/2025-03-10.md",
     "template/每日.md",
     "daily/2024-05-27.md",
