@@ -70,7 +70,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "http",
+                "query": "[\"create_date\"]",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
