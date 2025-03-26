@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机/RabbitMQ.md",
+                "file": "daily/2025-03-10.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "RabbitMQ"
+              "title": "2025-03-10"
             }
           },
           {
@@ -198,10 +198,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/RabbitMQ.md"
+                "file": "daily/2025-03-10.md"
               },
               "icon": "lucide-info",
-              "title": "RabbitMQ的笔记属性"
+              "title": "2025-03-10的笔记属性"
             }
           },
           {
@@ -241,6 +241,12 @@
   },
   "active": "2349a260fcbf4754",
   "lastOpenFiles": [
+    "daily/2025-03-11.md",
+    "daily/2025-03-08.md",
+    "daily/2024-05-27.md",
+    "daily/2025-03-07.md",
+    "daily/2025-03-10.md",
+    "daily/2025-03-12.md",
     "Excalidraw/RPC调用过程.excalidraw.md",
     "计算机/RabbitMQ.md",
     "README.md",
@@ -253,20 +259,14 @@
     "计算机/网络/gRPC.md",
     "计算机/网络/UDP.md",
     "计算机/网络/未命名.md",
-    "daily/2025-03-12.md",
     "template/每日.md",
     "计算机/网络/RPC.md",
     "计算机/网络/Socket.md",
     "计算机/网络/protobuf.md",
     "计算机/网络/OSI模型.md",
     "计算机/网络/Http.md",
-    "daily/2025-03-11.md",
     "计算机/网络/WebSocket.md",
     "计算机/网络/TCP_IP协议.md",
-    "计算机/数据库/非关系型数据库.md",
-    "template/程序.md",
-    "daily/2025-03-10.md",
-    "daily/2024-05-27.md",
     "设计模式/DesignPattern.canvas",
     "附件/Pasted image 20240605143255.png",
     "附件/Pasted image 20240605105556.png",
