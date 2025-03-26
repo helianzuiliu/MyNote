@@ -236,14 +236,15 @@
       "audio-recorder:开始/结束录音": false,
       "mermaid-tools:Open Mermaid Toolbar": false,
       "templater-obsidian:Templater": true,
-      "pkmer:Open Pkmer Market": true,
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
   "active": "2349a260fcbf4754",
   "lastOpenFiles": [
-    "计算机/网络/TCP.md",
+    "Excalidraw/RPC调用过程.excalidraw.md",
     "计算机/RabbitMQ.md",
+    "README.md",
+    "计算机/网络/TCP.md",
     "计算机/操作系统/临界资源.md",
     "计算机/操作系统/IO多路复用.md",
     "计算机/操作系统/PV操作.md",
@@ -262,8 +263,6 @@
     "daily/2025-03-11.md",
     "计算机/网络/WebSocket.md",
     "计算机/网络/TCP_IP协议.md",
-    "README.md",
-    "Excalidraw/RPC调用过程.excalidraw.md",
     "计算机/数据库/非关系型数据库.md",
     "template/程序.md",
     "daily/2025-03-10.md",
