@@ -4,38 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "9ddb267985f06d98",
-        "type": "tabs",
-        "dimension": 43.32493702770781,
-        "children": [
-          {
-            "id": "c4bda2c586faab05",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "webviewer",
-              "state": {
-                "url": "https://blog.csdn.net/weikangc/article/details/49762929",
-                "title": "C++中指针和引用的区别（超详细）_c++指针和引用的概念-CSDN博客",
-                "mode": "reader"
-              },
-              "pinned": true,
-              "icon": "globe-2",
-              "title": "C++中指针和引用的区别（超详细）_c++指针和引用的概念-CSDN博客"
-            },
-            "group": "2634e4ae5d08b4d7"
-          }
-        ]
-      },
-      {
         "id": "61c1cbdf93fa0206",
         "type": "tabs",
-        "dimension": 56.67506297229219,
         "children": [
           {
             "id": "351b6c7d24f0af6c",
             "type": "leaf",
-            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
@@ -44,11 +18,9 @@
                 "source": false,
                 "backlinks": false
               },
-              "pinned": true,
               "icon": "lucide-file",
               "title": "指针和引用"
-            },
-            "group": "2634e4ae5d08b4d7"
+            }
           }
         ]
       }
@@ -107,8 +79,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 277.5,
-    "collapsed": true
+    "width": 277.5
   },
   "right": {
     "id": "8d6c691ab084dea8",
@@ -210,9 +181,11 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {},
+              "state": {
+                "file": "programe/cpp/指针和引用.md"
+              },
               "icon": "lucide-info",
-              "title": "笔记属性"
+              "title": "指针和引用的笔记属性"
             }
           },
           {
@@ -250,12 +223,15 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "c4bda2c586faab05",
+  "active": "351b6c7d24f0af6c",
   "lastOpenFiles": [
-    "programe/cpp/指针和引用.md",
+    "programe/cpp/virtual function.md",
     "programe/cpp/thread pool.md",
+    "programe/cpp/map.md",
     "programe/cpp/bind.md",
     "programe/cpp/async.md",
+    "programe/cpp/左值右值.md",
+    "programe/cpp/指针和引用.md",
     "programe/cpp/面向对象.md",
     "Excalidraw/RPC调用过程.excalidraw.md",
     "设计模式/DesignPattern.canvas",
@@ -276,9 +252,6 @@
     "计算机/操作系统/PV操作.md",
     "计算机/操作系统/线程与进程.md",
     "计算机/网络/八股文.md",
-    "计算机/网络/gRPC.md",
-    "计算机/网络/UDP.md",
-    "计算机/网络/未命名.md",
     "附件/Pasted image 20240605143255.png",
     "附件/Pasted image 20240605105556.png",
     "附件/Pasted image 20240604142815.png",
