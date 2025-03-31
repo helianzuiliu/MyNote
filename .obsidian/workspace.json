@@ -4,12 +4,38 @@
     "type": "split",
     "children": [
       {
-        "id": "597e056b464c6bfa",
+        "id": "9ddb267985f06d98",
         "type": "tabs",
+        "dimension": 43.32493702770781,
+        "children": [
+          {
+            "id": "c4bda2c586faab05",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "webviewer",
+              "state": {
+                "url": "https://blog.csdn.net/weikangc/article/details/49762929",
+                "title": "C++中指针和引用的区别（超详细）_c++指针和引用的概念-CSDN博客",
+                "mode": "reader"
+              },
+              "pinned": true,
+              "icon": "globe-2",
+              "title": "C++中指针和引用的区别（超详细）_c++指针和引用的概念-CSDN博客"
+            },
+            "group": "2634e4ae5d08b4d7"
+          }
+        ]
+      },
+      {
+        "id": "61c1cbdf93fa0206",
+        "type": "tabs",
+        "dimension": 56.67506297229219,
         "children": [
           {
             "id": "351b6c7d24f0af6c",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
@@ -18,29 +44,11 @@
                 "source": false,
                 "backlinks": false
               },
+              "pinned": true,
               "icon": "lucide-file",
               "title": "指针和引用"
-            }
-          }
-        ]
-      },
-      {
-        "id": "cca6eb3e625dd83e",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "c4bda2c586faab05",
-            "type": "leaf",
-            "state": {
-              "type": "webviewer",
-              "state": {
-                "url": "https://blog.csdn.net/weikangc/article/details/49762929",
-                "title": "C++中指针和引用的区别（超详细）_c++指针和引用的概念-CSDN博客",
-                "mode": "webview"
-              },
-              "icon": "globe-2",
-              "title": "C++中指针和引用的区别（超详细）_c++指针和引用的概念-CSDN博客"
-            }
+            },
+            "group": "2634e4ae5d08b4d7"
           }
         ]
       }
@@ -99,7 +107,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 277.5
+    "width": 277.5,
+    "collapsed": true
   },
   "right": {
     "id": "8d6c691ab084dea8",
@@ -221,7 +230,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 301.5
+    "width": 306.5
   },
   "left-ribbon": {
     "hiddenItems": {
