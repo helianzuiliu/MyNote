@@ -23,6 +23,26 @@
             }
           }
         ]
+      },
+      {
+        "id": "cca6eb3e625dd83e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c4bda2c586faab05",
+            "type": "leaf",
+            "state": {
+              "type": "webviewer",
+              "state": {
+                "url": "https://blog.csdn.net/weikangc/article/details/49762929",
+                "title": "C++中指针和引用的区别（超详细）_c++指针和引用的概念-CSDN博客",
+                "mode": "webview"
+              },
+              "icon": "globe-2",
+              "title": "C++中指针和引用的区别（超详细）_c++指针和引用的概念-CSDN博客"
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -181,11 +201,9 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {
-                "file": "programe/cpp/指针和引用.md"
-              },
+              "state": {},
               "icon": "lucide-info",
-              "title": "指针和引用的笔记属性"
+              "title": "笔记属性"
             }
           },
           {
@@ -223,7 +241,7 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "351b6c7d24f0af6c",
+  "active": "c4bda2c586faab05",
   "lastOpenFiles": [
     "programe/cpp/指针和引用.md",
     "programe/cpp/thread pool.md",
