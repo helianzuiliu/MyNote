@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "programe/ue/ai/EQS.md",
+                "file": "programe/cpp/闭包.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "EQS"
+              "title": "闭包"
             }
           }
         ]
@@ -201,11 +201,9 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {
-                "file": "programe/ue/ai/EQS.md"
-              },
+              "state": {},
               "icon": "lucide-info",
-              "title": "EQS的笔记属性"
+              "title": "笔记属性"
             }
           },
           {
@@ -244,15 +242,15 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "351b6c7d24f0af6c",
+  "active": "d343fe551d058fca",
   "lastOpenFiles": [
     "programe/cpp/闭包.md",
+    "programe/cpp/指针和引用.md",
+    "programe/cpp/智能指针.md",
+    "programe/cpp/面向对象.md",
     "programe/ue/ai/EQS.md",
     "programe/ue/ai",
     "programe/ue",
-    "programe/cpp/面向对象.md",
-    "programe/cpp/指针和引用.md",
-    "programe/cpp/智能指针.md",
     "programe/cpp/左值右值.md",
     "programe/cpp/async.md",
     "programe/cpp/bind.md",
