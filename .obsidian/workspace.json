@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机/数据库/函数依赖.md",
+                "file": "计算机/数据库/MySQL 事务.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "函数依赖"
+              "title": "MySQL 事务"
             }
           },
           {
@@ -238,6 +238,10 @@
   },
   "active": "351b6c7d24f0af6c",
   "lastOpenFiles": [
+    "计算机/数据库/MySQL.md",
+    "计算机/数据库/DataView的使用方法.md",
+    "计算机/数据库/设计范式.md",
+    "计算机/数据库/函数依赖.md",
     "计算机/数据库/非关系型数据库.md",
     "programe/cpp/闭包.md",
     "Excalidraw/Drawing 2025-04-08 00.44.41.excalidraw.md",
@@ -263,10 +267,6 @@
     "daily/2025-03-10.md",
     "daily/2025-03-11.md",
     "daily/2025-03-08.md",
-    "daily/2024-05-27.md",
-    "daily/2025-03-07.md",
-    "daily/2025-03-12.md",
-    "计算机/RabbitMQ.md",
     "附件/Pasted image 20240605143255.png",
     "附件/Pasted image 20240605105556.png",
     "附件/Pasted image 20240604142815.png",
