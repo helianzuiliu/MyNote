@@ -23,6 +23,18 @@
             }
           },
           {
+            "id": "390fcce9205245b3",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.8.10"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.8.10"
+            }
+          },
+          {
             "id": "d343fe551d058fca",
             "type": "leaf",
             "state": {
@@ -36,7 +48,8 @@
               "title": "Lambda和闭包(closure) 及其在C++中的实现原理_c++闭包原理-CSDN博客"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -236,7 +249,7 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "351b6c7d24f0af6c",
+  "active": "390fcce9205245b3",
   "lastOpenFiles": [
     "计算机/数据库/MySQL.md",
     "计算机/数据库/DataView的使用方法.md",
