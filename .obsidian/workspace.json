@@ -13,27 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机/数据库/MySQL 事务.md",
+                "file": "软件工程/维护.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "MySQL 事务"
-            }
-          },
-          {
-            "id": "d343fe551d058fca",
-            "type": "leaf",
-            "state": {
-              "type": "webviewer",
-              "state": {
-                "url": "https://blog.csdn.net/u012456479/article/details/101479821",
-                "title": "Lambda和闭包(closure) 及其在C++中的实现原理_c++闭包原理-CSDN博客",
-                "mode": "webview"
-              },
-              "icon": "globe-2",
-              "title": "Lambda和闭包(closure) 及其在C++中的实现原理_c++闭包原理-CSDN博客"
+              "title": "维护"
             }
           }
         ]
@@ -238,13 +224,16 @@
   },
   "active": "351b6c7d24f0af6c",
   "lastOpenFiles": [
+    "软件工程/耦合.md",
+    "软件工程/开发模型.md",
+    "计算机/RabbitMQ.md",
+    "计算机/数据库/MySQL 事务.md",
     "计算机/数据库/关系代数.md",
     "计算机/数据库/函数依赖.md",
     "计算机/数据库/设计范式.md",
     "计算机/数据库/DataView的使用方法.md",
     "计算机/网络/gRPC.md",
     "计算机/网络/八股文.md",
-    "计算机/RabbitMQ.md",
     "计算机/数据库/MySQL.md",
     "计算机/数据库/非关系型数据库.md",
     "programe/cpp/闭包.md",
@@ -263,10 +252,7 @@
     "programe/cpp/RTTI.md",
     "programe/cpp/thread pool.md",
     "programe/cpp/virtual function.md",
-    "Excalidraw/RPC调用过程.excalidraw.md",
     "设计模式/DesignPattern.canvas",
-    "algorithm/排序/基数排序.md",
-    "设计模式/创建型设计模式/原型.md",
     "附件/Pasted image 20240605143255.png",
     "附件/Pasted image 20240605105556.png",
     "附件/Pasted image 20240604142815.png",
