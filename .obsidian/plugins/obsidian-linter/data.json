@@ -172,15 +172,15 @@
       "list-style": "consistent"
     },
     "compact-yaml": {
-      "enabled": false,
-      "inner-new-lines": false
+      "enabled": true,
+      "inner-new-lines": true
     },
     "consecutive-blank-lines": {
       "enabled": false
     },
     "convert-spaces-to-tabs": {
       "enabled": false,
-      "tabsize": 4
+      "tabsize": "4"
     },
     "empty-line-around-blockquotes": {
       "enabled": false
@@ -192,10 +192,10 @@
       "enabled": false
     },
     "empty-line-around-tables": {
-      "enabled": false
+      "enabled": true
     },
     "heading-blank-lines": {
-      "enabled": false,
+      "enabled": true,
       "bottom": true,
       "empty-line-after-yaml": true
     },
@@ -206,10 +206,10 @@
       "enabled": false
     },
     "paragraph-blank-lines": {
-      "enabled": false
+      "enabled": true
     },
     "remove-empty-lines-between-list-markers-and-checklists": {
-      "enabled": false
+      "enabled": true
     },
     "remove-link-spacing": {
       "enabled": false
