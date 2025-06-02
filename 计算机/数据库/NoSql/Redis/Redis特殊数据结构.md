@@ -1,7 +1,4 @@
-
-
-
-### Redis的geospatial(地理空间) 
+### Redis的geospatial(地理空间)
 
 所有和geospatial有关的命令都是geo开头的
 
@@ -30,6 +27,7 @@ geospatial本质是zset, 可以用zset的方法对geospatial进行一些操作
 > `geopos key member [member ...]`
 
 获取指定的member的地理位置
+
 ```bash
 127.0.0.1:6379> geopos china:city beijing
 1) 1) "116.39999896287918091"
@@ -41,6 +39,7 @@ geospatial本质是zset, 可以用zset的方法对geospatial进行一些操作
 计算两个成员之间的支线距离, 
 
 unit是这个距离的单位支持
+
 - m(米)
 - km(千米)
 - mi(英里)
@@ -120,8 +119,6 @@ unit是这个距离的单位支持
 1) "wx4fbxxfke0"
 ```
 
-
-
 ### Redis的Hyperloglog(基数)
 
 所有和Hyperloglog有关的命令都是PF开头的
@@ -136,6 +133,7 @@ unit是这个距离的单位支持
 Hyperloglog的使用案例
 
 网页的浏览量
+
 - 在一段时间内同一个人浏览只有一次
 
 传统的可以用set保存,但是当浏览人数变多就会很占内存,但是这种情形我们不需要去存储浏览人的id等数据,此时Hyperloglog就可以在可接受的出错率下完美替换set
@@ -175,16 +173,6 @@ OK
 (integer) 11
 ```
 
-
-
-
 ### Redis的Bitmap(位图)
 
-
-
-
-
-
 ### Redis的Stream
-
-

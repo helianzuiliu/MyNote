@@ -138,7 +138,6 @@ int main()
 
 大概的工作过程是这样的：`std::async`先将异步操作用`std::packaged_task`包装起来，然后将异步操作的结果放到`std::promise`中，这个过程就是创造未来的过程。外面再通过`future.get/wait`来获取这个未来的结果！
 
-
 ## 6.1`std::async`的简单使用
 
 来看看`std::async`的原型

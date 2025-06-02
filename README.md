@@ -23,6 +23,6 @@ series:
 bestFit: true
 bestFitTitle: "名称"
 bestFitNumber: 1
-width: 80%
+width: 100%
 ```
 

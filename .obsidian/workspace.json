@@ -13,13 +13,22 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "Dashboard.md",
                 "mode": "source",
                 "source": false,
-                "backlinks": false
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "Dashboard"
             }
           }
         ]
@@ -222,20 +231,26 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "351b6c7d24f0af6c",
+  "active": "312713e416cd5434",
   "lastOpenFiles": [
-    "template/每日.md",
-    "template/程序.md",
+    "00.Templates",
     "README.md",
-    "daily/2025-03-12.md",
-    "daily/2024-05-27.md",
+    "Dashboard.md",
     "Excalidraw/RPC调用过程.excalidraw.md",
+    "daily/2025-03-08.md",
+    "algorithm/字符串/KMP.md",
+    "algorithm/字符串/字符串哈希.md",
+    "algorithm/字符串/Trie.md",
+    "daily/2025-03-07.md",
+    "daily/2024-05-27.md",
+    "daily/2025-03-11.md",
+    "daily/2025-03-10.md",
+    "daily/2025-03-12.md",
+    "template/程序.md",
+    "template/每日.md",
     "Excalidraw/Drawing 2025-06-02 20.39.08.excalidraw.md",
     "软件工程/UML.md",
     "软件工程/CMM.md",
-    "algorithm/字符串/Trie.md",
-    "algorithm/字符串/KMP.md",
-    "algorithm/字符串/字符串哈希.md",
     "algorithm/空间复杂度.md",
     "algorithm/时间复杂度.md",
     "Excalidraw/Drawing 2025-04-08 00.44.41.excalidraw.md",
@@ -244,13 +259,7 @@
     "软件工程/开发模型.md",
     "计算机/数据库/DataView的使用方法.md",
     "计算机/数据库/NoSql/Redis/Redis.md",
-    "计算机/数据库/NoSql/Redis/Redis持久化.md",
-    "计算机/数据库/NoSql/Redis/Redis订阅.md",
     "计算机/数据库/NoSql/Redis/Redis结构.canvas",
-    "计算机/数据库/非关系型数据库.md",
-    "计算机/数据库/关系代数.md",
-    "计算机/数据库/关系型数据库.md",
-    "计算机/数据库/函数依赖.md",
     "programe/ue/ai",
     "programe/ue",
     "设计模式/DesignPattern.canvas",

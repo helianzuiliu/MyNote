@@ -35,11 +35,9 @@ Redis本身建议在Linux系统上使用,Windows版的Redis使用的比较少
 
 ![[Redis特殊数据结构]]
 
-
 ## Redis的事务
 
 ![[Redis事务]]
-
 
 ## Redis持久化
 
@@ -49,11 +47,8 @@ Redis本身建议在Linux系统上使用,Windows版的Redis使用的比较少
 
 ![[Redis订阅]]
 
-
 ## Redis 主从复制
 
 ![[Redis主从复制]]
 
 ![[Redis缓存穿透和雪崩]]
-
-
