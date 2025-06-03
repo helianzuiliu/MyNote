@@ -4,18 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "61c1cbdf93fa0206",
+        "id": "4d2a261fbbfe9ac9",
         "type": "tabs",
         "children": [
           {
-            "id": "351b6c7d24f0af6c",
+            "id": "e92f56e6e6245fbf",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "01.Game/01.崩坏三/深渊.md",
                 "mode": "source",
-                "source": true,
+                "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
@@ -203,7 +203,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 301.5
+    "width": 301.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -219,14 +220,24 @@
       "random-note:开始漫游笔记": false,
       "mermaid-tools:Open Mermaid Toolbar": false,
       "templater-obsidian:Templater": true,
-      "obsidian-excalidraw-plugin:新建绘图文件": false
+      "obsidian-excalidraw-plugin:新建绘图文件": false,
+      "pkmer:Open Pkmer Market": false
     }
   },
-  "active": "351b6c7d24f0af6c",
+  "active": "e92f56e6e6245fbf",
   "lastOpenFiles": [
-    "Dashboard.md",
+    "01.Game/01.崩坏三/bh3_banner.jpg",
     "01.Game/01.崩坏三/深渊.md",
     "01.Game/02.原神/深渊.md",
+    "01.Game/01.崩坏三/Banner.jpg.crdownload",
+    "计算机/操作系统/临界资源.md",
+    "01.Game/01.崩坏三/未命名.md",
+    "计算机/操作系统/死锁.md",
+    "计算机/操作系统/线程与进程.md",
+    "计算机/操作系统/IO多路复用.md",
+    "template/每日.md",
+    "template/程序.md",
+    "Dashboard.md",
     "01.Game/03.崩铁/深渊.md",
     "01.Game/04.绝区零/深渊.md",
     "01.Game/05.鸣嘲/深渊.md",
@@ -235,11 +246,9 @@
     "01.Game/01.崩坏三",
     "01.Game/03.崩铁",
     "02.Live/01.Game/02.崩铁.md",
-    "template/每日.md",
     "01.Game/02.原神",
     "01.Game",
     "00.Templates/01.Live",
-    "template/程序.md",
     "01.daily",
     "02.Live",
     "README.md",
@@ -253,13 +262,6 @@
     "软件工程/耦合.md",
     "软件工程/开发模型.md",
     "daily/2024-05-27.md",
-    "00.Templates",
-    "algorithm/字符串/KMP.md",
-    "algorithm/字符串/字符串哈希.md",
-    "algorithm/字符串/Trie.md",
-    "daily/2025-03-11.md",
-    "daily/2025-03-10.md",
-    "daily/2025-03-12.md",
     "计算机/数据库/NoSql/Redis/Redis结构.canvas",
     "设计模式/DesignPattern.canvas",
     "附件/Pasted image 20240605143255.png",
@@ -271,7 +273,6 @@
     "附件/v2-4b6d2892b6ce889864e93efb17cda0a1_1440w.webp",
     "附件/v2-ce347baa86098f7cd7d30d1897685c4b_1440w.webp",
     "附件/Pasted image 20240730153717.png",
-    "附件/Pasted image 20240730152342.png",
     "设计模式/行为型模式/未命名.canvas",
     "未命名.canvas",
     "未命名 1.canvas",

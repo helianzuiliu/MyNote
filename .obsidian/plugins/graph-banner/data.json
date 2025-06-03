@@ -1,7 +1,0 @@
-{
-  "ignore": [
-    "Dashboard.md",
-    "README.md"
-  ],
-  "timeToRemoveLeaf": 100
-}

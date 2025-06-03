@@ -8,10 +8,11 @@
   "cm-editor-syntax-highlight-obsidian",
   "obsidian-linter",
   "templater-obsidian",
-  "graph-banner",
   "i18n",
   "obsidian-excalidraw-plugin",
   "quickadd",
   "obsidian-tasks-plugin",
-  "obsidian-charts"
+  "obsidian-charts",
+  "pkmer",
+  "obsidian-banners"
 ]
