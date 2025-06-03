@@ -1,9 +1,9 @@
 {
-  "style": "solid",
+  "style": "gradient",
   "adjustWidthToReadableLineWidth": false,
   "showInInternalEmbed": true,
   "showInPopover": true,
-  "bannerDragModifier": "None",
+  "bannerDragModifier": "Shift",
   "enableDragInInternalEmbed": false,
   "enableDragInPopover": false,
   "enableLockButton": true,

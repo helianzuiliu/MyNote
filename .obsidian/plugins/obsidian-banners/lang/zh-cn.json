@@ -1,0 +1,51 @@
+{
+    "manifest": {
+        "translationVersion": 1748957502866,
+        "pluginVersion": "2.0.5-beta"
+    },
+    "description": {
+        "original": "Add banner images to your notes!",
+        "translation": "Add banner images to your notes!"
+    },
+    "dict": {
+        "Notice(createFragment(e=>{e.createEl(\"b\",{text:\"Hey! Looks like you've used Banners in the past. \"})": "Notice(createFragment(e=>{e.createEl(\"b\",{text:\"Hey! Looks like you've used Banners in the past. \"})",
+        "Notice(`Updated Banner settings from ${e.version??\"1.x\"} to ${A.manifest.version}`)": "Notice(`Updated Banner settings from ${e.version??\"1.x\"} to ${A.manifest.version}`)",
+        "Notice(\"Unable to add a banner to the leaflet!\")": "Notice(\"Unable to add a banner to the leaflet!\")",
+        "Notice(`Failed to update banner at leaf ${a}!`)": "Notice(`Failed to update banner at leaf ${a}!`)",
+        "Notice('Error: Make sure that you set the \"Banners folder\" setting to a valid folder',7e3)": "Notice('Error: Make sure that you set the \"Banners folder\" setting to a valid folder',7e3)",
+        "Notice(`Downloaded the banner to ${i.path} and linked the note to it!`)": "Notice(`Downloaded the banner to ${i.path} and linked the note to it!`)",
+        "Notice(\"Couldn't download the image into the vault!\")": "Notice(\"Couldn't download the image into the vault!\")",
+        "Notice(\"Your clipboard didn't have a valid URL!\")": "Notice(\"Your clipboard didn't have a valid URL!\")",
+        "Notice(`Pasted a new banner for ${e.name}!`)": "Notice(`Pasted a new banner for ${e.name}!`)",
+        ".log(A.settings)": ".log(A.settings)",
+        ".log(\"open note!\")": ".log(\"open note!\")",
+        ".error(e)": ".error(e)",
+        ".error(a)": ".error(a)",
+        ".error(n)": ".error(n)",
+        ".error(t)": ".error(t)",
+        ".error(r)": ".error(r)",
+        ".error({clipboard:e})": ".error({clipboard:e})",
+        "name:\"Add/Change banner with local image\"": "name:\"Add/Change banner with local image\"",
+        "name:\"Remove banner\"": "name:\"Remove banner\"",
+        "name:\"Paste banner from clipboard\"": "name:\"Paste banner from clipboard\"",
+        "name:\"Download banner in note to vault\"": "name:\"Download banner in note to vault\"",
+        "name:\"Lock/Unlock banner position\"": "name:\"Lock/Unlock banner position\"",
+        "name:\"Add/Change icon\"": "name:\"Add/Change icon\"",
+        "name:\"Remove icon\"": "name:\"Remove icon\"",
+        "name:\"Add/Change header\"": "name:\"Add/Change header\"",
+        "name:\"Remove header\"": "name:\"Remove header\"",
+        "description:\"A nice, lil' thing to add some flair to your notes :)\"": "description:\"A nice, lil' thing to add some flair to your notes :)\"",
+        "description:\"Kinda like inline titles, but with a bit of pizazz\"": "description:\"Kinda like inline titles, but with a bit of pizazz\"",
+        "description:\"Give a lil' notion of what your note is about\"": "description:\"Give a lil' notion of what your note is about\"",
+        "description:'For the modal that shows when you run the \"Add/Change banner with local image\" command'": "description:'For the modal that shows when you run the \"Add/Change banner with local image\" command'",
+        "description:\"'Cause I do not know where else to put these...\"": "description:\"'Cause I do not know where else to put these...\"",
+        "text:\"Update banner sources\"": "text:\"Update banner sources\"",
+        "text:\"Flush banner cache\"": "text:\"Flush banner cache\"",
+        "text:\"Hey! Looks like you've used Banners in the past. \"": "text:\"Hey! Looks like you've used Banners in the past. \"",
+        "text:\"Banners created in 1.x use an outdated syntax for internal files that no longer work in 2.0. To update this throughout your vault, go to the bottom of the Banners settings tab\"": "text:\"Banners created in 1.x use an outdated syntax for internal files that no longer work in 2.0. To update this throughout your vault, go to the bottom of the Banners settings tab\"",
+        ".setText(\"Update legacy syntax for banner sources\")": ".setText(\"Update legacy syntax for banner sources\")",
+        ".setText(\"What would you like to put on your header?\")": ".setText(\"What would you like to put on your header?\")",
+        ".setPlaceholder(\"Pick an emoji to use as an icon\")": ".setPlaceholder(\"Pick an emoji to use as an icon\")",
+        ".setPlaceholder(\"Pick an image to use as a banner\")": ".setPlaceholder(\"Pick an image to use as a banner\")"
+    }
+}
