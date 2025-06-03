@@ -1,6 +1,13 @@
 {
   "choices": [],
-  "macros": [],
+  "macros": [
+    {
+      "name": "add waitlist",
+      "id": "b191c491-5131-4d21-ab95-a803fe113b9f",
+      "commands": [],
+      "runOnStartup": false
+    }
+  ],
   "inputPrompt": "single-line",
   "devMode": false,
   "templateFolderPath": "",
