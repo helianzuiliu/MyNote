@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Dashboard.md",
+                "file": "01.Game/01.崩坏三/深渊.md",
                 "mode": "source",
-                "source": false,
+                "source": true,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Dashboard"
+              "title": "深渊"
             }
           }
         ]
@@ -54,7 +54,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "[\"create_date\"]",
+                "query": "[\"create_time\"]",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -172,10 +172,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "README.md"
+                "file": "01.Game/01.崩坏三/深渊.md"
               },
               "icon": "lucide-info",
-              "title": "README的笔记属性"
+              "title": "深渊的笔记属性"
             }
           },
           {
@@ -199,7 +199,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -224,6 +224,24 @@
   },
   "active": "351b6c7d24f0af6c",
   "lastOpenFiles": [
+    "Dashboard.md",
+    "01.Game/01.崩坏三/深渊.md",
+    "01.Game/02.原神/深渊.md",
+    "01.Game/03.崩铁/深渊.md",
+    "01.Game/04.绝区零/深渊.md",
+    "01.Game/05.鸣嘲/深渊.md",
+    "01.Game/05.鸣嘲",
+    "01.Game/04.绝区零",
+    "01.Game/01.崩坏三",
+    "01.Game/03.崩铁",
+    "02.Live/01.Game/02.崩铁.md",
+    "template/每日.md",
+    "01.Game/02.原神",
+    "01.Game",
+    "00.Templates/01.Live",
+    "template/程序.md",
+    "01.daily",
+    "02.Live",
     "README.md",
     "daily/2025-03-08.md",
     "Excalidraw/RPC调用过程.excalidraw.md",
@@ -235,7 +253,6 @@
     "软件工程/耦合.md",
     "软件工程/开发模型.md",
     "daily/2024-05-27.md",
-    "Dashboard.md",
     "00.Templates",
     "algorithm/字符串/KMP.md",
     "algorithm/字符串/字符串哈希.md",
@@ -243,17 +260,7 @@
     "daily/2025-03-11.md",
     "daily/2025-03-10.md",
     "daily/2025-03-12.md",
-    "template/程序.md",
-    "template/每日.md",
-    "Excalidraw/Drawing 2025-06-02 20.39.08.excalidraw.md",
-    "软件工程/UML.md",
-    "软件工程/CMM.md",
-    "algorithm/空间复杂度.md",
-    "algorithm/时间复杂度.md",
-    "Excalidraw/Drawing 2025-04-08 00.44.41.excalidraw.md",
     "计算机/数据库/NoSql/Redis/Redis结构.canvas",
-    "programe/ue/ai",
-    "programe/ue",
     "设计模式/DesignPattern.canvas",
     "附件/Pasted image 20240605143255.png",
     "附件/Pasted image 20240605105556.png",
@@ -263,16 +270,9 @@
     "附件/v2-2b44ea1de81d3cf1dc9dcf67c072e363_1440w.webp",
     "附件/v2-4b6d2892b6ce889864e93efb17cda0a1_1440w.webp",
     "附件/v2-ce347baa86098f7cd7d30d1897685c4b_1440w.webp",
-    "附件/Recording 20250310225244.webm",
-    "daily",
-    "Excalidraw",
-    "programe/C++/未命名",
     "附件/Pasted image 20240730153717.png",
     "附件/Pasted image 20240730152342.png",
     "设计模式/行为型模式/未命名.canvas",
-    "计算机/数据库/NoSql/Redis",
-    "计算机/数据库/NoSql",
-    "programe/Java/SpringBoot",
     "未命名.canvas",
     "未命名 1.canvas",
     "计算机/算法/数据结构/未命名.canvas",

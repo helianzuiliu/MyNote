@@ -27,3 +27,21 @@ group by function task.due.formatAsDate()
 short mode
 
 ```
+
+
+```dataviewjs
+let settlement_day=1
+
+
+
+dv.paragraph(
+	"距离深渊更新还有 **"+settlement_day+"** 天"
+)
+```
+
+
+```dataviewjs
+const markdown = dv.markdownList([1, 2, 3]);
+dv.paragraph(markdown);
+
+```
