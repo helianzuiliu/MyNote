@@ -38,10 +38,3 @@ dv.paragraph(
 	"距离深渊更新还有 **"+settlement_day+"** 天"
 )
 ```
-
-
-```dataviewjs
-const markdown = dv.markdownList([1, 2, 3]);
-dv.paragraph(markdown);
-
-```
