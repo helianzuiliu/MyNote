@@ -25,7 +25,7 @@
               "state": {
                 "file": "01.Game/01.崩坏三/深渊.md",
                 "mode": "source",
-                "source": true,
+                "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
