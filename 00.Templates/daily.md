@@ -32,4 +32,4 @@ from "/"
 where dateformat(create_date,"yyyy-MM-dd")="<% today %>"
 ```
 
-template by [[每日]]
+template by [[daily]]

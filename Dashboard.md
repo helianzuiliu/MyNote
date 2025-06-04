@@ -28,13 +28,4 @@ short mode
 
 ```
 
-
-```dataviewjs
-let settlement_day=1
-
-
-
-dv.paragraph(
-	"距离深渊更新还有 **"+settlement_day+"** 天"
-)
-```
+![[01.Game/01.崩坏三/深渊#^d5f041|深渊]]

@@ -8,18 +8,27 @@
         "type": "tabs",
         "children": [
           {
-            "id": "ec9c3ecb46d89f4d",
+            "id": "205546fb5e931075",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01.Game/01.崩坏三/深渊.md",
+                "file": "01.daily/2025-06-04.md",
                 "mode": "source",
                 "source": false,
-                "backlinks": false
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
               "icon": "lucide-file",
-              "title": "深渊"
+              "title": "2025-06-04"
             }
           }
         ]
@@ -54,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "[\"create_time\"]",
+                "query": "tag:#Game",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -79,7 +88,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 251.5
+    "width": 273.5
   },
   "right": {
     "id": "8d6c691ab084dea8",
@@ -157,13 +166,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01.Game/01.崩坏三/深渊.md",
+                "file": "01.daily/2025-06-04.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "深渊 的大纲"
+              "title": "2025-06-04 的大纲"
             }
           },
           {
@@ -172,10 +181,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "01.Game/01.崩坏三/深渊.md"
+                "file": "01.daily/2025-06-04.md"
               },
               "icon": "lucide-info",
-              "title": "深渊的笔记属性"
+              "title": "2025-06-04的笔记属性"
             }
           },
           {
@@ -203,7 +212,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 313.5
+    "width": 309.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -220,20 +229,31 @@
       "mermaid-tools:Open Mermaid Toolbar": false,
       "templater-obsidian:Templater": true,
       "obsidian-excalidraw-plugin:新建绘图文件": false,
-      "pkmer:Open Pkmer Market": false
+      "pkmer:Open Pkmer Market": false,
+      "markdown-importer:打开 Markdown 格式转换器": false,
+      "obsidian-memos:Thino": false
     }
   },
-  "active": "ec9c3ecb46d89f4d",
+  "active": "312713e416cd5434",
   "lastOpenFiles": [
-    "daily/2025-03-08.md",
-    "daily/2025-06-04.md",
-    "daily/2025-03-07.md",
-    "daily/2024-05-27.md",
     "01.Game/01.崩坏三/深渊.md",
-    "01.Game/03.崩铁/深渊.md",
+    "01.daily/2025-06-04.md",
+    "软件工程/耦合.md",
+    "01.daily/2024-05-27.md",
+    "Dashboard.md",
+    "01.daily/2025-03-07.md",
+    "01.daily/2025-03-08.md",
+    "01.daily/001.daily",
+    "00.Templates/program.md",
+    "00.Templates/daily.md",
+    "附件/Pasted image 20240605153141.png",
+    "附件/璃璃子.jpg",
+    "README.md",
+    "01.Game/02.原神/深渊.md",
     "01.Game/05.鸣嘲/深渊.md",
     "01.Game/04.绝区零/深渊.md",
-    "01.Game/02.原神/深渊.md",
+    "01.Game/03.崩铁/深渊.md",
+    "daily/2025-06-04.md",
     "js/scripts/abyss_time.js",
     "js/scripts/未命名.md",
     "js/scripts/utils.js",
@@ -243,8 +263,6 @@
     "01.Game/01.崩坏三/bh3_banner.png",
     "js/scripts",
     "js",
-    "Dashboard.md",
-    "README.md",
     "计算机/操作系统/临界资源.md",
     "01.Game/04.绝区零/zzz_banner.png",
     "01.Game/05.鸣嘲/ww_banner.png",
@@ -252,25 +270,17 @@
     "01.Game/05.鸣嘲/ww_banner.jpg.crdownload",
     "01.Game/04.绝区零/image.png",
     "01.Game/01.崩坏三/bh3_banner.jpg",
-    "01.Game/03.崩铁/image.png",
-    "01.Game/02.原神/image.png",
     "01.Game/01.崩坏三/bh3_icon.png.crdownload",
     "01.Game/01.崩坏三/Banner.jpg.crdownload",
     "01.Game/01.崩坏三/未命名.md",
     "计算机/操作系统/死锁.md",
     "计算机/操作系统/线程与进程.md",
     "计算机/操作系统/IO多路复用.md",
-    "template/每日.md",
-    "template/程序.md",
     "01.Game/05.鸣嘲",
     "01.Game/04.绝区零",
-    "01.Game/01.崩坏三",
     "02.Live/01.Game/02.崩铁.md",
     "Excalidraw/RPC调用过程.excalidraw.md",
     "设计模式/创建型设计模式/工厂方法.md",
-    "设计模式/创建型设计模式/单例.md",
-    "设计模式/创建型设计模式/抽象工厂.md",
-    "软件工程/维护.md",
     "计算机/数据库/NoSql/Redis/Redis结构.canvas",
     "设计模式/DesignPattern.canvas",
     "设计模式/行为型模式/未命名.canvas",
