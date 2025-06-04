@@ -13,9 +13,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01.Game/01.崩坏三/深渊.md",
+                "file": "01.Game/03.崩铁/深渊.md",
                 "mode": "source",
-                "source": false,
+                "source": true,
                 "backlinks": false
               },
               "icon": "lucide-file",
@@ -157,7 +157,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01.Game/01.崩坏三/深渊.md",
+                "file": "01.Game/03.崩铁/深渊.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -172,7 +172,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "01.Game/01.崩坏三/深渊.md"
+                "file": "01.Game/03.崩铁/深渊.md"
               },
               "icon": "lucide-info",
               "title": "深渊的笔记属性"
@@ -225,15 +225,18 @@
   },
   "active": "ec9c3ecb46d89f4d",
   "lastOpenFiles": [
-    "01.Game/02.原神/深渊.md",
+    "js/scripts/abyss_time.js",
+    "js/scripts/未命名.md",
+    "01.Game/03.崩铁/深渊.md",
+    "js/scripts/utils.js",
+    "js/scripts/utils.md",
     "01.Game/01.崩坏三/深渊.md",
+    "01.Game/02.原神/深渊.md",
     "01.Game/05.鸣嘲/深渊.md",
     "01.Game/04.绝区零/深渊.md",
-    "01.Game/03.崩铁/深渊.md",
     "01.Game/03.崩铁/hs_banner.png",
     "01.Game/02.原神/ys_banner.png",
     "01.Game/01.崩坏三/bh3_banner.png",
-    "js/scripts/utils.md",
     "js/scripts",
     "js",
     "Dashboard.md",
@@ -260,7 +263,6 @@
     "01.Game/01.崩坏三",
     "01.Game/03.崩铁",
     "02.Live/01.Game/02.崩铁.md",
-    "01.Game/02.原神",
     "daily/2025-03-08.md",
     "Excalidraw/RPC调用过程.excalidraw.md",
     "设计模式/创建型设计模式/工厂方法.md",
@@ -269,7 +271,6 @@
     "daily/2025-03-07.md",
     "软件工程/维护.md",
     "软件工程/耦合.md",
-    "软件工程/开发模型.md",
     "计算机/数据库/NoSql/Redis/Redis结构.canvas",
     "设计模式/DesignPattern.canvas",
     "设计模式/行为型模式/未命名.canvas",
