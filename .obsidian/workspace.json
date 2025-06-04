@@ -8,16 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "b702485eae30dfea",
-            "type": "leaf",
-            "state": {
-              "type": "pkmer-downloader",
-              "state": {},
-              "icon": "bookmark",
-              "title": "Pkmer Market"
-            }
-          },
-          {
             "id": "ec9c3ecb46d89f4d",
             "type": "leaf",
             "state": {
@@ -25,15 +15,14 @@
               "state": {
                 "file": "01.Game/01.崩坏三/深渊.md",
                 "mode": "source",
-                "source": false,
+                "source": true,
                 "backlinks": false
               },
               "icon": "lucide-file",
               "title": "深渊"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -241,17 +230,17 @@
     "01.Game/03.崩铁/深渊.md",
     "01.Game/02.原神/深渊.md",
     "01.Game/01.崩坏三/深渊.md",
+    "01.Game/03.崩铁/hs_banner.png",
+    "01.Game/02.原神/ys_banner.png",
+    "01.Game/01.崩坏三/bh3_banner.png",
     "js/scripts/utils.md",
     "js/scripts",
     "js",
     "Dashboard.md",
     "README.md",
     "计算机/操作系统/临界资源.md",
-    "01.Game/01.崩坏三/bh3_banner.png",
     "01.Game/04.绝区零/zzz_banner.png",
     "01.Game/05.鸣嘲/ww_banner.png",
-    "01.Game/03.崩铁/hs_banner.png",
-    "01.Game/02.原神/ys_banner.png",
     "01.Game/05.鸣嘲/ww_banner.jpg",
     "01.Game/05.鸣嘲/ww_banner.jpg.crdownload",
     "01.Game/04.绝区零/image.png",
@@ -281,7 +270,6 @@
     "软件工程/维护.md",
     "软件工程/耦合.md",
     "软件工程/开发模型.md",
-    "daily/2024-05-27.md",
     "计算机/数据库/NoSql/Redis/Redis结构.canvas",
     "设计模式/DesignPattern.canvas",
     "设计模式/行为型模式/未命名.canvas",
