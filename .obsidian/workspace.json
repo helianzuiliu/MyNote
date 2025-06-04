@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01.daily/2025-06-04.md",
+                "file": "01.Game/01.崩坏三/深渊.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2025-06-04"
+              "title": "深渊"
             }
           }
         ]
@@ -166,13 +166,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01.daily/2025-06-04.md",
+                "file": "01.Game/01.崩坏三/深渊.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "2025-06-04 的大纲"
+              "title": "深渊 的大纲"
             }
           },
           {
@@ -181,10 +181,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "01.daily/2025-06-04.md"
+                "file": "01.Game/01.崩坏三/深渊.md"
               },
               "icon": "lucide-info",
-              "title": "2025-06-04的笔记属性"
+              "title": "深渊的笔记属性"
             }
           },
           {
@@ -208,7 +208,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -234,8 +234,9 @@
       "obsidian-memos:Thino": false
     }
   },
-  "active": "312713e416cd5434",
+  "active": "205546fb5e931075",
   "lastOpenFiles": [
+    "01.Game/01.崩坏三/bh3_banner.png",
     "01.Game/01.崩坏三/深渊.md",
     "01.daily/2025-06-04.md",
     "软件工程/耦合.md",
@@ -260,7 +261,6 @@
     "js/scripts/utils.md",
     "01.Game/03.崩铁/hs_banner.png",
     "01.Game/02.原神/ys_banner.png",
-    "01.Game/01.崩坏三/bh3_banner.png",
     "js/scripts",
     "js",
     "计算机/操作系统/临界资源.md",

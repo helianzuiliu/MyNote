@@ -9,5 +9,8 @@
   "showViewHeader": true,
   "textFontFamily": "微软雅黑",
   "interfaceFontFamily": "微软雅黑",
-  "baseFontSizeAction": true
+  "baseFontSizeAction": true,
+  "enabledCssSnippets": [
+    "timeline-snippet"
+  ]
 }
