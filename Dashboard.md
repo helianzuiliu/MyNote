@@ -30,4 +30,16 @@ short mode
 
 ![[01.Game/01.崩坏三/深渊#^d5f041|深渊]]
 
+![[01.Game/01.崩坏三/深渊#^6e32a2|深渊]]
 
+![[01.Game/01.崩坏三/深渊#^61dff7|深渊]]
+
+```dataviewjs
+let dt = dv.luxon.DateTime
+
+let now=dt.now();
+let a=now.plus({hour:1,minute:24,secon})
+dv.span(a.diff(now,["hour","minute"]).toHuman())
+
+
+```
