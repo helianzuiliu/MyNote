@@ -29,6 +29,7 @@ if (start_time < now && now < finish_time) {
         show_text = "**" + name + "** 还没开,下一期** " + name + " **将会在 *"
             +  (start_time.weekday - now.weekday) + "* 天后开启\n\n"
             + "去看看其他的吧"
+        dv.paragraph("如果你想要查看其他的深渊,可以在设置中修改")
     } else {
         show_text = "**" + name + "** 还没开,下一期** " + name + " **将会在* "
             + diff_time.hours + "* 小时 * " + parseInt(diff_time.minutes + 1) + " * 分钟后开启\n\n"
