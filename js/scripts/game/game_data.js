@@ -1,45 +1,29 @@
-let dt = require("luxon").DateTime
-// let dt = dv.luxon.DateTime
+// let dt = require("luxon").DateTime
+class GameTimeResolver {
 
-let data = {
-    "bh3": {
-        "超弦空间": {
-            start_time_1: dt.fromObject({ weekday: 1, hour: 15 }),
-            finish_time_1: dt.fromObject({ weekday: 3, hour: 22 })
-        }
-    },
-    "genshin": {
-        "马斯克礁": {
-            start_time_1: dt.fromObject({ weekday: 1, hour: 4 }),
-            finish_time_1: dt.fromObject({ weekday: 1, hour: 6 })
+    getNextSettlementTime(dv, name) {
+        dv.span("正在获取下次结算时间...")
+        switch (name) {
+            case "bh3":
+                return this.getNextSettlementTime_BH3(name)
+
+            case "genshin":
+                return this.getNextSettlementTime_GENSHIN(name)
+
+            default:
+                return ("Unknown game name:" + name)
         }
     }
 
-}
-
-function getNextSettlementTime_BH3(name){
-    let d=data["bh3"][name]
-    return dt.now()
-}
-
-function getNextSettlementTime_GENSHIN(name) {
-    let d = data["genshin"][name]
-
-}
-
-function getNextSettlementTime(name) {
-    switch(name){
-        case "bh3":
-            return getNextSettlementTime_BH3(name)
-
-        case "genshin":
-            return getNextSettlementTime_GENSHIN(name)
-
-        default:
-            console.warn("Unknown game name:", name);
+    getNextSettlementTime_BH3(dv, name) {
+        // let d = data["bh3"][name]
+        let now = new Date()
+        return now.toLocaleString("zh-CN", {
+            timeZone: "Asia/Shanghai"
+        })
     }
 
-    return null;
+    getNextSettlementTime_GENSHIN(dv, name) {
+        // let d = data["genshin"][name]
+    }
 }
-
-export default { getNextSettlementTime };
