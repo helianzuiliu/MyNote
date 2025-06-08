@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "01.Game/01.崩坏三/深渊.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -181,10 +181,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Dashboard.md"
+                "file": "01.Game/01.崩坏三/深渊.md"
               },
               "icon": "lucide-info",
-              "title": "Dashboard的笔记属性"
+              "title": "深渊的笔记属性"
             }
           },
           {
@@ -236,14 +236,14 @@
   },
   "active": "864fb44a68b5ab9f",
   "lastOpenFiles": [
+    "01.Game/02.原神/深渊.md",
+    "01.Game/01.崩坏三/深渊.md",
     "js/scripts/abyss_time.js",
     "js/scripts/z_abyss_time.js",
     "js/scripts/game/game_data.js",
-    "01.Game/02.原神/深渊.md",
     "js/scripts/game_data.js",
     "js/scripts/game/未命名.md",
     "js/scripts/game",
-    "01.Game/01.崩坏三/深渊.md",
     "01.Game/03.崩铁/深渊.md",
     "Dashboard.md",
     "README.md",
@@ -275,7 +275,6 @@
     "01.Game/04.绝区零/zzz_banner.png",
     "01.Game/05.鸣嘲/ww_banner.png",
     "01.Game/05.鸣嘲/ww_banner.jpg",
-    "01.Game/05.鸣嘲/ww_banner.jpg.crdownload",
     "01.Game/04.绝区零/image.png",
     "01.Game/01.崩坏三/未命名.md",
     "计算机/操作系统/死锁.md",
