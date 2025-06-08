@@ -1,8 +1,7 @@
 // let dt = require("luxon").DateTime
 class GameTimeResolver {
 
-    getNextSettlementTime(dv, name) {
-        dv.span("正在获取下次结算时间...")
+    getNextSettlementTime(luxon, name) {        
         switch (name) {
             case "bh3":
                 return this.getNextSettlementTime_BH3(name)
@@ -15,15 +14,17 @@ class GameTimeResolver {
         }
     }
 
-    getNextSettlementTime_BH3(dv, name) {
+    getNextSettlementTime_BH3(luxon, name) {
         // let d = data["bh3"][name]
-        let now = new Date()
-        return now.toLocaleString("zh-CN", {
-            timeZone: "Asia/Shanghai"
-        })
+        const { time_util } = customJS
+        let now = time_util.getCurrentTime()
+        return now
     }
 
-    getNextSettlementTime_GENSHIN(dv, name) {
+    getNextSettlementTime_GENSHIN(luxon, name) {
+        const { time_util } = customJS
+        let now = time_util.getCurrentTime()
+        return now
         // let d = data["genshin"][name]
     }
 }

@@ -119,7 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Dashboard.md",
+                "file": "01.Game/01.崩坏三/深渊.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +129,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Dashboard 的反向链接列表"
+              "title": "深渊 的反向链接列表"
             }
           },
           {
@@ -208,7 +208,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -236,6 +236,8 @@
   },
   "active": "864fb44a68b5ab9f",
   "lastOpenFiles": [
+    "js/scripts/utils/time_util.js",
+    "js/scripts/utils",
     "01.Game/02.原神/深渊.md",
     "01.Game/01.崩坏三/深渊.md",
     "00.Templates/daily.md",
@@ -270,7 +272,6 @@
     "01.Game/03.崩铁/hs_banner.png",
     "01.Game/02.原神/ys_banner.png",
     "js/scripts",
-    "js",
     "计算机/操作系统/临界资源.md",
     "01.Game/04.绝区零/zzz_banner.png",
     "01.Game/05.鸣嘲/ww_banner.png",
