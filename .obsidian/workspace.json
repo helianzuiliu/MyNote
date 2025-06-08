@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01.Game/01.崩坏三/深渊.md",
-                "mode": "preview",
+                "file": "00.Templates/daily.md",
+                "mode": "source",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "深渊"
+              "title": "daily"
             }
           }
         ]
@@ -181,10 +181,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "01.Game/01.崩坏三/深渊.md"
+                "file": "00.Templates/daily.md"
               },
               "icon": "lucide-info",
-              "title": "深渊的笔记属性"
+              "title": "daily的笔记属性"
             }
           },
           {
@@ -236,8 +236,12 @@
   },
   "active": "864fb44a68b5ab9f",
   "lastOpenFiles": [
-    "01.Game/02.原神/深渊.md",
+    "00.Templates/program.md",
     "01.Game/01.崩坏三/深渊.md",
+    "Dashboard.md",
+    "01.Game/01.崩坏三/bh3_banner.png",
+    "01.Game/04.绝区零/深渊.md",
+    "01.Game/02.原神/深渊.md",
     "js/scripts/abyss_time.js",
     "js/scripts/z_abyss_time.js",
     "js/scripts/game/game_data.js",
@@ -245,18 +249,14 @@
     "js/scripts/game/未命名.md",
     "js/scripts/game",
     "01.Game/03.崩铁/深渊.md",
-    "Dashboard.md",
     "README.md",
-    "00.Templates/program.md",
     "00.Templates/daily.md",
     "软件工程/耦合.md",
     "01.daily/2025-06-04.md",
-    "01.Game/04.绝区零/深渊.md",
     "01.Game/05.鸣嘲/深渊.md",
     "附件/璃璃子.jpg",
     "01.daily/2025-06-05.md",
     "附件/Pasted Image 20250605102803.png",
-    "01.Game/01.崩坏三/bh3_banner.png",
     "01.daily/2024-05-27.md",
     "01.daily/2025-03-07.md",
     "01.daily/2025-03-08.md",
