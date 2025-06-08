@@ -12,6 +12,7 @@ class time_util{
 
         return `${hours}h ${minutes}m ${seconds}s`;
     }
+    
     getCurrentTime() {
         return new Date().toLocaleString("zh-CN", {
             timeZone: "Asia/Shanghai"

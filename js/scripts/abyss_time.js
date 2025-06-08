@@ -1,10 +1,9 @@
 // let dt = require("luxon").DateTime
 
+const { GameTimeResolver } = customJS
 
 const luxon = dv.luxon
 const dt = luxon.DateTime
-const { GameTimeResolver } = customJS
-
 let now = dt.now()
 let name = input.name
 
