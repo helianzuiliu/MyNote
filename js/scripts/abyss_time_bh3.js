@@ -10,8 +10,6 @@ let diff_time
 
 let show_text = ""
 
-
-
 if (start_time < now && now < finish_time) {
     // 深渊开了
     diff_time = finish_time.diff(now, ["days", "hours", "minutes"])
@@ -30,9 +28,9 @@ if (start_time < now && now < finish_time) {
         show_text = `**${name}** 还没开,下一期** ${name} **将会在* ${start_time.weekday - now.weekday} *天后开启`
             + `\n\n去看看其他的吧`
     } else {
-        show_text = "**" + name + "** 还没开,下一期** " + name + " **将会在* "
-            + diff_time.hours + "* 小时 * " + parseInt(diff_time.minutes + 1) + " * 分钟后开启"
-            + "\n\n去看看其他的吧"
+        show_text = `**${name}** 还没开,下一期 **${name}** 将会在 `
+            + `*${diff_time.hours}* 小时 *${parseInt(diff_time.minutes + 1)}* 分钟后开启`
+            + `\n\n去看看其他的吧`
     }
 }
 

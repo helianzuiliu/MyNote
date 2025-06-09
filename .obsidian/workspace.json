@@ -6,6 +6,7 @@
       {
         "id": "11d7968b5c719f6c",
         "type": "tabs",
+        "dimension": 45.97855227882037,
         "children": [
           {
             "id": "864fb44a68b5ab9f",
@@ -36,6 +37,7 @@
       {
         "id": "7e845ccc28530cac",
         "type": "tabs",
+        "dimension": 54.02144772117963,
         "children": [
           {
             "id": "80a3f087b1871703",
@@ -265,7 +267,7 @@
       "obsidian-memos:Thino": false
     }
   },
-  "active": "80a3f087b1871703",
+  "active": "864fb44a68b5ab9f",
   "lastOpenFiles": [
     "01.Game/03.崩铁/深渊.md",
     "01.Game/01.崩坏三/深渊.md",
