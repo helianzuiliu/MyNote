@@ -16,7 +16,8 @@ if (start_time < now && now < finish_time) {
     // 深渊开了
     diff_time = finish_time.diff(now, ["days", "hours", "minutes"])
     if (!now.hasSame(finish_time, "day")) {
-        show_text = `距离 **${name}** 结算还有 *${finish_time.weekday - finish_time.weekday}* 天还不用着急`
+        show_text = `距离 **${name}** 结算还有 *${finish_time.weekday - start_time.weekday}* 天`
+            + `\n\n还不用着急`
     } else {
         show_text = `距离 **${name}** 结算还有`
             + ` *${diff_time.hours}* 小时 *${parseInt(diff_time.minutes + 1)}* 分`
