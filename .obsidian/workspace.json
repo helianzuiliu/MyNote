@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01.daily/2025-06-10.md",
+                "file": "Clippings/地 球 O L 地 狱 难 度_哔哩哔哩_bilibili.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -23,12 +23,12 @@
                   "sortOrder": "alphabetical",
                   "showSearch": false,
                   "searchQuery": "",
-                  "backlinkCollapsed": false,
+                  "backlinkCollapsed": true,
                   "unlinkedCollapsed": true
                 }
               },
               "icon": "lucide-file",
-              "title": "2025-06-10"
+              "title": "地 球 O L 地 狱 难 度_哔哩哔哩_bilibili"
             }
           }
         ]
@@ -180,7 +180,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "01.daily/2025-06-10.md",
+                "file": "01.Game/01.崩坏三/深渊.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -190,7 +190,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "2025-06-10 的反向链接列表"
+              "title": "深渊 的反向链接列表"
             }
           },
           {
@@ -199,12 +199,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "01.daily/2025-06-10.md",
+                "file": "01.Game/01.崩坏三/深渊.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "2025-06-10 的出链列表"
+              "title": "深渊 的出链列表"
             }
           },
           {
@@ -230,30 +230,31 @@
       "switcher:打开快速切换": false,
       "quickadd:QuickAdd": false,
       "graph:查看关系图谱": false,
-      "canvas:新建白板": false,
       "daily-notes:打开/创建今天的日记": true,
       "templates:插入模板": true,
       "command-palette:打开命令面板": true,
       "workspaces:管理工作区布局": false,
-      "random-note:开始漫游笔记": false,
       "mermaid-tools:Open Mermaid Toolbar": false,
       "templater-obsidian:Templater": true,
       "obsidian-excalidraw-plugin:新建绘图文件": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "obsidian-day-planner:Open Timeline": false,
-      "obsidian-day-planner:Open Multi-Day View": false,
       "obsidian-memos:Thino": false
     }
   },
-  "active": "a5f0baaf9d168de4",
+  "active": "bbc69a605285acdb",
   "lastOpenFiles": [
-    "01.daily/2025-06-10.md",
-    "软件工程/开发模型.md",
-    "01.daily/2025-06-11.md",
     "01.Game/01.崩坏三/深渊.md",
+    "Clippings/地 球 O L 地 狱 难 度_哔哩哔哩_bilibili.md",
+    "01.daily/2024-05-27.md",
+    "01.daily/2025-03-07.md",
     "01.daily/2025-03-08.md",
+    "01.daily/2025-06-04.md",
     "01.daily/2025-06-05.md",
+    "01.daily/2025-06-10.md",
+    "01.daily/2025-06-11.md",
     "00.Templates/daily.md",
+    "01.daily/未命名看板.md",
+    "软件工程/开发模型.md",
     "00.Templates/program.md",
     "Excalidraw/RPC调用过程.excalidraw.md",
     "01.Game/02.原神/深渊.md",
@@ -276,18 +277,13 @@
     "js/scripts/game/未命名.md",
     "js/scripts/game",
     "README.md",
-    "01.daily/2025-06-04.md",
     "01.Game/05.鸣嘲/深渊.md",
     "附件/璃璃子.jpg",
     "附件/Pasted Image 20250605102803.png",
-    "01.daily/2024-05-27.md",
-    "01.daily/2025-03-07.md",
     "01.daily/001.daily",
     "附件/Pasted image 20240605153141.png",
     "daily/2025-06-04.md",
     "js/scripts/abyss_time_bh3.js",
-    "js/scripts/未命名.md",
-    "js/scripts/utils.md",
     "01.Game/03.崩铁/hs_banner.png",
     "01.Game/02.原神/ys_banner.png",
     "01.Game/04.绝区零/zzz_banner.png",

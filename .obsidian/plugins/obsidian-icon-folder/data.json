@@ -5,7 +5,11 @@
     "fontSize": 16,
     "emojiStyle": "native",
     "iconColor": null,
-    "recentlyUsedIcons": [],
+    "recentlyUsedIcons": [
+      "LiAirplay",
+      "LiAlarmClock",
+      "LiAArrowDown"
+    ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
     "extraMargin": {

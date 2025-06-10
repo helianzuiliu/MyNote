@@ -32,4 +32,3 @@ from "/"
 where dateformat(create_date,"yyyy-MM-dd")="<% today %>"
 ```
 
-template by [[daily]]
