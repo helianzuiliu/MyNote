@@ -16,5 +16,10 @@
   "obsidian-banners",
   "customjs",
   "obsidian-memos",
-  "obsidian-clipper"
+  "table-editor-obsidian",
+  "obsidian-icon-folder",
+  "obsidian-outliner",
+  "editing-toolbar",
+  "obsidian-advanced-uri",
+  "better-word-count"
 ]

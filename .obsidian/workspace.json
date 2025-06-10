@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "11d7968b5c719f6c",
+        "id": "1cb79107bd8a7e2a",
         "type": "tabs",
         "children": [
           {
-            "id": "864fb44a68b5ab9f",
+            "id": "bbc69a605285acdb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Clippings/用数据来看为什么原神玩家会退坑。壁吧专楼带你观察米哈游放弃原神的底层逻辑_哔哩哔哩_bilibili.md",
+                "file": "01.daily/2025-06-10.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -23,12 +23,12 @@
                   "sortOrder": "alphabetical",
                   "showSearch": false,
                   "searchQuery": "",
-                  "backlinkCollapsed": true,
+                  "backlinkCollapsed": false,
                   "unlinkedCollapsed": true
                 }
               },
               "icon": "lucide-file",
-              "title": "用数据来看为什么原神玩家会退坑。壁吧专楼带你观察米哈游放弃原神的底层逻辑_哔哩哔哩_bilibili"
+              "title": "2025-06-10"
             }
           }
         ]
@@ -63,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#Game",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -114,39 +114,6 @@
             }
           },
           {
-            "id": "f98259f98efbdf82",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "01.Game/01.崩坏三/深渊.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-coming-in",
-              "title": "深渊 的反向链接列表"
-            }
-          },
-          {
-            "id": "85939130000d76f0",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "daily/2025-03-10.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-going-out",
-              "title": "2025-03-10 的出链列表"
-            }
-          },
-          {
             "id": "36b3250348cc7d3e",
             "type": "leaf",
             "state": {
@@ -181,20 +148,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "01.Game/01.崩坏三/深渊.md"
+                "file": "01.daily/2025-06-10.md"
               },
               "icon": "lucide-info",
-              "title": "深渊的笔记属性"
-            }
-          },
-          {
-            "id": "0a12edf52f8fd828",
-            "type": "leaf",
-            "state": {
-              "type": "mermaid-toolbar-view",
-              "state": {},
-              "icon": "trident-custom",
-              "title": "Mermaid Toolbar"
+              "title": "2025-06-10的笔记属性"
             }
           },
           {
@@ -206,14 +163,66 @@
               "icon": "calendar-with-checkmark",
               "title": "Calendar"
             }
+          },
+          {
+            "id": "7a8844b4fb01236c",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {},
+              "icon": "spreadsheet",
+              "title": "Advanced Tables"
+            }
+          },
+          {
+            "id": "4d13520e601e7274",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "01.daily/2025-06-10.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "2025-06-10 的反向链接列表"
+            }
+          },
+          {
+            "id": "22add92e78b9fdfa",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "01.daily/2025-06-10.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "2025-06-10 的出链列表"
+            }
+          },
+          {
+            "id": "07ff75fed9cc78f8",
+            "type": "leaf",
+            "state": {
+              "type": "mermaid-toolbar-view",
+              "state": {},
+              "icon": "trident-custom",
+              "title": "Mermaid Toolbar"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 309.5,
-    "collapsed": true
+    "width": 297.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -230,22 +239,33 @@
       "mermaid-tools:Open Mermaid Toolbar": false,
       "templater-obsidian:Templater": true,
       "obsidian-excalidraw-plugin:新建绘图文件": false,
-      "markdown-importer:打开 Markdown 格式转换器": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-day-planner:Open Timeline": false,
+      "obsidian-day-planner:Open Multi-Day View": false,
       "obsidian-memos:Thino": false
     }
   },
-  "active": "864fb44a68b5ab9f",
+  "active": "a5f0baaf9d168de4",
   "lastOpenFiles": [
+    "01.daily/2025-06-10.md",
+    "软件工程/开发模型.md",
+    "01.daily/2025-06-11.md",
     "01.Game/01.崩坏三/深渊.md",
-    "Clippings/用数据来看为什么原神玩家会退坑。壁吧专楼带你观察米哈游放弃原神的底层逻辑_哔哩哔哩_bilibili.md",
-    "00.Templates/program.md",
+    "01.daily/2025-03-08.md",
+    "01.daily/2025-06-05.md",
     "00.Templates/daily.md",
+    "00.Templates/program.md",
+    "Excalidraw/RPC调用过程.excalidraw.md",
+    "01.Game/02.原神/深渊.md",
+    "未命名.canvas",
+    "计算机/操作系统/临界资源.md",
+    "软件工程/耦合.md",
+    "Clippings/用数据来看为什么原神玩家会退坑。壁吧专楼带你观察米哈游放弃原神的底层逻辑_哔哩哔哩_bilibili.md",
     "Clippings/Obsidian Web Clipper.md",
     "Clippings",
     "01.Game/03.崩铁/深渊.md",
     "01.Game/04.绝区零/深渊.md",
     "Dashboard.md",
-    "01.Game/02.原神/深渊.md",
     "js/scripts/utils/time_util.js",
     "js/scripts/utils",
     "01.Game/01.崩坏三/bh3_banner.png",
@@ -256,15 +276,12 @@
     "js/scripts/game/未命名.md",
     "js/scripts/game",
     "README.md",
-    "软件工程/耦合.md",
     "01.daily/2025-06-04.md",
     "01.Game/05.鸣嘲/深渊.md",
     "附件/璃璃子.jpg",
-    "01.daily/2025-06-05.md",
     "附件/Pasted Image 20250605102803.png",
     "01.daily/2024-05-27.md",
     "01.daily/2025-03-07.md",
-    "01.daily/2025-03-08.md",
     "01.daily/001.daily",
     "附件/Pasted image 20240605153141.png",
     "daily/2025-06-04.md",
@@ -273,19 +290,13 @@
     "js/scripts/utils.md",
     "01.Game/03.崩铁/hs_banner.png",
     "01.Game/02.原神/ys_banner.png",
-    "计算机/操作系统/临界资源.md",
     "01.Game/04.绝区零/zzz_banner.png",
     "01.Game/05.鸣嘲/ww_banner.png",
     "01.Game/05.鸣嘲/ww_banner.jpg",
     "01.Game/04.绝区零/image.png",
-    "01.Game/01.崩坏三/未命名.md",
-    "计算机/操作系统/死锁.md",
-    "计算机/操作系统/线程与进程.md",
-    "计算机/操作系统/IO多路复用.md",
     "计算机/数据库/NoSql/Redis/Redis结构.canvas",
     "设计模式/DesignPattern.canvas",
     "设计模式/行为型模式/未命名.canvas",
-    "未命名.canvas",
     "未命名 1.canvas",
     "计算机/算法/数据结构/未命名.canvas",
     "计算机/算法/数据结构/线性结构/线性结构.canvas"

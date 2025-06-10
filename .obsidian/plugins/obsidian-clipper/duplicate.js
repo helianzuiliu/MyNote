@@ -216,7 +216,7 @@ var require_main = __commonJS({
         return [contents, IFoldInfo];
       } catch (err) {
         console.error(`Failed to read the daily note template '${templatePath}'`, err);
-        new obsidian.Notice("读取日报模板失败");
+        new obsidian.Notice("Failed to read the daily note template");
         return ["", null];
       }
     }
@@ -293,7 +293,7 @@ var require_main = __commonJS({
         return createdFile;
       } catch (err) {
         console.error(`Failed to create file: '${normalizedPath}'`, err);
-        new obsidian.Notice("无法创建新文件");
+        new obsidian.Notice("Unable to create new file.");
       }
     }
     function getDailyNote2(date, dailyNotes) {
@@ -371,7 +371,7 @@ var require_main = __commonJS({
         return createdFile;
       } catch (err) {
         console.error(`Failed to create file: '${normalizedPath}'`, err);
-        new obsidian.Notice("无法创建新文件");
+        new obsidian.Notice("Unable to create new file.");
       }
     }
     function getWeeklyNote2(date, weeklyNotes) {
@@ -428,7 +428,7 @@ var require_main = __commonJS({
         return createdFile;
       } catch (err) {
         console.error(`Failed to create file: '${normalizedPath}'`, err);
-        new obsidian.Notice("无法创建新文件");
+        new obsidian.Notice("Unable to create new file.");
       }
     }
     function getMonthlyNote(date, monthlyNotes) {
@@ -485,7 +485,7 @@ var require_main = __commonJS({
         return createdFile;
       } catch (err) {
         console.error(`Failed to create file: '${normalizedPath}'`, err);
-        new obsidian.Notice("无法创建新文件");
+        new obsidian.Notice("Unable to create new file.");
       }
     }
     function getQuarterlyNote(date, quarterly) {
@@ -542,7 +542,7 @@ var require_main = __commonJS({
         return createdFile;
       } catch (err) {
         console.error(`Failed to create file: '${normalizedPath}'`, err);
-        new obsidian.Notice("无法创建新文件");
+        new obsidian.Notice("Unable to create new file.");
       }
     }
     function getYearlyNote(date, yearlyNotes) {
@@ -4254,7 +4254,7 @@ async function getTemplateContents(app, templatePath) {
 `;
   } catch (err) {
     console.error(`Failed to read the clipper entry template '${normalizedTemplatePath}'`, err);
-    new import_obsidian.Notice("读取“设置”中配置的黑曜石快船日记条目模板失败");
+    new import_obsidian.Notice("Failed to read the Obsidian Clipper daily note entry template configured in Settings");
     throw Error("Template File Missing");
   }
 }
@@ -4835,7 +4835,7 @@ var FileWriter = class {
         throw Error("Heading not found");
       }
     } catch (e) {
-      new import_obsidian2.Notice("找不到标题");
+      new import_obsidian2.Notice("Can't find heading");
       throw Error("Heading not found");
     }
   }
@@ -5867,7 +5867,7 @@ function effect(_ref2) {
   };
 }
 var applyStyles_default = {
-  name: "应用程序样式",
+  name: "applyStyles",
   enabled: true,
   phase: "write",
   fn: applyStyles,
@@ -6133,7 +6133,7 @@ function effect2(_ref2) {
   state.elements.arrow = arrowElement;
 }
 var arrow_default = {
-  name: "箭头",
+  name: "arrow",
   enabled: true,
   phase: "main",
   fn: arrow,
@@ -6264,7 +6264,7 @@ function computeStyles(_ref5) {
   });
 }
 var computeStyles_default = {
-  name: "计算机样式",
+  name: "computeStyles",
   enabled: true,
   phase: "beforeWrite",
   fn: computeStyles,
@@ -6300,7 +6300,7 @@ function effect3(_ref) {
   };
 }
 var eventListeners_default = {
-  name: "事件监听器",
+  name: "eventListeners",
   enabled: true,
   phase: "write",
   fn: function fn() {
@@ -6705,7 +6705,7 @@ function flip(_ref) {
   }
 }
 var flip_default = {
-  name: "翻转",
+  name: "flip",
   enabled: true,
   phase: "main",
   fn: flip,
@@ -6741,7 +6741,7 @@ function hide(_ref) {
   var popperRect = state.rects.popper;
   var preventedOffsets = state.modifiersData.preventOverflow;
   var referenceOverflow = detectOverflow(state, {
-    elementContext: "参考"
+    elementContext: "reference"
   });
   var popperAltOverflow = detectOverflow(state, {
     altBoundary: true
@@ -6762,7 +6762,7 @@ function hide(_ref) {
   });
 }
 var hide_default = {
-  name: "隐藏",
+  name: "hide",
   enabled: true,
   phase: "main",
   requiresIfExists: ["preventOverflow"],
@@ -6801,7 +6801,7 @@ function offset(_ref2) {
   state.modifiersData[name] = data;
 }
 var offset_default = {
-  name: "抵消",
+  name: "offset",
   enabled: true,
   phase: "main",
   requires: ["popperOffsets"],
@@ -6819,7 +6819,7 @@ function popperOffsets(_ref) {
   });
 }
 var popperOffsets_default = {
-  name: "弹出偏移量",
+  name: "popperOffsets",
   enabled: true,
   phase: "read",
   fn: popperOffsets,
@@ -6917,7 +6917,7 @@ function preventOverflow(_ref) {
   state.modifiersData[name] = data;
 }
 var preventOverflow_default = {
-  name: "防止溢出",
+  name: "preventOverflow",
   enabled: true,
   phase: "main",
   fn: preventOverflow,
@@ -7402,7 +7402,7 @@ function create_if_block(ctx) {
       div2 = element("div");
       div1 = element("div");
       div0 = element("div");
-      div0.textContent = "没有";
+      div0.textContent = "None";
       t1 = space();
       for (let i = 0; i < each_blocks.length; i += 1) {
         each_blocks[i].c();
@@ -7538,7 +7538,7 @@ function create_fragment(ctx) {
       t2 = text(ctx[2]);
       t3 = space();
       a = element("a");
-      a.textContent = "模板示例";
+      a.textContent = "Template Example";
       t5 = space();
       div6 = element("div");
       div5 = element("div");
@@ -7638,11 +7638,11 @@ function instance($$self, $$props, $$invalidate) {
   const extraOpts = {
     modifiers: [
       {
-        name: "抵消",
+        name: "offset",
         options: { offset: [0, 5] }
       },
       {
-        name: "相同宽度",
+        name: "sameWidth",
         enabled: true,
         fn: ({ state, instance: instance16 }) => {
           const targetWidth = `${state.rects.reference.width}px`;
@@ -7867,8 +7867,8 @@ function create_if_block2(ctx) {
   let dispose;
   suggest = new TemplateSuggest_default({
     props: {
-      name: "剪藏条目模板-日记",
-      description: "选择用作日记剪贴条目的模板 \n			周期性笔记",
+      name: "Clipped Entry Template - Daily",
+      description: "Choose the template to use as for the clipped entry in the daily \n			periodic note",
       initialValue: ctx[1].dailyEntryTemplateLocation,
       dataProvider: ctx[7],
       onChange: ctx[2]
@@ -7879,18 +7879,18 @@ function create_if_block2(ctx) {
       div15 = element("div");
       div4 = element("div");
       div2 = element("div");
-      div2.innerHTML = `<div class="setting-item-name">每日笔记标题</div> 
-					<div class="setting-item-description">应在以下标题中突出显示数据
-						</div>`;
+      div2.innerHTML = `<div class="setting-item-name">Daily Note Header</div> 
+					<div class="setting-item-description">What header should highlight data be prepended/appended under in the
+						daily note?</div>`;
       t3 = space();
       div3 = element("div");
       input = element("input");
       t4 = space();
       div9 = element("div");
       div7 = element("div");
-      div7.innerHTML = `<div class="setting-item-name">每日笔记位置</div> 
-					<div class="setting-item-description">将剪报预先放在部分顶部或附加到
-						</div>`;
+      div7.innerHTML = `<div class="setting-item-name">Daily Note Position</div> 
+					<div class="setting-item-description">Prepend clippings to the top of the section or append them to the
+						bottom of the section?</div>`;
       t8 = space();
       div8 = element("div");
       select0 = element("select");
@@ -7901,15 +7901,15 @@ function create_if_block2(ctx) {
       t11 = space();
       div14 = element("div");
       div12 = element("div");
-      div12.innerHTML = `<div class="setting-item-name">添加剪辑后打开笔记？</div> 
-					<div class="setting-item-description">添加剪辑后打开每日笔记？</div>`;
+      div12.innerHTML = `<div class="setting-item-name">Open Note After Adding Clipping?</div> 
+					<div class="setting-item-description">Open the daily note after adding the clipping?</div>`;
       t15 = space();
       div13 = element("div");
       select1 = element("select");
       option2 = element("option");
-      option2.textContent = "是的";
+      option2.textContent = "Yes";
       option3 = element("option");
-      option3.textContent = "不";
+      option3.textContent = "No";
       t18 = space();
       create_component(suggest.$$.fragment);
       attr(div2, "class", "setting-item-info");
@@ -8046,7 +8046,7 @@ function create_fragment2(ctx) {
       div3 = element("div");
       div2 = element("div");
       div0 = element("div");
-      div0.innerHTML = `<h1 class="setting-item-name">每日笔记输入</h1>`;
+      div0.innerHTML = `<h1 class="setting-item-name">Daily Note Entry</h1>`;
       t1 = space();
       div1 = element("div");
       label = element("label");
@@ -8209,8 +8209,8 @@ function create_if_block3(ctx) {
   let dispose;
   suggest = new TemplateSuggest_default({
     props: {
-      name: "剪藏条目模板-周记",
-      description: "选择用作周记剪贴条目的模板 \n			周期性笔记",
+      name: "Clipped Entry Template - Weekly",
+      description: "Choose the template to use as for the clipped entry in the weekly\n			periodic note",
       initialValue: ctx[1].weeklyEntryTemplateLocation,
       dataProvider: ctx[7],
       onChange: ctx[2]
@@ -8221,8 +8221,8 @@ function create_if_block3(ctx) {
       div15 = element("div");
       div4 = element("div");
       div2 = element("div");
-      div2.innerHTML = `<div class="setting-item-name">每周笔记标题</div> 
-					<div class="setting-item-description">应在以下标题中突出显示数据
+      div2.innerHTML = `<div class="setting-item-name">Weekly Note Header</div> 
+					<div class="setting-item-description">What header should highlight data be prepended/appended under in the
 						weekly note?</div>`;
       t3 = space();
       div3 = element("div");
@@ -8230,9 +8230,9 @@ function create_if_block3(ctx) {
       t4 = space();
       div9 = element("div");
       div7 = element("div");
-      div7.innerHTML = `<div class="setting-item-name">每周笔记位置</div> 
-					<div class="setting-item-description">将剪报预先放在部分顶部或附加到
-						</div>`;
+      div7.innerHTML = `<div class="setting-item-name">Weekly Note Position</div> 
+					<div class="setting-item-description">Prepend clippings to the top of the section or append them to the
+						bottom of the section?</div>`;
       t8 = space();
       div8 = element("div");
       select0 = element("select");
@@ -8243,15 +8243,15 @@ function create_if_block3(ctx) {
       t11 = space();
       div14 = element("div");
       div12 = element("div");
-      div12.innerHTML = `<div class="setting-item-name">添加剪辑后打开笔记？</div> 
-					<div class="setting-item-description">添加剪辑后打开周报？</div>`;
+      div12.innerHTML = `<div class="setting-item-name">Open Note After Adding Clipping?</div> 
+					<div class="setting-item-description">Open the weekly note after adding the clipping?</div>`;
       t15 = space();
       div13 = element("div");
       select1 = element("select");
       option2 = element("option");
-      option2.textContent = "是的";
+      option2.textContent = "Yes";
       option3 = element("option");
-      option3.textContent = "不";
+      option3.textContent = "No";
       t18 = space();
       create_component(suggest.$$.fragment);
       attr(div2, "class", "setting-item-info");
@@ -8388,7 +8388,7 @@ function create_fragment3(ctx) {
       div3 = element("div");
       div2 = element("div");
       div0 = element("div");
-      div0.innerHTML = `<h1 class="setting-item-name">每周笔记输入</h1>`;
+      div0.innerHTML = `<h1 class="setting-item-name">Weekly Note Entry</h1>`;
       t1 = space();
       div1 = element("div");
       label = element("label");
@@ -8542,32 +8542,32 @@ function create_fragment4(ctx) {
     c() {
       div17 = element("div");
       h1 = element("h1");
-      h1.textContent = "常用设置";
+      h1.textContent = "Common Settings";
       t1 = space();
       div4 = element("div");
       div2 = element("div");
-      div2.innerHTML = `<div class="setting-item-name">标签</div> 
-			<div class="setting-item-description">要添加标签到捕获的高亮中吗？</div>`;
+      div2.innerHTML = `<div class="setting-item-name">Tags</div> 
+			<div class="setting-item-description">Tags to add to captured highlights?</div>`;
       t5 = space();
       div3 = element("div");
       input0 = element("input");
       t6 = space();
       div10 = element("div");
       div8 = element("div");
-      div8.innerHTML = `<div class="setting-item-name">时间格式</div> 
-			<div class="setting-item-description"><div>中 {{ time }} 模板使用的格式
-					剪报。请参阅</div> 
-				<a href="https://momentjs.com/docs/#/displaying/format/">格式参考</a></div>`;
+      div8.innerHTML = `<div class="setting-item-name">Time Format</div> 
+			<div class="setting-item-description"><div>Format to use for the {{ time }} template in
+					clippings. See</div> 
+				<a href="https://momentjs.com/docs/#/displaying/format/">format reference</a></div>`;
       t12 = space();
       div9 = element("div");
       input1 = element("input");
       t13 = space();
       div16 = element("div");
       div14 = element("div");
-      div14.innerHTML = `<div class="setting-item-name">日期格式</div> 
-			<div class="setting-item-description"><div>中 {{ date }} 模板使用的格式
-					剪报。请参阅</div> 
-				<a href="https://momentjs.com/docs/#/displaying/format/">格式参考</a></div>`;
+      div14.innerHTML = `<div class="setting-item-name">Date Format</div> 
+			<div class="setting-item-description"><div>Format to use for the {{ date }} template in
+					clippings. See</div> 
+				<a href="https://momentjs.com/docs/#/displaying/format/">format reference</a></div>`;
       t19 = space();
       div15 = element("div");
       input2 = element("input");
@@ -9229,8 +9229,8 @@ function create_fragment8(ctx) {
   let dispose;
   suggest = new TemplateSuggest_default({
     props: {
-      name: "剪藏条目模板",
-      description: "选择主题注释中剪切条目的模板",
+      name: "Clipped Entry Template",
+      description: "Choose the template to use for the clipped entry in a topic note",
       initialValue: ctx[1].topicEntryTemplateLocation,
       dataProvider: ctx[5],
       onChange: ctx[2]
@@ -9241,8 +9241,8 @@ function create_fragment8(ctx) {
       div10 = element("div");
       div4 = element("div");
       div2 = element("div");
-      div2.innerHTML = `<div class="setting-item-name">主题笔记位置</div> 
-			<div class="setting-item-description">预先剪下还是把它们附加到底部？</div>`;
+      div2.innerHTML = `<div class="setting-item-name">Topic Note Position</div> 
+			<div class="setting-item-description">Prepend clippings or append them to the bottom?</div>`;
       t3 = space();
       div3 = element("div");
       select0 = element("select");
@@ -9253,15 +9253,15 @@ function create_fragment8(ctx) {
       t6 = space();
       div9 = element("div");
       div7 = element("div");
-      div7.innerHTML = `<div class="setting-item-name">添加剪辑后打开笔记？</div> 
-			<div class="setting-item-description">添加剪辑后打开笔记？</div>`;
+      div7.innerHTML = `<div class="setting-item-name">Open Note After Adding Clipping?</div> 
+			<div class="setting-item-description">Open the note after adding the clipping?</div>`;
       t10 = space();
       div8 = element("div");
       select1 = element("select");
       option2 = element("option");
-      option2.textContent = "是的";
+      option2.textContent = "Yes";
       option3 = element("option");
-      option3.textContent = "不";
+      option3.textContent = "No";
       t13 = space();
       create_component(suggest.$$.fragment);
       attr(div2, "class", "setting-item-info");
@@ -9469,10 +9469,10 @@ function create_fragment10(ctx) {
       div2 = element("div");
       div1 = element("div");
       div0 = element("div");
-      div0.textContent = "您可以将下面的链接拖动或复制到浏览器书签栏。这个\n				书签小程序将允许您突出显示网络上的信息并将其发送给黑曜石\n				";
+      div0.textContent = "You can drag or copy the link below to your browser bookmark bar. This\n				bookmarklet will allow you to highlight information on the web and send\n				it to obsidian";
       t1 = space();
       a = element("a");
-      t2 = text("Obsidian 剪藏 (");
+      t2 = text("Obsidian Clipper (");
       t3 = text(ctx[1]);
       t4 = text(")");
       attr(a, "href", ctx[0]);
@@ -9548,14 +9548,14 @@ function create_fragment11(ctx) {
       div3 = element("div");
       div2 = element("div");
       div0 = element("div");
-      t0 = text("单击下面的按钮为生成基于 Chrome 的个性化扩展\n			");
+      t0 = text("Click the button below to generate a personalized Chrome-based extension\n			for the ");
       span = element("span");
       t1 = text(ctx[0]);
-      t2 = text(". \n			点击按钮，使用链接下载.zip文件。");
+      t2 = text(". After clicking\n			the button, use the link to download the .zip file.");
       t3 = space();
       div1 = element("div");
       button = element("button");
-      t4 = text("扩展功能 (");
+      t4 = text("Chrome Extension (");
       t5 = text(ctx[0]);
       t6 = text(")");
       attr(span, "class", "font-extrabold");
@@ -9615,7 +9615,7 @@ function instance11($$self, $$props, $$invalidate) {
     });
     const s3Link = window.document.createElement("a");
     s3Link.href = response.json.data.link;
-    s3Link.textContent = "下载 Chrome 扩展程序";
+    s3Link.textContent = "Download Chrome Extension";
     s3LinkContainer.replaceChildren(s3Link);
   };
   function div1_binding($$value) {
@@ -9653,8 +9653,8 @@ function create_if_block5(ctx) {
     c() {
       div4 = element("div");
       div2 = element("div");
-      div2.innerHTML = `<div class="setting-item-name">在浏览器中捕获评论</div> 
-				<div class="setting-item-description">在浏览器中显示一个模式，以便在发送之前捕获任何评论
+      div2.innerHTML = `<div class="setting-item-name">Capture Comment in Browser</div> 
+				<div class="setting-item-description">Display a modal in the browser to capture any comments before sending
 					to Obsidian?</div>`;
       t3 = space();
       div3 = element("div");
@@ -9758,18 +9758,18 @@ function create_fragment12(ctx) {
       t1 = space();
       div28 = element("div");
       h10 = element("h1");
-      h10.textContent = "书签小程序设置";
+      h10.textContent = "Bookmarklet Settings";
       t3 = space();
       if (if_block)
         if_block.c();
       t4 = space();
       div2 = element("div");
-      div2.innerHTML = `<div class="setting-item-info"><h1 class="setting-item-name">Markdown标题</h1></div>`;
+      div2.innerHTML = `<div class="setting-item-info"><h1 class="setting-item-name">Markdown Headings</h1></div>`;
       t6 = space();
       div7 = element("div");
       div5 = element("div");
       div5.innerHTML = `<div class="setting-item-name">H2</div> 
-			<div class="setting-item-description">应该用什么来替换突出显示数据中的H2元素？</div>`;
+			<div class="setting-item-description">What should replace H2 elements found in the highlight data?</div>`;
       t10 = space();
       div6 = element("div");
       input0 = element("input");
@@ -9777,7 +9777,7 @@ function create_fragment12(ctx) {
       div12 = element("div");
       div10 = element("div");
       div10.innerHTML = `<div class="setting-item-name">H3</div> 
-			<div class="setting-item-description">应该用什么来替换突出显示数据中的H3元素？</div>`;
+			<div class="setting-item-description">What should replace H3 elements found in the highlight data?</div>`;
       t15 = space();
       div11 = element("div");
       input1 = element("input");
@@ -9785,7 +9785,7 @@ function create_fragment12(ctx) {
       div17 = element("div");
       div15 = element("div");
       div15.innerHTML = `<div class="setting-item-name">H4</div> 
-			<div class="setting-item-description">应该用什么来替换突出显示数据中的H4元素？</div>`;
+			<div class="setting-item-description">What should replace H4 elements found in the highlight data?</div>`;
       t20 = space();
       div16 = element("div");
       input2 = element("input");
@@ -9793,7 +9793,7 @@ function create_fragment12(ctx) {
       div22 = element("div");
       div20 = element("div");
       div20.innerHTML = `<div class="setting-item-name">H5</div> 
-			<div class="setting-item-description">应该用什么来替换突出显示数据中的H5元素？</div>`;
+			<div class="setting-item-description">What should replace H5 elements found in the highlight data?</div>`;
       t25 = space();
       div21 = element("div");
       input3 = element("input");
@@ -9801,7 +9801,7 @@ function create_fragment12(ctx) {
       div27 = element("div");
       div25 = element("div");
       div25.innerHTML = `<div class="setting-item-name">H6</div> 
-			<div class="setting-item-description">应该用什么来替换突出显示数据中的H6元素？</div>`;
+			<div class="setting-item-description">What should replace H6 elements found in the highlight data?</div>`;
       t30 = space();
       div26 = element("div");
       input4 = element("input");
@@ -9973,7 +9973,7 @@ function instance12($$self, $$props, $$invalidate) {
   if (filePath !== "") {
     fileName = getFileName(filePath);
   }
-  let noteOrVault = fileName !== "" ? `${fileName} file` : `${vaultName} 库`;
+  let noteOrVault = fileName !== "" ? `${fileName} file` : `${vaultName} vault`;
   let clipperHref = new BookmarketlGenerator(vaultName, filePath, $settings.markdownSettings, ($settings.experimentalBookmarkletComment && $settings.captureComments).toString()).generateBookmarklet();
   let updateClipperHref = () => {
     $$invalidate(0, clipperHref = new BookmarketlGenerator(vaultName, filePath, $settings.markdownSettings, ($settings.experimentalBookmarkletComment && $settings.captureComments).toString()).generateBookmarklet());
@@ -10049,9 +10049,9 @@ function create_if_block6(ctx) {
       div5 = element("div");
       div4 = element("div");
       div2 = element("div");
-      div2.innerHTML = `<div class="setting-item-name">剪辑入口存储位置</div> 
-					<div class="setting-item-description">选择用于存储所有剪报的文件夹。从中剪切的每个域的注释。默认值为\`clippings\`
-						</div>`;
+      div2.innerHTML = `<div class="setting-item-name">Clipped Entry Storage Location</div> 
+					<div class="setting-item-description">Choose the folder to store all of your clippings. A note per domain
+						clipped from. Default is a \`clippings\`</div>`;
       t3 = space();
       div3 = element("div");
       input = element("input");
@@ -10147,14 +10147,14 @@ function create_fragment13(ctx) {
     c() {
       div5 = element("div");
       h10 = element("h1");
-      h10.textContent = "高级设置";
+      h10.textContent = "Advanced Settings";
       t1 = space();
       div4 = element("div");
       div2 = element("div");
-      div2.innerHTML = `<div class="setting-item-name">按域存储剪辑</div> 
-			<div class="setting-item-description">为每个顶级域创建一个笔记，并将该域中的所有剪报存储在其中。它将在您的每日笔记中添加一个嵌入式文档链接。
-				
-				</div>`;
+      div2.innerHTML = `<div class="setting-item-name">Store Clippings Per Domain</div> 
+			<div class="setting-item-description">Creates a note per top-level domain and stores all clippings from that
+				domain within it. It will add an embedded document link in your Daily
+				Note.</div>`;
       t5 = space();
       div3 = element("div");
       label0 = element("label");
@@ -10165,11 +10165,11 @@ function create_fragment13(ctx) {
       t7 = space();
       div13 = element("div");
       h11 = element("h1");
-      h11.textContent = "实验设置";
+      h11.textContent = "Experimental Settings";
       t9 = space();
       div8 = element("div");
       div6 = element("div");
-      div6.innerHTML = `<h1 class="setting-item-name">支持白板</h1>`;
+      div6.innerHTML = `<h1 class="setting-item-name">Support Canvas</h1>`;
       t11 = space();
       div7 = element("div");
       label1 = element("label");
@@ -10177,10 +10177,10 @@ function create_fragment13(ctx) {
       t12 = space();
       div12 = element("div");
       div10 = element("div");
-      div10.innerHTML = `<h1 class="setting-item-name">浏览器中的评论支持</h1> 
-			<div class="setting-item-description">启用此选项后，您必须转到&#39；浏览器&#39；选项卡，更新设置以打开&#39；在浏览器中捕获评论&#39；设置并重新安装书签小程序。
-				
-				</div>`;
+      div10.innerHTML = `<h1 class="setting-item-name">Comment Support in Browser</h1> 
+			<div class="setting-item-description">After enabling this option, you must go to the &#39;Browser&#39; tab, update
+				your settings to turn on the &#39;Capture Comment in Browser&#39; setting and
+				reinstall the bookmarklet.</div>`;
       t16 = space();
       div11 = element("div");
       label2 = element("label");
@@ -10367,7 +10367,7 @@ function create_calloutLink_slot(ctx) {
   return {
     c() {
       span1 = element("span");
-      span1.innerHTML = `<a href="https://docs.obsidianclipper.com" class="whitespace-nowrap font-medium text-blue-700 hover:text-blue-600">详情
+      span1.innerHTML = `<a href="https://docs.obsidianclipper.com" class="whitespace-nowrap font-medium text-blue-700 hover:text-blue-600">Details
 			<span aria-hidden="true">\u2192</span></a>`;
       attr(span1, "slot", "calloutLink");
     },
@@ -10445,31 +10445,31 @@ function create_fragment14(ctx) {
     }
   };
 }
-var noticeText = "不知道如何开始？查看新的文档网站";
+var noticeText = "Lost on how to get started? Check out the new documentation website";
 function instance14($$self, $$props, $$invalidate) {
   let { app } = $$props;
   const vaultName = app.vault.getName();
   let tabs = [
     {
-      label: "基本",
+      label: "Base",
       value: 1,
       component: BaseSettingsTab_default,
       props: { app }
     },
     {
-      label: "主题说明",
+      label: "Topic Note",
       value: 2,
       component: TopicSettingsTab_default,
       props: { app }
     },
     {
-      label: "浏览器",
+      label: "Browser",
       value: 3,
       component: LinksSettingsGroup_default,
       props: { vaultName }
     },
     {
-      label: "高级",
+      label: "Advanced",
       value: 4,
       component: AdvancedSettingsGroup_default,
       props: { app }
@@ -10813,17 +10813,17 @@ var ObsidianClipperPlugin = class extends import_obsidian7.Plugin {
     this.addSettingTab(new SettingTab(this.app, this));
     this.addCommand({
       id: "copy-bookmarklet-address-clipboard",
-      name: "保险库书签工具到剪贴板",
+      name: "Vault Bookmarklet to Clipboard",
       callback: () => this.handleCopyBookmarkletToClipboard()
     });
     this.addCommand({
       id: "copy-bookmarklet-address",
-      name: "保险库书签工具",
+      name: "Vault Bookmarklet",
       callback: () => this.handleCopyBookmarkletCommand()
     });
     this.addCommand({
       id: "copy-note-bookmarklet-address-clipboard",
-      name: "主题书签到剪贴板",
+      name: "Topic Bookmarklet to Clipboard",
       editorCallback: (_editor, ctx) => {
         var _a;
         this.handleCopyBookmarkletToClipboard((_a = ctx.file) == null ? void 0 : _a.path);
@@ -10831,7 +10831,7 @@ var ObsidianClipperPlugin = class extends import_obsidian7.Plugin {
     });
     this.addCommand({
       id: "copy-note-bookmarklet-address",
-      name: "主题书签",
+      name: "Topic Bookmarklet",
       editorCallback: (_editor, ctx) => {
         var _a;
         this.handleCopyBookmarkletCommand(false, (_a = ctx.file) == null ? void 0 : _a.path);
@@ -10839,7 +10839,7 @@ var ObsidianClipperPlugin = class extends import_obsidian7.Plugin {
     });
     this.addCommand({
       id: "copy-note-bookmarklet-address-canvas",
-      name: "画布书签",
+      name: "Canvas Bookmarklet",
       checkCallback: (checking) => {
         var _a;
         if (checking) {
@@ -10903,7 +10903,7 @@ var ObsidianClipperPlugin = class extends import_obsidian7.Plugin {
   }
   handleCopyBookmarkletToClipboard(notePath = "") {
     navigator.clipboard.writeText(new BookmarketlGenerator(this.app.vault.getName(), notePath, this.settings.markdownSettings, (this.settings.experimentalBookmarkletComment && this.settings.captureComments).toString()).generateBookmarklet());
-    new import_obsidian7.Notice("黑曜石剪藏书签已复制到剪贴板");
+    new import_obsidian7.Notice("Obsidian Clipper Bookmarklet copied to clipboard.");
   }
   handleCopyBookmarkletCommand(updateRequired = false, filePath = "") {
     let noticeText2 = "";
@@ -10913,7 +10913,7 @@ var ObsidianClipperPlugin = class extends import_obsidian7.Plugin {
     }
     const bookmarkletLinkModal = new import_obsidian7.Modal(this.app);
     bookmarkletLinkModal.titleEl.createEl("h2", {
-      text: "复制您的书签"
+      text: "Copy Your Bookmarklet"
     });
     new BookmarkletModalComponent_default({
       target: bookmarkletLinkModal.contentEl,

@@ -1,0 +1,18 @@
+{
+  "statusBar": [
+    {
+      "prefix": "",
+      "suffix": " words",
+      "metric": {
+        "type": 0,
+        "counter": 0
+      }
+    }
+  ],
+  "altBar": [],
+  "countComments": false,
+  "collectStats": true,
+  "displaySectionCounts": false,
+  "pageWords": 300,
+  "statsPath": ".obsidian/vault-stats.json"
+}

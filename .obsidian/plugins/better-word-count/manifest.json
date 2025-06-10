@@ -1,0 +1,9 @@
+{
+    "id": "better-word-count",
+    "name": "Better Word Count",
+    "version": "0.10.1",
+    "description": "计算编辑器中选定文本的字数。",
+    "author": "Luke Leppan",
+    "authorUrl": "https://lukeleppan.com",
+    "isDesktopOnly": false
+}

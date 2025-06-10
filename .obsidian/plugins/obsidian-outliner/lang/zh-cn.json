@@ -1,0 +1,51 @@
+{
+    "manifest": {
+        "translationVersion": 1749556376632,
+        "pluginVersion": "4.9.0"
+    },
+    "description": {
+        "original": "Work with your lists like in Workflowy or RoamResearch.",
+        "translation": "Work with your lists like in Workflowy or RoamResearch."
+    },
+    "dict": {
+        "Notice(`The item cannot be moved. The page content changed during the move.`, 5000)": "Notice(`The item cannot be moved. The page content changed during the move.`, 5000)",
+        "Notice(`Unable to ${type} because folding is disabled. Please enable \"Fold indent\" in Obsidian settings.`, 5000)": "Notice(`Unable to ${type} because folding is disabled. Please enable \"Fold indent\" in Obsidian settings.`, 5000)",
+        "Notice(`To fully unload obsidian-outliner plugin, please restart the app`, 5000)": "Notice(`To fully unload obsidian-outliner plugin, please restart the app`, 5000)",
+        " log(method, ...args)": " log(method, ...args)",
+        ".log(method, ...args)": ".log(method, ...args)",
+        ".log(`Loading obsidian-outliner`)": ".log(`Loading obsidian-outliner`)",
+        ".log(`Unloading obsidian-outliner`)": ".log(`Unloading obsidian-outliner`)",
+        ".error(\"Vim adapter not found\")": ".error(\"Vim adapter not found\")",
+        " error(`Unable to parse list: expected indent \"${expected}\", got \"${got}\"`)": " error(`Unable to parse list: expected indent \"${expected}\", got \"${got}\"`)",
+        " error(`Unable to parse list: expected list item, got empty line`)": " error(`Unable to parse list: expected list item, got empty line`)",
+        " error(`Unable to parse list: expected some indent, got no indent`)": " error(`Unable to parse list: expected some indent, got no indent`)",
+        " error(`Unable to parse list: expected list item or note, got \"${line}\"`)": " error(`Unable to parse list: expected list item or note, got \"${line}\"`)",
+        "name: \"Fold the list\"": "name: \"Fold the list\"",
+        "name: \"Unfold the list\"": "name: \"Unfold the list\"",
+        "name: \"Move list and sublists up\"": "name: \"Move list and sublists up\"",
+        "name: \"Move list and sublists down\"": "name: \"Move list and sublists down\"",
+        "name: \"Indent the list and sublists\"": "name: \"Indent the list and sublists\"",
+        "name: \"Outdent the list and sublists\"": "name: \"Outdent the list and sublists\"",
+        "name: \"Show System Info\"": "name: \"Show System Info\"",
+        "text: \"normal\"": "text: \"normal\"",
+        ".setText(\"System Information\")": ".setText(\"System Information\")",
+        ".setText(\"Copy and Close\")": ".setText(\"Copy and Close\")",
+        ".setName(\"Stick the cursor to the content\")": ".setName(\"Stick the cursor to the content\")",
+        ".setName(\"Enhance the Tab key\")": ".setName(\"Enhance the Tab key\")",
+        ".setName(\"Enhance the Enter key\")": ".setName(\"Enhance the Enter key\")",
+        ".setName(\"Vim-mode o/O inserts bullets\")": ".setName(\"Vim-mode o/O inserts bullets\")",
+        ".setName(\"Enhance the Ctrl+A or Cmd+A behavior\")": ".setName(\"Enhance the Ctrl+A or Cmd+A behavior\")",
+        ".setName(\"Improve the style of your lists\")": ".setName(\"Improve the style of your lists\")",
+        ".setName(\"Draw vertical indentation lines\")": ".setName(\"Draw vertical indentation lines\")",
+        ".setName(\"Vertical indentation line click action\")": ".setName(\"Vertical indentation line click action\")",
+        ".setName(\"Drag-and-Drop\")": ".setName(\"Drag-and-Drop\")",
+        ".setName(\"Debug mode\")": ".setName(\"Debug mode\")",
+        ".setDesc(\"Don't let the cursor move to the bullet position.\")": ".setDesc(\"Don't let the cursor move to the bullet position.\")",
+        ".setDesc(\"Make Tab and Shift-Tab behave the same as other outliners.\")": ".setDesc(\"Make Tab and Shift-Tab behave the same as other outliners.\")",
+        ".setDesc(\"Make the Enter key behave the same as other outliners.\")": ".setDesc(\"Make the Enter key behave the same as other outliners.\")",
+        ".setDesc(\"Create a bullet when pressing o or O in Vim mode.\")": ".setDesc(\"Create a bullet when pressing o or O in Vim mode.\")",
+        ".setDesc(\"Press the hotkey once to select the current list item. Press the hotkey twice to select the entire list.\")": ".setDesc(\"Press the hotkey once to select the current list item. Press the hotkey twice to select the entire list.\")",
+        ".setDesc(\"Styles are only compatible with built-in Obsidian themes and may not be compatible with other themes.\")": ".setDesc(\"Styles are only compatible with built-in Obsidian themes and may not be compatible with other themes.\")",
+        ".setDesc(\"Open DevTools (Command+Option+I or Control+Shift+I) to copy the debug logs.\")": ".setDesc(\"Open DevTools (Command+Option+I or Control+Shift+I) to copy the debug logs.\")"
+    }
+}
