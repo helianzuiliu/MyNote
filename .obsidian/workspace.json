@@ -222,7 +222,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 297.5
+    "width": 314.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -238,13 +239,16 @@
       "templater-obsidian:Templater": true,
       "obsidian-excalidraw-plugin:新建绘图文件": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "obsidian-memos:Thino": false
+      "obsidian-memos:Thino": false,
+      "media-extended:Open media": false
     }
   },
   "active": "bbc69a605285acdb",
   "lastOpenFiles": [
-    "01.Game/01.崩坏三/深渊.md",
     "Clippings/地 球 O L 地 狱 难 度_哔哩哔哩_bilibili.md",
+    "Media Note - 【万字解析】我，为什么是B站最帅的博主.md",
+    "附件/【万字解析】我，为什么是B站最帅的博主PT30.004S.jpeg",
+    "01.Game/01.崩坏三/深渊.md",
     "01.daily/2024-05-27.md",
     "01.daily/2025-03-07.md",
     "01.daily/2025-03-08.md",
@@ -277,19 +281,16 @@
     "js/scripts/game/未命名.md",
     "js/scripts/game",
     "README.md",
-    "01.Game/05.鸣嘲/深渊.md",
     "附件/璃璃子.jpg",
     "附件/Pasted Image 20250605102803.png",
     "01.daily/001.daily",
     "附件/Pasted image 20240605153141.png",
-    "daily/2025-06-04.md",
     "js/scripts/abyss_time_bh3.js",
     "01.Game/03.崩铁/hs_banner.png",
     "01.Game/02.原神/ys_banner.png",
     "01.Game/04.绝区零/zzz_banner.png",
     "01.Game/05.鸣嘲/ww_banner.png",
     "01.Game/05.鸣嘲/ww_banner.jpg",
-    "01.Game/04.绝区零/image.png",
     "计算机/数据库/NoSql/Redis/Redis结构.canvas",
     "设计模式/DesignPattern.canvas",
     "设计模式/行为型模式/未命名.canvas",
