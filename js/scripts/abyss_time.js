@@ -6,10 +6,14 @@ const luxon = dv.luxon
 const dt = luxon.DateTime
 let now = dt.now()
 let name = input.name
+let start_time=input.start_time
+let end_time=input.end_time
 
 let show_text = "123"
 // dv.span(a)
-dv.span(GameTimeResolver.getNextSettlementTime(luxon, "bh3"))
+// dv.span(GameTimeResolver.getNextSettlementTime(luxon, "bh3"))
 
 dv.header(1, name)
 dv.paragraph(show_text)
+
+dv.taskList(dv.pages("01.daily"))
