@@ -4,8 +4,8 @@
       "id": "5cf70c21-5344-4306-aa1d-00bacccfe633",
       "name": "AddTask",
       "type": "Capture",
-      "command": false,
-      "appendLink": true,
+      "command": true,
+      "appendLink": false,
       "captureTo": "01.daily/{{date}}",
       "captureToActiveFile": false,
       "createFileIfItDoesntExist": {

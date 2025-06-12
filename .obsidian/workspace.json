@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01.daily/2025-06-11.md",
+                "file": "01.Game/01.崩坏三/深渊.md",
                 "mode": "source",
                 "source": true,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2025-06-11"
+              "title": "深渊"
             }
           }
         ]
@@ -44,7 +44,7 @@
               "type": "markdown",
               "state": {
                 "file": "01.Game/01.崩坏三/深渊.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -275,12 +275,13 @@
   },
   "active": "bbc69a605285acdb",
   "lastOpenFiles": [
+    "01.daily/2025-06-11.md",
+    "01.Game/01.崩坏三/深渊.md",
+    "软件工程/开发模型.md",
     "01.daily/2025-03-08.md",
     "01.daily/2025-06-04.md",
     "01.daily/2025-06-05.md",
     "01.daily/2025-06-10.md",
-    "01.daily/2025-06-11.md",
-    "01.Game/01.崩坏三/深渊.md",
     "01.Game/02.原神/深渊.md",
     "01.Game/03.崩铁/深渊.md",
     "01.Game/05.鸣嘲/深渊.md",
@@ -293,7 +294,6 @@
     "01.daily/2025-03-07.md",
     "00.Templates/daily.md",
     "01.daily/未命名看板.md",
-    "软件工程/开发模型.md",
     "00.Templates/program.md",
     "Excalidraw/RPC调用过程.excalidraw.md",
     "未命名.canvas",
