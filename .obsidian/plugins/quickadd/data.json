@@ -34,6 +34,36 @@
       },
       "openFile": false,
       "openFileInMode": "default"
+    },
+    {
+      "id": "739bcfa4-0299-4bb8-b102-da7887dd65f5",
+      "name": "daily-create",
+      "type": "Template",
+      "command": true,
+      "templatePath": "00.Templates/daily.md",
+      "fileNameFormat": {
+        "enabled": true,
+        "format": "{{date}}"
+      },
+      "folder": {
+        "enabled": true,
+        "folders": [
+          "01.daily"
+        ],
+        "chooseWhenCreatingNote": false,
+        "createInSameFolderAsActiveFile": false,
+        "chooseFromSubfolders": false
+      },
+      "appendLink": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": true,
+      "openFileInMode": "default",
+      "fileExistsMode": "Nothing",
+      "setFileExistsBehavior": false
     }
   ],
   "macros": [
@@ -44,9 +74,9 @@
       "runOnStartup": false
     }
   ],
-  "inputPrompt": "single-line",
+  "inputPrompt": "multi-line",
   "devMode": false,
-  "templateFolderPath": "",
+  "templateFolderPath": "00.Templates",
   "announceUpdates": true,
   "version": "1.13.0",
   "disableOnlineFeatures": true,

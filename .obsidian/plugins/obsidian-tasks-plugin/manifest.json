@@ -1,7 +1,7 @@
 {
     "id": "obsidian-tasks-plugin",
     "name": "Tasks",
-    "version": "7.18.1",
+    "version": "7.19.1",
     "minAppVersion": "1.4.0",
     "description": "(搜索.format(\"ddd Do MMM\")翻译可更改右键菜单日期格式)  跟踪你库中的任务.支持截止日期、重复任务、完成日期、子任务列表项和过滤功能.",
     "helpUrl": "https://publish.obsidian.md/tasks/",
