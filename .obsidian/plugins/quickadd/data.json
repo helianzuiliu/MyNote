@@ -9,7 +9,7 @@
       "captureTo": "01.daily/{{date}}",
       "captureToActiveFile": false,
       "createFileIfItDoesntExist": {
-        "enabled": false,
+        "enabled": true,
         "createWithTemplate": true,
         "template": "00.Templates/daily.md"
       },
