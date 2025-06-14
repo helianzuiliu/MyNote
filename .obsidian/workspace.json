@@ -30,8 +30,33 @@
               "icon": "lucide-file",
               "title": "2025-06-12"
             }
+          },
+          {
+            "id": "8d4fee59efe79063",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "01.daily/2025-06-14.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "2025-06-14"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -243,10 +268,11 @@
       "media-extended:Open media": false
     }
   },
-  "active": "58c40aee8c500939",
+  "active": "8d4fee59efe79063",
   "lastOpenFiles": [
-    "Dashboard.md",
     "01.daily/2025-06-12.md",
+    "01.daily/2025-06-14.md",
+    "Dashboard.md",
     "01.daily/2025-06-11.md",
     "01.Game/01.崩坏三/深渊.md",
     "00.Templates/daily.md",
@@ -273,7 +299,6 @@
     "未命名.canvas",
     "计算机/操作系统/临界资源.md",
     "软件工程/耦合.md",
-    "Clippings/用数据来看为什么原神玩家会退坑。壁吧专楼带你观察米哈游放弃原神的底层逻辑_哔哩哔哩_bilibili.md",
     "Clippings",
     "js/scripts/utils/time_util.js",
     "js/scripts/utils",
