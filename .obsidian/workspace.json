@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "aa8093572edd01bc",
+        "id": "5874346e2937df22",
         "type": "tabs",
         "children": [
           {
-            "id": "58c40aee8c500939",
+            "id": "e76227dde8244f0a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01.daily/2025-06-14.md",
+                "file": "01.Game/01.崩坏三/深渊.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,35 +28,10 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2025-06-14"
-            }
-          },
-          {
-            "id": "4d27e31d05251135",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "01.daily/2025-06-16.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "2025-06-16"
+              "title": "深渊"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -268,11 +243,11 @@
       "media-extended:Open media": false
     }
   },
-  "active": "4d27e31d05251135",
+  "active": "e76227dde8244f0a",
   "lastOpenFiles": [
-    "01.daily/2025-06-14.md",
     "01.daily/2025-06-16.md",
     "01.Game/01.崩坏三/深渊.md",
+    "01.daily/2025-06-14.md",
     "01.Game/02.原神/深渊.md",
     "01.daily/2025-06-11.md",
     "01.daily/2025-06-12.md",
