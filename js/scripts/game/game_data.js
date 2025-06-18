@@ -20,17 +20,33 @@ class GameTimeResolver {
 
         let obj = [{
             "name": "记忆战场",
-            "from":"崩坏三",
             "start_time": "2025-06-10T00:00:00",
-            "finish_time": time_util.getFinishTime(this["start_time"], 42),
-            "duration": "42天",
+            "duration": 6,
         }]
 
-        return obj
+        return obj.map(b => ({
+            ...b,
+            from: "崩坏三",
+            finish_time: time_util.getFinishTime(b.start_time, b.duration).toLocaleString("zh-CN", { timeZone: "Asia/Shanghai" })
+        }))
 
     }
 
     getNextSettlementTime_GENSHIN(name) {
         // let d = data["genshin"][name]
+        const { time_util } = customJS
+
+        let obj = [{
+            "name": "马斯克礁",
+            "start_time": "2025-06-01T04:00:00",
+            "duration": 30,
+        }]
+
+        return obj.map(b => ({
+            ...b,
+            from: "原神",
+            finish_time: time_util.getFinishTime(b.start_time, b.duration).toLocaleString("zh-CN", { timeZone: "Asia/Shanghai" })
+        }))
+
     }
 }

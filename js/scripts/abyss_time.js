@@ -60,6 +60,6 @@ action QuickAdd: AddTask
 }
 
 dv.table(["名字", "来源", "状态", "结束时间", "剩余时间", "已完成"],
-    GameTimeResolver.getNextSettlementTime("bh3").map(
+    GameTimeResolver.getNextSettlementTime("genshin").map(
         b => [b.name, b.from, b.name, b.finish_time, b.name]
     ))
