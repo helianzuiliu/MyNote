@@ -1,7 +1,7 @@
 // let dt = require("luxon").DateTime
 class GameTimeResolver {
 
-    getNextSettlementTime(luxon, name) {        
+    getNextSettlementTime(name) {
         switch (name) {
             case "bh3":
                 return this.getNextSettlementTime_BH3(name)
@@ -14,17 +14,23 @@ class GameTimeResolver {
         }
     }
 
-    getNextSettlementTime_BH3(luxon, name) {
+    getNextSettlementTime_BH3(name) {
         // let d = data["bh3"][name]
         const { time_util } = customJS
-        let now = time_util.getCurrentTime()
-        return now
+
+        let obj = [{
+            "name": "记忆战场",
+            "from":"崩坏三",
+            "start_time": "2025-06-10T00:00:00",
+            "finish_time": time_util.getFinishTime(this["start_time"], 42),
+            "duration": "42天",
+        }]
+
+        return obj
+
     }
 
-    getNextSettlementTime_GENSHIN(luxon, name) {
-        const { time_util } = customJS
-        let now = time_util.getCurrentTime()
-        return now
+    getNextSettlementTime_GENSHIN(name) {
         // let d = data["genshin"][name]
     }
 }
