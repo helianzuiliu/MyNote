@@ -1,20 +1,20 @@
 // let dt = require("luxon").DateTime
 class GameTimeResolver {
 
-    getNextSettlementTime(name) {
+    getNextSettlementTime(name,dt) {
         switch (name) {
             case "bh3":
-                return this.getNextSettlementTime_BH3(name)
+                return this.getNextSettlementTime_BH3(name, dt)
 
             case "genshin":
-                return this.getNextSettlementTime_GENSHIN(name)
+                return this.getNextSettlementTime_GENSHIN(name, dt)
 
             default:
                 return ("Unknown game name:" + name)
         }
     }
 
-    getNextSettlementTime_BH3(name) {
+    getNextSettlementTime_BH3(name, dt) {
         // let d = data["bh3"][name]
         const { time_util } = customJS
 
@@ -32,33 +32,25 @@ class GameTimeResolver {
 
     }
 
-    getNextSettlementTime_GENSHIN(name) {
+    getNextSettlementTime_GENSHIN(name, dt) {
         // let d = data["genshin"][name]
         const { time_util } = customJS
 
+        let now = new Date()
+
         let obj = [{
             name: "马斯克礁",
-            stand_time: "2025-02-01T04:00:00",
-            duration: 1,
-            a: stand_time
+            start_time: new Date(now.getFullYear(), now.getMonth(), 1, 4, 0, 0),
+            finish_time: new Date(now.getFullYear(), now.getMonth() + 1, 0, 4, 0, 0),
         }]
 
         return obj.map(b => ({
             ...b,
+            start_time: b.start_time.toLocaleString("zh-CN", { timeZone: "Asia/Shanghai" }),
+            finish_time: b.finish_time.toLocaleString("zh-CN", { timeZone: "Asia/Shanghai" }),
+            // 剩余时间
+            remaining_time: (b.finish_time - now),
             from: "原神",
-            // 补充开始时间和结束时间
-            ...(() => {
-                // 获取当前月份的天数
-                const t = new Date("2025-02-01T04:00:00");
-                t.setMonth(new Date().getMonth()); // 设置为当前月份
-                const year = t.getFullYear();
-                const month = t.getMonth(); // 0-11
-
-                return {
-                    start_time: new Date(year, month, 1).toLocaleString("zh-CN", { timeZone: "Asia/Shanghai" }),
-                    finish_time: new Date(year, month + 1, 0).toLocaleString("zh-CN", { timeZone: "Asia/Shanghai" })
-                }
-            })(),
         }))
 
     }
