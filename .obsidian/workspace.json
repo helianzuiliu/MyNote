@@ -6,6 +6,7 @@
       {
         "id": "5874346e2937df22",
         "type": "tabs",
+        "dimension": 52.34584450402144,
         "children": [
           {
             "id": "e76227dde8244f0a",
@@ -36,6 +37,7 @@
       {
         "id": "f2d5094ac98fc5c5",
         "type": "tabs",
+        "dimension": 47.65415549597855,
         "children": [
           {
             "id": "1659a4463baff5bb",
@@ -274,7 +276,7 @@
       "media-extended:Open media": false
     }
   },
-  "active": "e76227dde8244f0a",
+  "active": "1659a4463baff5bb",
   "lastOpenFiles": [
     "js/scripts/jsconfig.json",
     "js/scripts/utils/time_util.js",
