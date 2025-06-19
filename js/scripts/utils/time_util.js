@@ -14,7 +14,7 @@ class time_util {
         // 获取当前月份的天数
         const now = dt.now();
         
-        dt.fromObject(time, )
+        dt.fromObject(time,)
         return new Date(year, month + 1, 0).getDate(); // 月份参数2表示三月，0表示二月最后一天
     }
 
