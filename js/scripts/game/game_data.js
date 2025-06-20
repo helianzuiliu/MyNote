@@ -49,7 +49,7 @@ class GameTimeResolver {
             start_time: b.start_time.toLocaleString("zh-CN", { timeZone: "Asia/Shanghai" }),
             finish_time: b.finish_time.toLocaleString("zh-CN", { timeZone: "Asia/Shanghai" }),
             // 剩余时间
-            remaining_time: (b.finish_time - now),
+            remaining_time: time_util.diffTime(b.start_time, b.finish_time, dt),
             from: "原神",
         }))
 

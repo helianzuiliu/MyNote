@@ -1,6 +1,6 @@
 // let dt = require("luxon").DateTime
 
-const { GameTimeResolver } = customJS
+const { GameTimeResolver,time_util } = customJS
 
 const luxon = dv.luxon
 const dt = luxon.DateTime
@@ -58,6 +58,8 @@ action QuickAdd: AddTask
         dv.paragraph("目标任务已完成，可以摸鱼了")
     }
 }
+
+dv.span(time_util.getFirstDateNextMonth(dt))
 
 dv.table(["名字", "来源", "状态", "结束时间", "剩余时间", "已完成"],
     GameTimeResolver.getNextSettlementTime("genshin",dt).map(
