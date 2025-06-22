@@ -15,7 +15,7 @@
               "state": {
                 "file": "01.Game/01.崩坏三/深渊.md",
                 "mode": "preview",
-                "source": true,
+                "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
                   "collapseAll": false,
