@@ -59,9 +59,17 @@ action QuickAdd: AddTask
     }
 }
 
-dv.span(time_util.getFirstDateInNextMonth(dt.now(),dt))
+dv.span(time_util.getFirstDateInNextMonth(dt.now(), dt))
 
-dv.table(["名字", "来源", "状态", "结束时间", "剩余时间", "已完成"],
-    GameTimeResolver.getNextSettlementTime("genshin",dt).map(
-        b => [b.name, b.from, b.start_time, b.finish_time, b.remaining_time, b.finish_time < now ? "✅" : "❌"]
+dv.table(["名字", "来源", "状态", "开始时间", "结束时间", "剩余时间", "已完成"],
+    GameTimeResolver.getNextSettlementTime("genshin", dt).map(
+        b => [
+            b.name,
+            b.from,
+            b.status,
+            b.start_time,
+            b.finish_time,
+            b.status == "未开始" ? "" : b.remaining_time,
+            b.finish_time < now ? "✅" : "❌"
+        ]
     ))
