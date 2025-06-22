@@ -80,8 +80,8 @@ for (const name of name_array) {
             b => [
                 b.name,
                 toStatus(b),
-                b.start_time,
-                b.finish_time,
+                b.start_time.toFormat("yyyy-MM-dd HH:mm"),
+                b.finish_time.toFormat("yyyy-MM-dd HH:mm"),
                 b.status == "未开始" ? "" : b.remaining_time,
                 now < b.finish_time ? "✅" : "❌"
             ]

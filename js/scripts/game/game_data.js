@@ -45,19 +45,14 @@ class GameTimeResolver {
         const now = dt.now()
         const base_time = now.set({ hour: 4, minute: 0, second: 0, millisecond: 0 })
 
-        const firstDayThisMonth = base_time.set({ day: 1 })
-        const middayThisMonth = base_time.set({ day: 16 })
-        const lastDayThisMonth = base_time.set({ day: base_time.daysInMonth })
-        const middayNextMonth = base_time.set({ day: 16 }).plus({ months: 1 })
-
         let obj = [{
             name: "马斯克礁",
-            start_time: firstDayThisMonth,
-            finish_time: lastDayThisMonth,
+            start_time: base_time.set({ day: 1 }),
+            finish_time: base_time.set({ day: base_time.daysInMonth }),
         }, {
             name: "幻想真镜剧诗",
-            start_time: middayThisMonth,
-            finish_time: middayNextMonth,
+            start_time: base_time.set({ day: 16 }),
+            finish_time: base_time.set({ day: 16 }).plus({ months: 1 }),
         }]
 
         return obj.map(b => ({
