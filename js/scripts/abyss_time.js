@@ -61,15 +61,16 @@ action QuickAdd: AddTask
 
 dv.span(time_util.getFirstDateInNextMonth(dt.now(), dt))
 
-dv.table(["名字", "来源", "状态", "开始时间", "结束时间", "剩余时间", "已完成"],
-    GameTimeResolver.getNextSettlementTime("genshin", dt).map(
-        b => [
-            b.name,
-            b.from,
-            b.status,
-            b.start_time,
-            b.finish_time,
-            b.status == "未开始" ? "" : b.remaining_time,
-            b.finish_time < now ? "✅" : "❌"
-        ]
-    ))
+dv.table(["名字", "状态", "开始时间", "结束时间", "剩余时间", "已完成"],
+    dv.array(GameTimeResolver.getNextSettlementTime("genshin", dt))
+        .groupBy(b => b.from)
+        .map(
+            b => [
+                b.rows.name,
+                b.rows.status,
+                b.rows.start_time,
+                b.rows.finish_time,
+                b.rows.status == "未开始" ? "" : b.rows.remaining_time,
+                b.rows.finish_time < now ? "✅" : "❌"
+            ]
+        ))
