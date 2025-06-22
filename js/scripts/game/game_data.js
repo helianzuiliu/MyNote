@@ -51,7 +51,7 @@ class GameTimeResolver {
         return obj.map(b => ({
             ...b,
             remaining_time: time_util.diffTime(now, b.finish_time),
-            from: "崩坏三",
+            from: name,
         }))
 
     }
@@ -75,7 +75,7 @@ class GameTimeResolver {
         return obj.map(b => ({
             ...b,
             remaining_time: time_util.diffTime(now, b.finish_time),
-            from: "原神",
+            from: name,
         }))
     }
 
@@ -84,10 +84,27 @@ class GameTimeResolver {
 
         const now = dt.now()
         const base_time = now.set({ hour: 4, minute: 0, second: 0, millisecond: 0 })
+        let obj = []
 
+
+        return obj.map(b => ({
+            ...b,
+            remaining_time: time_util.diffTime(now, b.finish_time),
+            from: name,
+        }))
     }
 
     getNextSettlementTime_MINGCHAO(name, dt) {
+        const { time_util } = customJS
 
+        const now = dt.now()
+        const base_time = now.set({ hour: 4, minute: 0, second: 0, millisecond: 0 })
+        let obj = []
+
+        return obj.map(b => ({
+            ...b,
+            remaining_time: time_util.diffTime(now, b.finish_time),
+            from: name,
+        }))
     }
 }
