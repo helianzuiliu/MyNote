@@ -55,26 +55,36 @@ if (tasks.length == 0) {
 
 let name_array = ["崩坏三", "原神"]
 
-for (let name of name_array) {
+let toStatus = (b) => {
+    if (now < b.start_time) {
+        return "未开始"
+    } else if (now < b.finish_time) {
+        return "进行中"
+    } else {
+        return "已结束"
+    }
+}
+
+for (const name of name_array) {
     dv.header(2, name)
     let data = dv.array(GameTimeResolver.getNextSettlementTime(name, dt))
-    dv.table(["名字", "状态", "开始时间", "结束时间", "剩余时间", "已完成"],
+    dv.table([
+        "名字",
+        "状态",
+        "开始时间",
+        "结束时间",
+        "剩余时间",
+        "已完成"
+    ],
         data.map(
             b => [
                 b.name,
-                (((b) => {
-                    if (now < b.start_time) {
-                        return b.start_time
-                    } else if (now < b.finish_time) {
-                        return b.finish_time
-                    } else {
-                        return b.finish_time
-                    }
-                })(b)),
-                b.start_time.toFormat('yyyy-MM-dd HH:mm:ss'),
-                b.finish_time.toFormat('yyyy-MM-dd HH:mm:ss'),
+                toStatus(b),
+                b.start_time,
+                b.finish_time,
                 b.status == "未开始" ? "" : b.remaining_time,
-                b.finish_time < now ? "✅" : "❌"
+                now < b.finish_time ? "✅" : "❌"
             ]
         ))
+    dv.paragraph(" ")
 }
