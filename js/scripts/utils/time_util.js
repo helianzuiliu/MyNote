@@ -16,16 +16,11 @@ class time_util {
         return t;
     }
 
-    getDaysOfMonth(time, dt) {
-        // 获取当前月份的天数
-        const now = dt.now();
-
-        now.daysInMonth
-        return new Date(year, month + 1, 0).getDate(); // 月份参数2表示三月，0表示二月最后一天
+    diffTime(start_time, finish_time) {
+        let duration = finish_time.diff(start_time, ["days", "hours", "minutes"])
+        if (duration.get("days") == 0) {
+            return `${duration.get("hours")}小时${parseInt(duration.get("minutes"))}分钟`
+        }
+        return `${duration.get("days")}天`
     }
-
-    diffTime(start_time, finish_time, dt) {
-
-    }
-
 }

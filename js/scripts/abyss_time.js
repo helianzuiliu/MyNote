@@ -39,13 +39,7 @@ if (tasks.length == 0) {
 
     const quickAddApi = app.plugins.plugins.quickadd.api;
 
-    dv.paragraph(`
-\`\`\`button
-name create task
-type append command 
-action QuickAdd: AddTask
-\`\`\`
-    `)
+
 
     // 创建的任务示例  - [ ] #task #Game 记忆战场 ➕ 2025-06-11 🛫 2025-06-10 📅 2025-06-15 ✅ 2025-06-11
     // dv.button("添加目标任务", "add_task.md", {icon: "plus", size: "small"})
@@ -59,18 +53,28 @@ action QuickAdd: AddTask
     }
 }
 
-dv.span(time_util.getFirstDateInNextMonth(dt.now(), dt))
+let name_array = ["崩坏三", "原神"]
 
-dv.table(["名字", "状态", "开始时间", "结束时间", "剩余时间", "已完成"],
-    dv.array(GameTimeResolver.getNextSettlementTime("genshin", dt))
-        .groupBy(b => b.from)
-        .map(
+for (let name of name_array) {
+    dv.header(2, name)
+    let data = dv.array(GameTimeResolver.getNextSettlementTime(name, dt))
+    dv.table(["名字", "状态", "开始时间", "结束时间", "剩余时间", "已完成"],
+        data.map(
             b => [
-                b.rows.name,
-                b.rows.status,
-                b.rows.start_time,
-                b.rows.finish_time,
-                b.rows.status == "未开始" ? "" : b.rows.remaining_time,
-                b.rows.finish_time < now ? "✅" : "❌"
+                b.name,
+                (((b) => {
+                    if (now < b.start_time) {
+                        return b.start_time
+                    } else if (now < b.finish_time) {
+                        return b.finish_time
+                    } else {
+                        return b.finish_time
+                    }
+                })(b)),
+                b.start_time.toFormat('yyyy-MM-dd HH:mm:ss'),
+                b.finish_time.toFormat('yyyy-MM-dd HH:mm:ss'),
+                b.status == "未开始" ? "" : b.remaining_time,
+                b.finish_time < now ? "✅" : "❌"
             ]
         ))
+}
