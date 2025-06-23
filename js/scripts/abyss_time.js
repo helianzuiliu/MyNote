@@ -6,7 +6,7 @@ const luxon = dv.luxon
 const dt = luxon.DateTime
 let now = dt.now()
 
-let name = input.name
+const name = input.name
 let start_time = input.start_time
 let finish_time = input.finish_time
 
