@@ -11,24 +11,12 @@
             "id": "e76227dde8244f0a",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "01.Game/01.崩坏三/深渊.md",
-                "mode": "preview",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": true,
-                  "unlinkedCollapsed": true
-                }
+                "file": "Excalidraw/RPC调用过程.excalidraw.md"
               },
-              "icon": "lucide-file",
-              "title": "深渊"
+              "icon": "excalidraw-icon",
+              "title": "RPC调用过程.excalidraw"
             }
           }
         ]
@@ -243,17 +231,17 @@
       "media-extended:Open media": false
     }
   },
-  "active": "312713e416cd5434",
+  "active": "e76227dde8244f0a",
   "lastOpenFiles": [
+    "01.Game/01.崩坏三/深渊.md",
+    "01.Game/02.原神/深渊.md",
     "js/scripts/jsconfig.json",
     "js/scripts/utils/time_util.js",
     "js/scripts/utils/time_util.ts",
     "Dashboard.md",
     "README.md",
-    "01.Game/01.崩坏三/深渊.md",
     "js/scripts/utils/未命名.md",
     "01.daily/2025-06-16.md",
-    "01.Game/02.原神/深渊.md",
     "01.daily/2025-06-14.md",
     "01.daily/2025-06-11.md",
     "01.daily/2025-06-12.md",
@@ -286,7 +274,6 @@
     "js/scripts/game",
     "附件/璃璃子.jpg",
     "附件/Pasted Image 20250605102803.png",
-    "01.daily/001.daily",
     "附件/Pasted image 20240605153141.png",
     "附件/hs_banner.png",
     "附件/ys_banner.png",
