@@ -12,7 +12,10 @@ class GameTimeResolver {
             case "鸣嘲":
                 return this.getNextSettlementTime_MINGCHAO(name, dt)
             default:
-                return ("Unknown game name:" + name)
+                return {
+                    name: name,
+                    from: "未知游戏"
+                }
         }
     }
 
