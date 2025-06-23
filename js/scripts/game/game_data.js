@@ -86,7 +86,7 @@ class GameTimeResolver {
         const base_time = now.set({ hour: 4, minute: 0, second: 0, millisecond: 0 })
         let obj = [{
             name: "忘却之庭",
-            ...time_util.getPeriodTime(stand_time,42),
+            ...time_util.getPeriodTime(base_time.set({ year: 2025, month: 6, day: 23 }), 42),
         }]
 
 
