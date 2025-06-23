@@ -3,12 +3,10 @@ class time_util {
 
     /**
      * 
-     * @param {*} start_time 
-     * @param {*} finish_time 
+     * @param {*} duration 
      * @returns 
      */
-    diffTime(start_time, finish_time) {
-        let duration = finish_time.diff(start_time, ["days", "hours", "minutes"])
+    durationToString(duration) {
         if (duration.get("days") == 0) {
             return `${duration.get("hours")}小时${parseInt(duration.get("minutes"))}分钟`
         }

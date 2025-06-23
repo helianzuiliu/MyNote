@@ -6,10 +6,6 @@ const luxon = dv.luxon
 const dt = luxon.DateTime
 let now = dt.now()
 
-const name = input.name
-let start_time = input.start_time
-let finish_time = input.finish_time
-
 const page = dv.pages('"01.daily"').file
     .where(p => {
         const create_time = dt.fromString(p.name, "yyyy-MM-dd", { zone: "Asia/Shanghai" })
@@ -48,13 +44,13 @@ for (const name of name_array) {
         "剩余时间",
         "已完成"
     ],
-        data.sort(b => b.finish_time,"asc").map(
+        data.sort(b => b.remaining_time, "asc").map(
             b => [
                 b.name,
                 toStatus(b),
                 b.start_time.toFormat("yyyy-MM-dd HH:mm"),
                 b.finish_time.toFormat("yyyy-MM-dd HH:mm"),
-                b.status == "未开始" ? "" : b.remaining_time,
+                b.status == "未开始" ? "" : time_util.durationToString(b.remaining_time),
                 now < b.finish_time ? "✅" : "❌"
             ]
         ))

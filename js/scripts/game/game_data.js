@@ -50,7 +50,7 @@ class GameTimeResolver {
 
         return obj.map(b => ({
             ...b,
-            remaining_time: time_util.diffTime(now, b.finish_time),
+            remaining_time: b.finish_time.diffNow(["days", "hours", "minutes"]),
             from: name,
         }))
 
@@ -74,7 +74,7 @@ class GameTimeResolver {
 
         return obj.map(b => ({
             ...b,
-            remaining_time: time_util.diffTime(now, b.finish_time),
+            remaining_time: b.finish_time.diffNow(["days", "hours", "minutes"]),
             from: name,
         }))
     }
@@ -102,7 +102,7 @@ class GameTimeResolver {
 
         return obj.map(b => ({
             ...b,
-            remaining_time: time_util.diffTime(now, b.finish_time),
+            remaining_time: b.finish_time.diffNow(["days", "hours", "minutes"]),
             from: name,
         }))
     }
@@ -116,7 +116,7 @@ class GameTimeResolver {
 
         return obj.map(b => ({
             ...b,
-            remaining_time: time_util.diffTime(now, b.finish_time),
+            remaining_time: b.finish_time.diffNow(["days", "hours", "minutes"]),
             from: name,
         }))
     }
