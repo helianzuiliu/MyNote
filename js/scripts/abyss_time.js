@@ -56,3 +56,22 @@ for (const name of name_array) {
         ))
     dv.paragraph(" ")
 }
+
+
+let arr = []
+
+for (let i of name_array) {
+    arr.push(...GameTimeResolver.getNextSettlementTime(i, dt))
+}
+
+dv.list(
+    dv.array(arr).groupBy(b => b.from).flatMap(g => {
+        return [g.key, g.rows.map(b => [
+            b.name,
+            toStatus(b),
+            b.start_time.toFormat("yyyy-MM-dd HH:mm"),
+            b.finish_time.toFormat("yyyy-MM-dd HH:mm"),
+            b.status == "未开始" ? "" : time_util.durationToString(b.remaining_time),
+            now < b.finish_time ? "✅" : "❌"
+        ])]
+    }))
