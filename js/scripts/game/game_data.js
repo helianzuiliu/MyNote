@@ -85,8 +85,18 @@ class GameTimeResolver {
         const now = dt.now()
         const base_time = now.set({ hour: 4, minute: 0, second: 0, millisecond: 0 })
         let obj = [{
+            name: "模拟宇宙",
+            start_time: base_time.set({ weekday: 1 }),
+            finish_time: base_time.set({ weekday: 1 }).plus({ weeks: 1 }),
+        }, {
             name: "忘却之庭",
             ...time_util.getPeriodTime(base_time.set({ year: 2025, month: 6, day: 23 }), 42),
+        }, {
+            name: "虚构叙事",
+            ...time_util.getPeriodTime(base_time.set({ year: 2025, month: 6, day: 9 }), 42),
+        }, {
+            name: "末日幻影",
+            ...time_util.getPeriodTime(base_time.set({ year: 2025, month: 5, day: 26 }), 42),
         }]
 
 

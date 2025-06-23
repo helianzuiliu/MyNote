@@ -48,7 +48,7 @@ for (const name of name_array) {
         "剩余时间",
         "已完成"
     ],
-        data.map(
+        data.sort(b => b.finish_time,"asc").map(
             b => [
                 b.name,
                 toStatus(b),
