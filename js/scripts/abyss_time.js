@@ -6,19 +6,19 @@ const luxon = dv.luxon
 const dt = luxon.DateTime
 let now = dt.now()
 
-const page = dv.pages('"01.daily"').file
-    .where(p => {
-        const create_time = dt.fromString(p.name, "yyyy-MM-dd", { zone: "Asia/Shanghai" })
-        // dv.span(start_time.toFormat("yyyy-MM-dd HH:mm:ss  ") )
-        // dv.span(create_time.toFormat("yyyy-MM-dd HH:mm:ss  "))
-        // dv.span(finish_time.toFormat("yyyy-MM-dd HH:mm:ss  "))
-        // dv.paragraph(start_time <= create_time && create_time <= finish_time)
-        return start_time <= create_time && create_time <= finish_time
-    })
+// const page = dv.pages('"01.daily"').file
+//     .where(p => {
+//         const create_time = dt.fromString(p.name, "yyyy-MM-dd", { zone: "Asia/Shanghai" })
+//         // dv.span(start_time.toFormat("yyyy-MM-dd HH:mm:ss  ") )
+//         // dv.span(create_time.toFormat("yyyy-MM-dd HH:mm:ss  "))
+//         // dv.span(finish_time.toFormat("yyyy-MM-dd HH:mm:ss  "))
+//         // dv.paragraph(start_time <= create_time && create_time <= finish_time)
+//         return start_time <= create_time && create_time <= finish_time
+//     })
 
-const tasks = page.tasks.where(t => {
-    return t.text.includes(name)
-})
+// const tasks = page.tasks.where(t => {
+//     return t.text.includes(name)
+// })
 
 
 let name_array = ["崩坏三", "原神", "崩坏：星穹铁道", "鸣嘲"]
