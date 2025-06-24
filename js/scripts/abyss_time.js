@@ -21,7 +21,13 @@ let now = dt.now()
 // })
 
 
-let name_array = ["崩坏三", "原神", "崩坏：星穹铁道", "鸣嘲"]
+let name_arr = ["崩坏三", "原神", "崩坏：星穹铁道", "鸣嘲"]
+let data_arr = []
+for (let name of name_arr) {
+    data_arr.push(...GameTimeResolver.getNextSettlementTime(name, dt))
+}
+data_arr = dv.array(data_arr)
+    .groupBy(b => b.from).sort(b => b.rows.remaining_time)
 
 let toStatus = (b) => {
     if (now < b.start_time) {
@@ -33,9 +39,8 @@ let toStatus = (b) => {
     }
 }
 
-for (const name of name_array) {
-    dv.header(2, name)
-    let data = dv.array(GameTimeResolver.getNextSettlementTime(name, dt))
+for (const data of data_arr) {
+    dv.header(2, data.key)
     dv.table([
         "名字",
         "状态",
@@ -44,7 +49,7 @@ for (const name of name_array) {
         "剩余时间",
         "已完成"
     ],
-        data.sort(b => b.remaining_time, "asc").map(
+        data.rows.sort(b => b.remaining_time, "asc").map(
             b => [
                 b.name,
                 toStatus(b),
@@ -56,22 +61,3 @@ for (const name of name_array) {
         ))
     dv.paragraph(" ")
 }
-
-
-let arr = []
-
-for (let i of name_array) {
-    arr.push(...GameTimeResolver.getNextSettlementTime(i, dt))
-}
-
-dv.list(
-    dv.array(arr).groupBy(b => b.from).flatMap(g => {
-        return [g.key, g.rows.map(b => [
-            b.name,
-            toStatus(b),
-            b.start_time.toFormat("yyyy-MM-dd HH:mm"),
-            b.finish_time.toFormat("yyyy-MM-dd HH:mm"),
-            b.status == "未开始" ? "" : time_util.durationToString(b.remaining_time),
-            now < b.finish_time ? "✅" : "❌"
-        ])]
-    }))
