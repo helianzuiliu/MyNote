@@ -28,4 +28,14 @@ short mode
 
 ```
 
-![[01.Game/01.崩坏三/深渊|深渊]]
+
+```dataviewjs
+let dt=dv.luxon.DateTime
+let now=dt.now()
+
+await dv.view("js/scripts/abyss_time",
+{
+	name: ["崩坏三","原神","崩坏：星穹铁道","绝区零","鸣嘲"]
+})
+```
+
