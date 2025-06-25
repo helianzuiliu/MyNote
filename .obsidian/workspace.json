@@ -4,18 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "20d77ef5c733dddd",
+        "id": "f14f6239c39465ef",
         "type": "tabs",
         "children": [
           {
-            "id": "e36f2bc49b4e6138",
+            "id": "1ad5f8c76e334ce4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Dashboard.md",
-                "mode": "preview",
-                "source": true,
+                "file": "01.Game/01.崩坏三/深渊.md",
+                "mode": "source",
+                "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
                   "collapseAll": false,
@@ -23,12 +23,12 @@
                   "sortOrder": "alphabetical",
                   "showSearch": false,
                   "searchQuery": "",
-                  "backlinkCollapsed": true,
-                  "unlinkedCollapsed": false
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
                 }
               },
               "icon": "lucide-file",
-              "title": "Dashboard"
+              "title": "深渊"
             }
           }
         ]
@@ -63,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "[\"tags\"]",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -84,7 +84,8 @@
               "title": "书签"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -218,12 +219,11 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 314.5,
-    "collapsed": true
+    "width": 314.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -243,11 +243,12 @@
       "media-extended:Open media": false
     }
   },
-  "active": "e36f2bc49b4e6138",
+  "active": "1ad5f8c76e334ce4",
   "lastOpenFiles": [
+    "Dashboard.md",
+    "Dashboard.pdf",
     "01.Game/05.鸣嘲/深渊.md",
     "01.Game/01.崩坏三/深渊.md",
-    "Dashboard.md",
     "01.Game/03.崩铁/深渊.md",
     "01.Game/02.原神/深渊.md",
     "01.Game/04.绝区零/深渊.md",
@@ -274,7 +275,6 @@
     "01.daily/2025-06-05.md",
     "01.daily/2025-06-10.md",
     "附件/Pasted image 20250611184301.png",
-    "Clippings/地 球 O L 地 狱 难 度_哔哩哔哩_bilibili.md",
     "附件/【万字解析】我，为什么是B站最帅的博主PT30.004S.jpeg",
     "未命名.canvas",
     "Clippings",
@@ -284,7 +284,6 @@
     "js/scripts/z_abyss_time.js",
     "js/scripts/game/game_data.js",
     "js/scripts/game_data.js",
-    "js/scripts/game",
     "附件/璃璃子.jpg",
     "附件/Pasted Image 20250605102803.png",
     "附件/Pasted image 20240605153141.png",
