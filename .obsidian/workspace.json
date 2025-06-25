@@ -15,7 +15,7 @@
               "state": {
                 "file": "01.Game/01.崩坏三/深渊.md",
                 "mode": "preview",
-                "source": false,
+                "source": true,
                 "backlinks": true,
                 "backlinkOpts": {
                   "collapseAll": false,
@@ -245,12 +245,12 @@
   },
   "active": "e36f2bc49b4e6138",
   "lastOpenFiles": [
+    "01.Game/02.原神/深渊.md",
+    "01.Game/01.崩坏三/深渊.md",
     "01.Game/05.鸣嘲/深渊.md",
     "01.Game/04.绝区零/深渊.md",
     "01.Game/03.崩铁/深渊.md",
-    "01.Game/02.原神/深渊.md",
     "Dashboard.md",
-    "01.Game/01.崩坏三/深渊.md",
     "README.md",
     "软件工程/耦合.md",
     "Excalidraw/RPC调用过程.excalidraw.md",
