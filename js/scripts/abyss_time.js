@@ -21,7 +21,7 @@ let now = dt.now()
 // })
 
 
-let name_arr = ["崩坏三", "原神", "崩坏：星穹铁道", "鸣嘲"]
+let name_arr = input.name
 let data_arr = []
 for (let name of name_arr) {
     data_arr.push(...GameTimeResolver.getNextSettlementTime(name, dt))

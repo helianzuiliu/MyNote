@@ -9,6 +9,8 @@ class GameTimeResolver {
                 return this.getNextSettlementTime_GENSHIN(name, dt)
             case "崩坏：星穹铁道":
                 return this.getNextSettlementTime_BHSR(name, dt)
+            case "绝区零":
+                return this.getNextSettlementTime_ZZZ(name, dt)
             case "鸣嘲":
                 return this.getNextSettlementTime_MINGCHAO(name, dt)
             default:
@@ -102,6 +104,23 @@ class GameTimeResolver {
             ...time_util.getPeriodTime(base_time.set({ year: 2025, month: 5, day: 26 }), 42),
         }]
 
+
+        return obj.map(b => ({
+            ...b,
+            remaining_time: b.finish_time.diffNow(["days", "hours", "minutes"]),
+            from: name,
+        }))
+    }
+
+    getNextSettlementTime_ZZZ(name, dt){
+        const { time_util } = customJS
+
+        const now = dt.now()
+        const base_time = now.set({ hour: 4, minute: 0, second: 0, millisecond: 0 })
+        let obj = [{
+            name: "test1",
+            ...time_util.getPeriodTime(base_time.set({ year: 2025, month: 5, day: 26 }), 42),
+        }]
 
         return obj.map(b => ({
             ...b,
