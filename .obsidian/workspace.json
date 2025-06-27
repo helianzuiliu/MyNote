@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Dashboard.md",
+                "file": "01.daily/2025-06-12.md",
                 "mode": "preview",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Dashboard"
+              "title": "2025-06-12"
             }
           }
         ]
@@ -148,10 +148,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Dashboard.md"
+                "file": "01.daily/2025-06-12.md"
               },
               "icon": "lucide-info",
-              "title": "Dashboard的笔记属性"
+              "title": "2025-06-12的笔记属性"
             }
           },
           {
@@ -244,25 +244,26 @@
   },
   "active": "1ad5f8c76e334ce4",
   "lastOpenFiles": [
+    "01.daily/2025-06-14.md",
+    "01.daily/2025-06-12.md",
+    "Dashboard.md",
+    "README.md",
+    "01.daily/2025-06-16.md",
+    "01.daily/2024-05-27.md",
+    "01.daily/2025-03-07.md",
     "01.Game/02.原神/深渊.md",
     "Dashboard.pdf",
     "01.Game/01.崩坏三/深渊.md",
-    "01.daily/2024-05-27.md",
-    "Dashboard.md",
     "01.Game/05.鸣嘲/深渊.md",
     "01.Game/03.崩铁/深渊.md",
     "01.Game/04.绝区零/深渊.md",
-    "README.md",
     "软件工程/耦合.md",
     "Excalidraw/RPC调用过程.excalidraw.md",
     "js/scripts/jsconfig.json",
     "js/scripts/utils/time_util.js",
     "js/scripts/utils/time_util.ts",
     "js/scripts/utils/未命名.md",
-    "01.daily/2025-06-16.md",
-    "01.daily/2025-06-14.md",
     "01.daily/2025-06-11.md",
-    "01.daily/2025-06-12.md",
     "00.Templates/daily.md",
     "2025-06-12.md",
     "00.Templates/Untitled.md",
