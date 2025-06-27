@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "f14f6239c39465ef",
+        "id": "efeb7a20b90c6711",
         "type": "tabs",
         "children": [
           {
-            "id": "1ad5f8c76e334ce4",
+            "id": "a4e2031734e93f11",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01.daily/2025-06-12.md",
+                "file": "Dashboard.md",
                 "mode": "preview",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2025-06-12"
+              "title": "Dashboard"
             }
           }
         ]
@@ -63,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "[\"tags\"]",
+                "query": "tag:#崩坏三",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -133,13 +133,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01.Game/01.崩坏三/深渊.md",
+                "file": "Dashboard.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "深渊 的大纲"
+              "title": "Dashboard 的大纲"
             }
           },
           {
@@ -148,10 +148,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "01.daily/2025-06-12.md"
+                "file": "Dashboard.md"
               },
               "icon": "lucide-info",
-              "title": "2025-06-12的笔记属性"
+              "title": "Dashboard的笔记属性"
             }
           },
           {
@@ -180,7 +180,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "01.Game/01.崩坏三/深渊.md",
+                "file": "Dashboard.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -190,7 +190,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "深渊 的反向链接列表"
+              "title": "Dashboard 的反向链接列表"
             }
           },
           {
@@ -217,8 +217,7 @@
               "title": "Mermaid Toolbar"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -242,20 +241,24 @@
       "media-extended:Open media": false
     }
   },
-  "active": "1ad5f8c76e334ce4",
+  "active": "a4e2031734e93f11",
   "lastOpenFiles": [
-    "01.daily/2025-06-14.md",
-    "01.daily/2025-06-12.md",
+    "01.Game/02.原神/深渊.md",
+    "01.Game/03.崩铁/深渊.md",
+    "01.daily/2025-06-05.md",
+    "计算机/网络/TCP.md",
+    "计算机/网络/UDP.md",
     "Dashboard.md",
+    "01.daily/2025-06-27.md",
+    "01.Game/01.崩坏三/深渊.md",
+    "01.daily/2025-06-12.md",
+    "01.daily/2025-06-14.md",
     "README.md",
     "01.daily/2025-06-16.md",
     "01.daily/2024-05-27.md",
     "01.daily/2025-03-07.md",
-    "01.Game/02.原神/深渊.md",
     "Dashboard.pdf",
-    "01.Game/01.崩坏三/深渊.md",
     "01.Game/05.鸣嘲/深渊.md",
-    "01.Game/03.崩铁/深渊.md",
     "01.Game/04.绝区零/深渊.md",
     "软件工程/耦合.md",
     "Excalidraw/RPC调用过程.excalidraw.md",
@@ -270,10 +273,6 @@
     "00.Templates/program.md",
     "Media Note - 【万字解析】我，为什么是B站最帅的博主.md",
     "软件工程/开发模型.md",
-    "01.daily/2025-03-08.md",
-    "01.daily/2025-06-04.md",
-    "01.daily/2025-06-05.md",
-    "01.daily/2025-06-10.md",
     "附件/Pasted image 20250611184301.png",
     "附件/【万字解析】我，为什么是B站最帅的博主PT30.004S.jpeg",
     "未命名.canvas",

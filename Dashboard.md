@@ -16,6 +16,13 @@ dv.paragraph(
 
 ```
 
+```tasks
+not done
+sort by priority
+group by scheduled
+```
+
+
 ```dataviewjs
 let dt=dv.luxon.DateTime
 let now=dt.now()
