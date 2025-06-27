@@ -84,8 +84,7 @@
               "title": "书签"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -245,10 +244,11 @@
   },
   "active": "1ad5f8c76e334ce4",
   "lastOpenFiles": [
+    "01.daily/2024-05-27.md",
+    "01.Game/01.崩坏三/深渊.md",
     "Dashboard.md",
     "Dashboard.pdf",
     "01.Game/05.鸣嘲/深渊.md",
-    "01.Game/01.崩坏三/深渊.md",
     "01.Game/03.崩铁/深渊.md",
     "01.Game/02.原神/深渊.md",
     "01.Game/04.绝区零/深渊.md",
@@ -264,7 +264,6 @@
     "01.daily/2025-06-11.md",
     "01.daily/2025-06-12.md",
     "00.Templates/daily.md",
-    "01.daily/2024-05-27.md",
     "2025-06-12.md",
     "00.Templates/Untitled.md",
     "00.Templates/program.md",
