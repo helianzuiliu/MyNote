@@ -37,8 +37,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01.daily/2025-06-28.md",
-                "mode": "source",
+                "file": "01.Game/01.崩坏三/深渊.md",
+                "mode": "preview",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2025-06-28"
+              "title": "深渊"
             }
           }
         ],
@@ -268,11 +268,11 @@
   },
   "active": "2c9a28fdd7c443a4",
   "lastOpenFiles": [
-    "01.daily/2025-06-27.md",
+    "Dashboard.md",
     "01.daily/2025-06-28.md",
+    "01.daily/2025-06-27.md",
     "软件工程/维护.md",
     "01.Game/01.崩坏三/深渊.md",
-    "Dashboard.md",
     "01.Game/02.原神/深渊.md",
     "01.Game/03.崩铁/深渊.md",
     "01.daily/2025-06-05.md",
