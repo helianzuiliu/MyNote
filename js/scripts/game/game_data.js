@@ -70,7 +70,7 @@ class GameTimeResolver {
         let obj = [{
             name: "马斯克礁",
             start_time: base_time.set({ day: 1 }),
-            finish_time: base_time.set({ day: base_time.daysInMonth }),
+            finish_time: base_time.set({ day: 1 }).plus({ months: 1 }),
         }, {
             name: "幻想真镜剧诗",
             start_time: base_time.set({ day: 16 }),
@@ -112,7 +112,7 @@ class GameTimeResolver {
         }))
     }
 
-    getNextSettlementTime_ZZZ(name, dt){
+    getNextSettlementTime_ZZZ(name, dt) {
         const { time_util } = customJS
 
         const now = dt.now()
