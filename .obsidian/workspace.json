@@ -30,8 +30,21 @@
               "icon": "lucide-file",
               "title": "2025-06-27"
             }
+          },
+          {
+            "id": "879670471e46cc45",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2025-06-29 23.01.31.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2025-06-29 23.01.31.excalidraw"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -88,7 +101,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 273.5
+    "width": 320.5
   },
   "right": {
     "id": "8d6c691ab084dea8",
@@ -241,10 +254,26 @@
       "media-extended:Open media": false
     }
   },
-  "active": "a4e2031734e93f11",
+  "active": "0d39810fdbc24038",
   "lastOpenFiles": [
-    "设计模式/设计原则.md",
+    "Excalidraw/Drawing 2025-06-29 23.01.31.excalidraw.md",
+    "00.Templates/ExcalidrawTemplate.excalidraw.md",
+    "00.Templates/program.md",
+    "00.Templates/daily.md",
+    "00.Templates/未命名.md",
+    "Excalidraw/lib/system-design.excalidrawlib",
+    "Excalidraw/lib/software-architecture.excalidrawlib",
+    "Excalidraw/lib/forms.excalidrawlib",
+    "Excalidraw/lib/drwnio.excalidrawlib",
+    "Excalidraw/lib/architecture-diagram-components.excalidrawlib",
+    "Excalidraw/lib",
+    "Excalidraw/新建文件夹",
+    "00.Templates/Excalidraw/system-design.excalidrawlib",
+    "00.Templates/Excalidraw/software-architecture.excalidrawlib",
+    "00.Templates/Excalidraw/forms.excalidrawlib",
+    "Excalidraw/RPC调用过程.excalidraw.md",
     "01.daily/2025-06-27.md",
+    "设计模式/设计原则.md",
     "01.daily/2025-06-05.md",
     "01.daily/2025-06-14.md",
     "Dashboard.md",
@@ -261,28 +290,12 @@
     "01.daily/2025-06-16.md",
     "01.daily/2024-05-27.md",
     "01.daily/2025-03-07.md",
-    "Dashboard.pdf",
     "01.Game/05.鸣嘲/深渊.md",
     "01.Game/04.绝区零/深渊.md",
-    "软件工程/耦合.md",
-    "Excalidraw/RPC调用过程.excalidraw.md",
-    "js/scripts/jsconfig.json",
-    "js/scripts/utils/time_util.js",
-    "js/scripts/utils/time_util.ts",
-    "js/scripts/utils/未命名.md",
-    "01.daily/2025-06-11.md",
-    "00.Templates/daily.md",
-    "2025-06-12.md",
     "附件/Pasted image 20250611184301.png",
     "附件/【万字解析】我，为什么是B站最帅的博主PT30.004S.jpeg",
     "未命名.canvas",
-    "Clippings",
-    "js/scripts/utils",
     "附件/bh3_banner.png",
-    "js/scripts/abyss_time.js",
-    "js/scripts/z_abyss_time.js",
-    "js/scripts/game/game_data.js",
-    "js/scripts/game_data.js",
     "附件/璃璃子.jpg",
     "附件/Pasted Image 20250605102803.png",
     "附件/Pasted image 20240605153141.png",
