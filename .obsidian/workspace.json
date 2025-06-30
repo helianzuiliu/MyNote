@@ -35,12 +35,24 @@
             "id": "879670471e46cc45",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/Drawing 2025-06-29 23.01.31.excalidraw.md"
+                "file": "Dashboard.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2025-06-29 23.01.31.excalidraw"
+              "icon": "lucide-file",
+              "title": "Dashboard"
             }
           }
         ],
@@ -254,7 +266,7 @@
       "media-extended:Open media": false
     }
   },
-  "active": "0d39810fdbc24038",
+  "active": "879670471e46cc45",
   "lastOpenFiles": [
     "Excalidraw/Drawing 2025-06-29 23.01.31.excalidraw.md",
     "00.Templates/ExcalidrawTemplate.excalidraw.md",
