@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01.Game/01.崩坏三/深渊.md",
+                "file": "00.Templates/daily.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "深渊"
+              "title": "daily"
             }
           }
         ],
@@ -269,6 +269,7 @@
   "active": "e51a130d9a93fa24",
   "lastOpenFiles": [
     "01.daily/2025-07-04.md",
+    "00.Templates/program.md",
     "01.Game/01.崩坏三/深渊.md",
     "01.Game/02.原神/深渊.md",
     "Dashboard.md",
@@ -277,7 +278,6 @@
     "01.daily/2025-06-30.md",
     "01.daily/2025-06-27.md",
     "00.Templates/ExcalidrawTemplate.excalidraw.md",
-    "00.Templates/program.md",
     "00.Templates/daily.md",
     "00.Templates/未命名.md",
     "Excalidraw/lib/system-design.excalidrawlib",
