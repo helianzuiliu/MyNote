@@ -67,14 +67,18 @@ class GameTimeResolver {
         const now = dt.now()
         const base_time = now.set({ hour: 4, minute: 0, second: 0, millisecond: 0 })
 
+        const a = base_time.day <= 16 ?
+            base_time.set({ day: 16 }).minus({ months: 1 })
+            : base_time.set({ day: 1 })
+
         let obj = [{
             name: "马斯克礁",
             start_time: base_time.set({ day: 1 }),
             finish_time: base_time.set({ day: 1 }).plus({ months: 1 }),
         }, {
             name: "幻想真镜剧诗",
-            start_time: base_time.set({ day: 16 }),
-            finish_time: base_time.set({ day: 16 }).plus({ months: 1 }),
+            start_time: a,
+            finish_time: a.plus({ months: 1 }),
         }]
 
         return obj.map(b => ({

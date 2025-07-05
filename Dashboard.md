@@ -29,7 +29,7 @@ let now=dt.now()
 
 await dv.view("js/scripts/abyss_time",
 {
-	name: ["崩坏三","原神","崩坏：星穹铁道","绝区零","鸣嘲"]
+	name: ["崩坏三","原神","崩坏：星穹铁道","鸣嘲"]
 })
 ```
 
