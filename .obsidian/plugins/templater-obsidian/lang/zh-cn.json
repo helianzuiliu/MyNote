@@ -1,7 +1,7 @@
 {
     "manifest": {
-        "translationVersion": 1745286135714,
-        "pluginVersion": "2.11.1"
+        "translationVersion": 1750585715716,
+        "pluginVersion": "2.12.1"
     },
     "description": {
         "original": "Create and use templates",
@@ -32,7 +32,6 @@
         "description:'The folder to put the new file in, defaults to Obsidian\\'": "description:'要放入新文件的文件夹，默认为 Obsidian\\'",
         "description:\"Retrieves the file's creation date.\"": "description:\"创建日期： 读取文件的创建日期.\"",
         "description:'The format for the date. Defaults to `\"YYYY-MM-DD HH:mm\"`. Refer to [format reference](https://momentjs.com/docs/#/displaying/format/).'": "description:'日期的格式。默认为 `\"YYYY-MM-DD HH:mm\"`。请参阅[格式参考](https://momentjs.com/docs/#/displaying/format/).'",
-        "description:`Sets the cursor to this location after the template has been inserted. \n\nYou can navigate between the different cursors using the configured hotkey in Obsidian settings.\n`": "description:`插入模板后，将光标设置到该位置。您可以使用 Obsidian 设置中配置的热键在不同光标之间导航。`",
         "description:`The order of the different cursors jump, e.g. it will jump from 1 to 2 to 3, and so on.\nIf you specify multiple tp.file.cursor with the same order, the editor will switch to multi-cursor.\n`": "description:`不同光标的跳转顺序，例如从 1 跳转到 2 再跳转到 3，以此类推。如果指定了多个具有相同顺序的 tp.file.cursor，编辑器将切换到多光标模式。`",
         "description:\"Appends some content after the active cursor in the file.\"": "description:\"在文件中的活动光标后添加一些内容.\"",
         "description:\"The content to append after the active cursor.\"": "description:\"要追加到活动光标后的内容.\"",
@@ -99,7 +98,6 @@
         ".setName(\"Syntax highlighting on mobile\")": ".setName(\"移动设备上的语法高亮显示\")",
         ".setName(\"Automatic jump to cursor\")": ".setName(\"自动跳转到光标\")",
         ".setName(\"Trigger Templater on new file creation\")": ".setName(\"创建新文件时触发模板程序\")",
-        ".setName(\"Template hotkeys\")": ".setName(\"模板热键\")",
         ".setName(\"Folder templates\")": ".setName(\"文件夹模板\")",
         ".setName(\"Enable folder templates\")": ".setName(\"启用文件夹模板\")",
         ".setName(\"File regex templates\")": ".setName(\"文件正则表达式模板\")",
@@ -155,7 +153,6 @@
         "w(`${e} is a file, not a folder`)": "w(`${e}是一个文件，而不是文件夹`)",
         "w(`File \"${e}\" doesn't exist`)": "w(`文件\"${e}\"不存在`)",
         "w(`${e} is a folder, not a file`)": "w(`${e}是一个文件夹，而不是文件`)",
-        "w(\"This template is already bound to a hotkey\")": "w(\"此模板已绑定到热键\")",
         "w(\"This folder already has a template associated with it\")": "w(\"此文件夹已关联了一个模板\")",
         "w(\"This startup template already exist\")": "w(\"此启动模板已存在\")",
         "w(\"Timeout must be a number\")": "w(\"超时必须是数字\")",
@@ -199,6 +196,13 @@
         "text:\"empty\"": "text:\"空\"",
         "\"No user scripts folder set\"": "\"未设置用户脚本文件夹\"",
         "setDesc(\"Determine how you'd like to have user script intellisense render. Note values will not render if not in the script.\")": "setDesc(\"确定您希望如何呈现用户脚本智能提示。注释值如果不在脚本中，将不会呈现。\")",
-        "setName(\"User script intellisense\")": "setName(\"用户脚本智能提示\")"
+        "setName(\"User script intellisense\")": "setName(\"用户脚本智能提示\")",
+        "\"Turn off intellisense\"": "\"关闭智能提示\"",
+        "\"Render method description, parameters list, and return\"": "\"呈现方法描述、参数列表和返回值\"",
+        "\"Render method description and parameters list\"": "\"呈现方法描述和参数列表\"",
+        "\"Render method description and return\"": "\"呈现方法描述和返回值\"",
+        "\"Render method description\"": "\"呈现方法描述\"",
+        "\"Example: folder1/template_file\"": "\"示例：文件夹1/template文件\"",
+        "\"Example: folder1/folder2\"": "\"示例：文件夹1/文件夹2\""
     }
 }

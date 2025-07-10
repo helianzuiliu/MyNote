@@ -32493,7 +32493,7 @@ var ObsidianGitSettingsTab = class extends import_obsidian8.PluginSettingTab {
       }
     }
     if (plugin.gitManager instanceof SimpleGit)
-      new import_obsidian8.Setting(containerEl).setName("自定义 Git 二进制文件路径").addText((cb) => {
+      new import_obsidian8.Setting(containerEl).setName("自定义 Git 路径").addText((cb) => {
         var _a2;
         cb.setValue((_a2 = plugin.localStorage.getGitPath()) != null ? _a2 : "");
         cb.setPlaceholder("git");

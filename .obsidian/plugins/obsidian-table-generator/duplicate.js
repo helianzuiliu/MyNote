@@ -1198,7 +1198,7 @@ function instance$4($$self, $$props, $$invalidate) {
     if (/^\d+$/.test(gridRow.toString()) && /^\d+$/.test(gridCol.toString())) {
       onInsert([gridRow, gridCol]);
     } else {
-      new obsidian.Notice("请输入有效数字");
+      new obsidian.Notice("Please enter a valid number");
     }
   };
   $$self.$$set = ($$props2) => {
@@ -2127,7 +2127,7 @@ function instance($$self, $$props, $$invalidate) {
         return;
       const canvasFile = yield plugin.app.vault.cachedRead(canvas.view.file);
       const canvasFileData = JSON.parse(canvasFile);
-      console.log(选定网格);
+      console.log(selectedGrid);
       for (let i = 0; i < selectedGrid[0]; i++) {
         for (let j = 0; j < selectedGrid[1]; j++) {
           canvasFileData.nodes.push({
@@ -2141,7 +2141,7 @@ function instance($$self, $$props, $$invalidate) {
           });
         }
       }
-      console.log(画布文件数据);
+      console.log(canvasFileData);
       setTimeout(
         () => {
           canvas.setData(canvasFileData);
@@ -2297,7 +2297,7 @@ class TableGeneratorPlugin extends obsidian.Plugin {
     menu.addItem((item) => {
       const itemDom = item.dom;
       itemDom.addClass("table-generator-menu");
-      item.setTitle("添加Markdown表格").setIcon("table").setSection("action").onClick(async () => {
+      item.setTitle("Add Markdown Table").setIcon("table").setSection("action").onClick(async () => {
         this.createGeneratorMenu("table", { editor }, this);
         const coords = calculateEditor(editor, this.tableGeneratorEl);
         if (!coords)
@@ -2337,7 +2337,7 @@ class TableGeneratorPlugin extends obsidian.Plugin {
     const createCardTable = (canvas, e, t, a) => {
       const { top, left } = e.dom.getBoundingClientRect();
       const data = reverseCalculation(t, canvas);
-      console.log(数据);
+      console.log(data);
       setTimeout(() => {
         this.createGeneratorMenu("card", { canvas, coords: t }, this);
         setTableGeneratorMenuPosition(this.tableGeneratorEl, { top, left, bottom: 0, height: 0 }, "canvas");
@@ -2353,7 +2353,7 @@ class TableGeneratorPlugin extends obsidian.Plugin {
         showCreationMenu: (next) => function(e, t, a) {
           const result = next.call(this, e, t, a);
           e.addSeparator().addItem((item) => {
-            item.setSection("create").setTitle("添加卡片表格").setIcon("table").onClick(async () => {
+            item.setSection("create").setTitle("Add Card Table").setIcon("table").onClick(async () => {
               createCardTable(this, e, t);
             });
           });
@@ -2361,7 +2361,7 @@ class TableGeneratorPlugin extends obsidian.Plugin {
         }
       });
       this.register(uninstaller);
-      console.log("Obsidian-Canvas-MindMap: 画布节点补丁");
+      console.log("Obsidian-Canvas-MindMap: canvas node patched");
       return true;
     };
     this.app.workspace.onLayoutReady(() => {
@@ -2376,7 +2376,7 @@ class TableGeneratorPlugin extends obsidian.Plugin {
   registerCommands() {
     this.addCommand({
       id: "create-table-genertator",
-      name: "创建表格生成器",
+      name: "Create Table Generator",
       editorCallback: (editor, view) => {
         var _a;
         if ((_a = obsidian.requireApiVersion("0.15.0") ? activeDocument : document) == null ? void 0 : _a.body.contains(this.tableGeneratorEl))
@@ -2428,9 +2428,9 @@ class TableGeneratorSettingTab extends obsidian.PluginSettingTab {
   display() {
     const { containerEl } = this;
     containerEl.empty();
-    containerEl.createEl("h2", { text: "表格生成器" });
+    containerEl.createEl("h2", { text: "Table Generator" });
     let rowText;
-    new obsidian.Setting(containerEl).setName("行数").setDesc("表格行数").addSlider(
+    new obsidian.Setting(containerEl).setName("Row Count").setDesc("The number of rows in the table").addSlider(
       (slider) => slider.setLimits(2, 12, 1).setValue(this.plugin.settings.rowCount).onChange(async (value) => {
         rowText.innerText = ` ${value.toString()}`;
         this.plugin.settings.rowCount = value;
@@ -2441,7 +2441,7 @@ class TableGeneratorSettingTab extends obsidian.PluginSettingTab {
       el.innerText = ` ${this.plugin.settings.rowCount.toString()}`;
     });
     let columnText;
-    new obsidian.Setting(containerEl).setName("列数").setDesc("表格列数").addSlider(
+    new obsidian.Setting(containerEl).setName("Columns Count").setDesc("The number of columns in the table").addSlider(
       (slider) => slider.setLimits(2, 12, 1).setValue(this.plugin.settings.columnCount).onChange(async (value) => {
         columnText.innerText = ` ${value.toString()}`;
         this.plugin.settings.columnCount = value;
@@ -2451,8 +2451,8 @@ class TableGeneratorSettingTab extends obsidian.PluginSettingTab {
       el.className = "table-generator-setting-text";
       el.innerText = ` ${this.plugin.settings.columnCount.toString()}`;
     });
-    this.containerEl.createEl("h2", { text: "道谢" });
-    new obsidian.Setting(containerEl).setName("捐赠").setDesc("如果您喜欢这个插件，请考虑捐赠以支持持续开发:").addButton((bt) => {
+    this.containerEl.createEl("h2", { text: "Say Thank You" });
+    new obsidian.Setting(containerEl).setName("Donate").setDesc("If you like this plugin, consider donating to support continued development:").addButton((bt) => {
       bt.buttonEl.outerHTML = `<a href="https://www.buymeacoffee.com/boninall"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=&slug=boninall&button_colour=6495ED&font_colour=ffffff&font_family=Inter&outline_colour=000000&coffee_colour=FFDD00"></a>`;
     });
   }

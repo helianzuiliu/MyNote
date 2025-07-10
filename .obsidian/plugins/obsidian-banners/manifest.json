@@ -1,1 +1,11 @@
-{"id":"obsidian-banners","name":"Banners","description":"Add banner images to your notes!","version":"2.0.5-beta","minAppVersion":"0.13.21","author":"Noatpad","authorUrl":"https://github.com/noatpad/obsidian-banners","isDesktopOnly":false,"previousVersion":"2.0.5-beta"}
+{
+    "id": "obsidian-banners",
+    "name": "Banners",
+    "description": "将横幅图像添加到您的笔记中！",
+    "version": "2.0.5-beta",
+    "minAppVersion": "0.13.21",
+    "author": "Noatpad",
+    "authorUrl": "https://github.com/noatpad/obsidian-banners",
+    "isDesktopOnly": false,
+    "previousVersion": "2.0.5-beta"
+}

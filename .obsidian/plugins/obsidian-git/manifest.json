@@ -1,7 +1,7 @@
 {
     "id": "obsidian-git",
     "name": "Obsidian Git",
-    "description": "集成 Git 版本控制,具有自动备份和其他高级功能。",
+    "description": "添加了在新版本中没有的部分翻译，优化了部分机翻语句",
     "isDesktopOnly": false,
     "fundingUrl": "https://ko-fi.com/vinzent",
     "js": "main.js",

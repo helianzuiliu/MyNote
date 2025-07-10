@@ -3,7 +3,7 @@
     "name": "PDF++",
     "version": "0.40.30",
     "minAppVersion": "1.5.8",
-    "description": "The most Obsidian-native PDF annotation tool ever.",
+    "description": "迄今为止最符合Obsidian特性的PDF标注工具。",
     "author": "Ryota Ushio",
     "authorUrl": "https://github.com/RyotaUshio",
     "fundingUrl": {

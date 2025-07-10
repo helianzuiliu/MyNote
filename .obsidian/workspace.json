@@ -4,19 +4,31 @@
     "type": "split",
     "children": [
       {
-        "id": "6f15dd86b06d8ff1",
+        "id": "91e72e92ee826b06",
         "type": "tabs",
         "children": [
           {
-            "id": "d24983b2010c6a36",
+            "id": "a6e9ce497cca047f",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Effective.C++中文版.pdf"
+                "file": "Dashboard.md",
+                "mode": "preview",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
-              "icon": "lucide-file-text",
-              "title": "Effective.C++中文版"
+              "icon": "lucide-file",
+              "title": "Dashboard"
             }
           }
         ]
@@ -51,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#崩坏三",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -168,7 +180,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "01.daily/2025-06-27.md",
+                "file": "Dashboard.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -178,7 +190,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "2025-06-27 的反向链接列表"
+              "title": "Dashboard 的反向链接列表"
             }
           },
           {
@@ -194,18 +206,9 @@
               "icon": "links-going-out",
               "title": "深渊 的出链列表"
             }
-          },
-          {
-            "id": "07ff75fed9cc78f8",
-            "type": "leaf",
-            "state": {
-              "type": "mermaid-toolbar-view",
-              "state": {},
-              "icon": "trident-custom",
-              "title": "Mermaid Toolbar"
-            }
           }
-        ]
+        ],
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
@@ -228,22 +231,24 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "obsidian-memos:Thino": false,
       "media-extended:Open media": false,
-      "pdf-plus:PDF++: Toggle auto-copy": false,
-      "pdf-plus:PDF++: Toggle auto-focus": false,
-      "pdf-plus:PDF++: Toggle auto-paste": false
+      "pdf-plus:PDF++: 切换自动复制": false,
+      "pdf-plus:PDF++: 切换自动对焦": false,
+      "pdf-plus:PDF++: 切换自动粘贴": false
     }
   },
-  "active": "d24983b2010c6a36",
+  "active": "a6e9ce497cca047f",
   "lastOpenFiles": [
+    "README.md",
+    "Dashboard.md",
+    "01.Game/03.崩铁/深渊.md",
+    "00.Templates/program.md",
     "Effective.C++中文版.pdf",
     "Effective C++中文版第三版 高清PDF带目录.pdf",
-    "Dashboard.md",
     "01.Game/01.崩坏三/深渊.md",
     "01.Game/02.原神/深渊.md",
     "01.daily/2024-05-27.md",
     "00.Templates/daily.md",
     "01.daily/2025-07-04.md",
-    "00.Templates/program.md",
     "Excalidraw/Drawing 2025-06-29 23.01.31.excalidraw.md",
     "Excalidraw/RPC调用过程.excalidraw.md",
     "01.daily/2025-06-30.md",
@@ -258,18 +263,15 @@
     "Excalidraw/lib",
     "Excalidraw/新建文件夹",
     "00.Templates/Excalidraw/system-design.excalidrawlib",
-    "00.Templates/Excalidraw/software-architecture.excalidrawlib",
     "设计模式/设计原则.md",
     "01.daily/2025-06-05.md",
     "01.daily/2025-06-14.md",
     "01.daily/2025-06-29.md",
     "01.daily/2025-06-28.md",
     "软件工程/维护.md",
-    "01.Game/03.崩铁/深渊.md",
     "计算机/网络/TCP.md",
     "计算机/网络/UDP.md",
     "01.daily/2025-06-12.md",
-    "README.md",
     "01.daily/2025-06-16.md",
     "附件/Pasted image 20250611184301.png",
     "附件/【万字解析】我，为什么是B站最帅的博主PT30.004S.jpeg",

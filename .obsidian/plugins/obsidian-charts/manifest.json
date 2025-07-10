@@ -3,7 +3,7 @@
     "name": "Charts",
     "version": "3.9.0",
     "minAppVersion": "0.12.7",
-    "description": "This Plugin lets you create Charts within Obsidian",
+    "description": "此插件允许您在 Obsidian 中创建图表",
     "author": "phibr0",
     "authorUrl": "https://github.com/phibr0",
     "isDesktopOnly": false,

@@ -19,11 +19,11 @@ class time_util {
      * @param {*} duration 
      */
     getPeriodTime(stand_time, duration) {
-        let diffDays = stand_time.diffNow("days").get("days")
+        let diffDays = - stand_time.diffNow("days").as("days") // 负号很重要
         let period = parseInt(diffDays / duration)
 
         return {
-            start_time: stand_time.plus({ days: period * duration }),
+            start_time: stand_time.plus({ days: period * duration }).set({ minute: diffDays }),
             finish_time: stand_time.plus({ days: (period + 1) * duration }),
         }
     }

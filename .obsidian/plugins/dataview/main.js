@@ -20763,8 +20763,8 @@ class GeneralSettingsTab extends obsidian.PluginSettingTab {
         }));
         new obsidian.Setting(this.containerEl)
             .setName("分组列名称")
-            .setDesc("在表格对分组数据进行操作时,默认ID列的名称;这是自动生成的第一列" +
-            "链接到file/groupp.")
+            .setDesc("当表格基于分组数据时，默认 ID 列的名称；这是自动生成的第一列。" +
+            "链接到源文件/组.")
             .addText(text => text
             .setPlaceholder("Group")
             .setValue(this.plugin.settings.tableGroupColumnName)
