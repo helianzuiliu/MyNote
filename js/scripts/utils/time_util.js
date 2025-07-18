@@ -23,7 +23,7 @@ class time_util {
         let period = parseInt(diffDays / duration)
 
         return {
-            start_time: stand_time.plus({ days: period * duration }).set({ minute: diffDays }),
+            start_time: stand_time.plus({ days: period * duration }),
             finish_time: stand_time.plus({ days: (period + 1) * duration }),
         }
     }

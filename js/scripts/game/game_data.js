@@ -95,6 +95,7 @@ class GameTimeResolver {
 
         const now = dt.now()
         const base_time = now.set({ hour: 4, minute: 0, second: 0, millisecond: 0 })
+
         let obj = [{
             name: "模拟宇宙",
             start_time: base_time.set({ weekday: 1 }),
