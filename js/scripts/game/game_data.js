@@ -142,8 +142,8 @@ class GameTimeResolver {
         const now = dt.now()
         const base_time = now.set({ hour: 4, minute: 0, second: 0, millisecond: 0 })
         let obj = [{
-            name: "test1",
-            ...time_util.getPeriodTime(base_time.set({ year: 2025, month: 5, day: 26 }), 42),
+            name: "冥歌海墟",
+            ...time_util.getPeriodTime(base_time.set({ year: 2025, month: 8, day: 4 }), 28),
         }]
 
         return obj.map(b => ({
