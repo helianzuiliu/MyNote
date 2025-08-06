@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Dashboard.md",
+                "file": "计算机/数据库/MySQL.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Dashboard"
+              "title": "MySQL"
             }
           }
         ]
@@ -238,8 +238,11 @@
   },
   "active": "a6e9ce497cca047f",
   "lastOpenFiles": [
-    "README.md",
+    "计算机/数据库/DataView的使用方法.md",
+    "计算机/数据库/MySQL 事务.md",
+    "计算机/数据库/MySQL.md",
     "Dashboard.md",
+    "README.md",
     "01.Game/05.鸣嘲/深渊.md",
     "计算机/服务自启动慢和解决方法.md",
     "Excalidraw/Drawing 2025-06-29 23.01.31.excalidraw.md",
@@ -271,9 +274,6 @@
     "01.daily/2025-06-14.md",
     "01.daily/2025-06-29.md",
     "01.daily/2025-06-28.md",
-    "软件工程/维护.md",
-    "计算机/网络/TCP.md",
-    "计算机/网络/UDP.md",
     "附件/Pasted image 20250611184301.png",
     "附件/【万字解析】我，为什么是B站最帅的博主PT30.004S.jpeg",
     "未命名.canvas",
