@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机/数据库/MySQL.md",
+                "file": "Dashboard.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "MySQL"
+              "title": "Dashboard"
             }
           }
         ]
@@ -238,9 +238,9 @@
   },
   "active": "a6e9ce497cca047f",
   "lastOpenFiles": [
+    "计算机/数据库/MySQL.md",
     "计算机/数据库/DataView的使用方法.md",
     "计算机/数据库/MySQL 事务.md",
-    "计算机/数据库/MySQL.md",
     "Dashboard.md",
     "README.md",
     "01.Game/05.鸣嘲/深渊.md",
