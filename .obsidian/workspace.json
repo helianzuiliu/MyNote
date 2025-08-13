@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Dashboard.md",
+                "file": "计算机/RabbitMQ.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Dashboard"
+              "title": "RabbitMQ"
             }
           }
         ]
@@ -238,8 +238,12 @@
   },
   "active": "a6e9ce497cca047f",
   "lastOpenFiles": [
-    "计算机/服务自启动慢和解决方法.md",
+    "计算机/RabbitMQ消息不丢失的解决方法.md",
+    "计算机/RabbitMQ消息不丢失的解决方法.md",
+    "计算机/RabbitMQ.md",
     "Dashboard.md",
+    "计算机/未命名",
+    "计算机/服务自启动慢和解决方法.md",
     "README.md",
     "计算机/数据库/MySQL.md",
     "计算机/数据库/DataView的使用方法.md",
@@ -268,12 +272,8 @@
     "Excalidraw/lib/architecture-diagram-components.excalidrawlib",
     "Excalidraw/lib",
     "Excalidraw/新建文件夹",
-    "00.Templates/Excalidraw/system-design.excalidrawlib",
     "设计模式/设计原则.md",
     "01.daily/2025-06-05.md",
-    "01.daily/2025-06-14.md",
-    "01.daily/2025-06-29.md",
-    "01.daily/2025-06-28.md",
     "附件/Pasted image 20250611184301.png",
     "附件/【万字解析】我，为什么是B站最帅的博主PT30.004S.jpeg",
     "未命名.canvas",
