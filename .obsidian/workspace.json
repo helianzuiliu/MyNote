@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机/RabbitMQ.md",
+                "file": "计算机/数据库/MySQL 事务.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "RabbitMQ"
+              "title": "MySQL 事务"
             }
           }
         ]
@@ -238,13 +238,14 @@
   },
   "active": "a6e9ce497cca047f",
   "lastOpenFiles": [
+    "README.md",
+    "Dashboard.md",
+    "Effective.C++中文版.pdf",
     "计算机/RabbitMQ.md",
     "计算机/RabbitMQ消息不丢失的解决方法.md",
     "计算机/RabbitMQ消息不丢失的解决方法.md",
-    "Dashboard.md",
     "计算机/未命名",
     "计算机/服务自启动慢和解决方法.md",
-    "README.md",
     "计算机/数据库/MySQL.md",
     "计算机/数据库/DataView的使用方法.md",
     "计算机/数据库/MySQL 事务.md",
@@ -254,7 +255,6 @@
     "Excalidraw/RPC调用过程.excalidraw.md",
     "01.Game/03.崩铁/深渊.md",
     "00.Templates/program.md",
-    "Effective.C++中文版.pdf",
     "Effective C++中文版第三版 高清PDF带目录.pdf",
     "01.Game/01.崩坏三/深渊.md",
     "01.Game/02.原神/深渊.md",
@@ -273,7 +273,6 @@
     "Excalidraw/lib",
     "Excalidraw/新建文件夹",
     "设计模式/设计原则.md",
-    "01.daily/2025-06-05.md",
     "附件/Pasted image 20250611184301.png",
     "附件/【万字解析】我，为什么是B站最帅的博主PT30.004S.jpeg",
     "未命名.canvas",
