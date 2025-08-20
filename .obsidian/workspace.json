@@ -254,12 +254,12 @@
                 "state": {
                   "type": "webviewer",
                   "state": {
-                    "url": "https://obsidian.md/changelog/",
-                    "title": "Obsidian Changelog - Obsidian",
+                    "url": "https://obsidian.md/changelog/2025-08-18-desktop-v1.9.10/",
+                    "title": "Obsidian 1.9.10 Desktop (Public) - Obsidian",
                     "mode": "webview"
                   },
                   "icon": "globe-2",
-                  "title": "Obsidian Changelog - Obsidian"
+                  "title": "Obsidian 1.9.10 Desktop (Public) - Obsidian"
                 }
               }
             ]
