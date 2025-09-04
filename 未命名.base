@@ -1,0 +1,12 @@
+views:
+  - type: table
+    name: 表格
+    order:
+      - file.name
+      - file.fullname
+    sort: []
+  - type: cards
+    name: 视图
+    imageFit: contain
+    image: note.tags
+    cardSize: 230
