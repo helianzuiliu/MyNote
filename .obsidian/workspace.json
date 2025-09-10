@@ -11,12 +11,24 @@
             "id": "750c8cbf1035bb0d",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Drawing 2025-09-04 20.44.39.excalidraw.md"
+                "file": "Dashboard.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2025-09-04 20.44.39.excalidraw"
+              "icon": "lucide-file",
+              "title": "Dashboard"
             }
           }
         ]
