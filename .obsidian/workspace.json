@@ -11,12 +11,24 @@
             "id": "750c8cbf1035bb0d",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Drawing 2025-09-04 20.44.39.excalidraw.md"
+                "file": "README.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2025-09-04 20.44.39.excalidraw"
+              "icon": "lucide-file",
+              "title": "README"
             }
           }
         ]
@@ -227,11 +239,11 @@
   },
   "active": "750c8cbf1035bb0d",
   "lastOpenFiles": [
+    "Dashboard.md",
     "README.md",
+    "Drawing 2025-09-04 20.44.39.excalidraw.md",
     "Effective.C++中文版.pdf",
     "未命名.base",
-    "Dashboard.md",
-    "Drawing 2025-09-04 20.44.39.excalidraw.md",
     "01.daily/2025-06-28.md",
     "Untitled.md",
     "计算机/数据库/MySQL 事务.md",
