@@ -12,3 +12,13 @@
 - [ ] 23 没填完，在密管确认配置
 - [ ] 24 端口
 - [x] 26 没填完
+
+- [ ] 4 合肥30个connectFlag=16 , 亦庄30个connectFlag=16
+- [ ] 7 合肥8个没有connectFlag
+- [ ] 10 图是糊的看不清
+- [ ] 13 connectFlag=0 
+- [ ] 17 12个 connectFlag=4
+- [ ] 18 8个没有connectFlag
+- [ ] 23 图没有截全,但是按照规律来说是对上的
+- [ ] 24 connectFlag=0
+- [ ] 25 connectFlag=0
