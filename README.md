@@ -11,18 +11,24 @@
 - [ ] 23 sit环境主备配置写错了
 
 - [ ] 2 配置文件问题
-	- [ ] N8 ip8个 connectFlag=0
-	- [ ] M9 有两行ip,注释那行8个个数对的,没注释的ip4个 connectFlag=4
-	- [ ] N9 有两行ip,注释那行8个个数对的,没注释的ip4个 connectFlag=4
+	- [x] N8 ip8个 connectFlag=0
+	- [x] M9 有两行ip,注释那行8个个数对的,没注释的ip4个 connectFlag=4
+	- [x] N9 有两行ip,注释那行8个个数对的,没注释的ip4个 connectFlag=4
 	- [ ] M11 ip有16个 poolLoadMode=0 notpoolLoadMode=0 服务器端口大于10000
 	- [ ] N11 ip有16个 poolLoadMode=0 notpoolLoadMode=0 服务器端口大于10000
-- [ ] 4 合肥30个ip connectFlag=16 , 亦庄30个connectFlag=16
+- [ ] 4 配置文件问题 
+	- [ ] M13 ip30个 connectFlag=16 服务器端口大于10000
+	- [ ] N13 ip30个 connectFlag=16 服务器端口大于10000
 - [x] 7 合肥8个没有connectFlag
 - [ ] 10 zbFlag不对
-- [ ] 11 zbflag不对
-- [ ] 13 connectFlag=0 
+- [ ] 11 配置文件问题 
+	- [ ] M20 第6张图 zbflag不对 服务器端口大于10000
+	- [ ] N20 第6张图 zbflag不对 服务器端口大于10000
+- [ ] 13 配置文件问题  
+	- [ ] M22 第一张图 服务器端口大于10000
+	- [ ] N22 第一张图 服务器端口大于10000
 - [ ] 17 psbc.ini 12个ip  connectFlag=4
-- [x] 20 psbc.json 没截全
+- [ ] 20 psbc.json 没截全
 - [ ] 21 没截全
 - [ ] 22 psbc.json zbflag=8 ip有24个
 - [ ] 24 connectFlag=0 说这周改
