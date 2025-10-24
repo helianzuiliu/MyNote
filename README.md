@@ -16,26 +16,11 @@
 	- [x] N9 有两行ip,注释那行8个个数对的,没注释的ip4个 connectFlag=4
 	- [ ] M11 ip有16个 poolLoadMode=0 notpoolLoadMode=0 服务器端口大于10000
 	- [ ] N11 ip有16个 poolLoadMode=0 notpoolLoadMode=0 服务器端口大于10000
-- [ ] 4 配置文件问题 
-	- [ ] M13 ip30个 connectFlag=16 服务器端口大于10000
-	- [ ] N13 ip30个 connectFlag=16 服务器端口大于10000
+- [ ] 4 配置文件上传错了
+	- [ ] 
 - [x] 7 合肥8个没有connectFlag
 - [ ] 10 zbFlag不对
-- [ ] 11 配置文件问题 
-	- [ ] M20 第6张图 zbflag不对 服务器端口大于10000
-	- [ ] N20 第6张图 zbflag不对 服务器端口大于10000
-- [ ] 13 配置文件问题  
-	- [ ] M22 第一张图 服务器端口大于10000
-	- [ ] N22 第一张图 服务器端口大于10000
-- [ ] 17 psbc.ini 12个ip  connectFlag=4
-- [ ] 20 psbc.json 没截全
-- [ ] 21  配置文件问题  
-	- [ ] 第二张图第四张图服务器端口大于10000
-- [ ] 22 psbc.json zbflag=8 ip有24个 服务器端口大于10000
-
-- [ ] 23 配置文件接错了
 - [ ] 24 connectFlag=0 说这周改
-- [ ] 25 把自己删了
 
 没填的
 
