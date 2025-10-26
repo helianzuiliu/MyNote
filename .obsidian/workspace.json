@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "未命名.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "未命名"
             }
           }
         ]
@@ -239,10 +239,11 @@
   },
   "active": "750c8cbf1035bb0d",
   "lastOpenFiles": [
+    "README.md",
+    "未命名.md",
     "Dashboard.md",
     "Drawing 2025-10-23 16.39.55.excalidraw.md",
     "未命名.base",
-    "README.md",
     "Drawing 2025-09-04 20.44.39.excalidraw.md",
     "Excalidraw/Drawing 2025-06-29 23.01.31.excalidraw.md",
     "软件工程/UML.md",
@@ -268,7 +269,6 @@
     "01.Game/01.崩坏三/深渊.md",
     "01.Game/02.原神/深渊.md",
     "01.daily/2024-05-27.md",
-    "00.Templates/daily.md",
     "Excalidraw/lib/system-design.excalidrawlib",
     "Excalidraw/lib/software-architecture.excalidrawlib",
     "Excalidraw/lib/forms.excalidrawlib",
